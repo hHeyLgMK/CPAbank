@@ -57,8 +57,8 @@ finally:
 release_path=ROOT/'downloads/peer/release.json'
 release=json.loads(release_path.read_text(encoding='utf-8'))
 if release['bankId']!=bank:raise ValueError('Question bank changed; rebuild both installers together')
-release.update(version='3.3.0',androidVersionCode=38,androidSigningCertificateSha256=cert.fingerprint(hashes.SHA256()).hex())
+release.update(version='3.3.1',androidVersionCode=39,androidSigningCertificateSha256=cert.fingerprint(hashes.SHA256()).hex())
 release['files'][output.name]={'sha256':hashlib.sha256(output.read_bytes()).hexdigest(),'bytes':output.stat().st_size}
 release_path.write_bytes((json.dumps(release,ensure_ascii=False,indent=2)+'\n').encode('utf-8'))
 (ROOT/'downloads/peer/SHA256SUMS.txt').write_bytes(''.join(v['sha256']+'  '+n+'\n' for n,v in release['files'].items()).encode('utf-8'))
-print('Built Android 3.3.0 with the original signing certificate')
+print('Built Android 3.3.1 with the original signing certificate')

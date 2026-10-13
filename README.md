@@ -4,20 +4,21 @@
 
 本次源码和题库取自用户提供的 `CPA刷题库_六科离线版_Android-3.apk` 内置 `assets/index.html`，合并仓库已有的退出续答功能。导入来源、原始文件哈希和题目数据哈希见 [content/android-import.json](content/android-import.json)。最新 Android 和 Windows 原生设备同步源码见 `native/`。
 
-## 最新安装包：3.3.0
+## 最新安装包：Android 3.3.1 / Windows 3.3.0.0
 
-- [Android APK：3.3.0，新增备考计划进阶练习](downloads/peer/CPA刷题库_设备同步_Android.apk)
+- [Android APK：3.3.1，修复启动白屏及旧 WebView 兼容问题](downloads/peer/CPA刷题库_设备同步_Android.apk)
 - [Windows EXE：3.3.0.0，新增备考计划进阶练习](downloads/peer/CPA刷题库_设备同步_Windows.exe)
-- [3.3.0 完整源码、题稿与安装包 ZIP](downloads/releases/CPA刷题库_3.3.0_题库与安装包.zip)
+- [3.3.0 历史源码与安装包 ZIP（包含修复前 APK）](downloads/releases/CPA刷题库_3.3.0_题库与安装包.zip)
 - [2027 CPA 逐周备考计划：含进阶题定位与限时练习](downloads/plan/2027_CPA_逐周备考计划.xlsx)
 - [完整构建与升级说明](native/README.md)、[安装包 SHA-256](downloads/peer/SHA256SUMS.txt)
 - [2026-10-13 进阶题与知识点索引更新](docs/updates/2026-10-13.md)
+- [Android 3.3.1 白屏修复与实测记录](docs/updates/2026-10-13-android-startup-fix.md)
 - [2026-10-09 更新与本次同步验证记录](docs/updates/2026-10-09.md)
 - [2026-10-10 回车提交更新](docs/updates/2026-10-10.md)
 
 点击左上角“CPA刷题库”打开左侧菜单，集中进入选科、备考计划练习、练习历史和设备同步。六科共 4,593 题，其中原有 4,412 题保持内部题号、题干、答案和解析；本轮核对并修正教材来源索引，新增 181 道原创进阶题。
 
-Android 包名 `cn.cpa26.workbook`、版本 `3.3.0`、版本码 `38`，沿用原六科离线版的签名证书。原六科离线版 3.0.3 / 同包名 3.2.x 可直接覆盖升级；独立包名 `cn.cpa26.workbookresume` 的旧续答版属于另一应用。请保留原应用数据，勿先卸载。
+Android 包名 `cn.cpa26.workbook`、版本 `3.3.1`、版本码 `39`，沿用原六科离线版的签名证书。原六科离线版 3.0.3 / 同包名 3.2.x 可直接覆盖升级；独立包名 `cn.cpa26.workbookresume` 的旧续答版属于另一应用。请保留原应用数据，勿先卸载。
 
 新设备同步版直接运行 APK / EXE，在同一 Wi-Fi 或热点内发现设备，点击目标设备的“同步”即可交换记录，取消配对码步骤。选择后持续自动合并统计、错题、标记和历史，可点击“停止同步”。未提交的练习使用“在本机继续对方进度”接管。本次升级须将两端都更新为 3.3.0 系列，并使用相同题库标识；题库不同的旧端不能同步。无需启动 Python 服务；不与 LocalSend 软件互通。Android 需 8.0+；Windows 使用 .NET Framework 4 和默认浏览器。连接受防火墙或热点客户端隔离影响时可输入设备 IP。
 
@@ -83,7 +84,7 @@ python -m http.server 8000 --bind 127.0.0.1 --directory dist
 
 打开 <http://127.0.0.1:8000/>。网页版使用 ES modules，应通过 HTTP 访问。Windows EXE 的网页已全部内联，可以直接离线使用。
 
-项目采用静态 HTML、CSS 和原生 JavaScript，不需要数据库、登录服务或第三方 npm/pip 依赖。将完整 `dist/` 发布为静态站点即可；推送 GitHub 本身不等于已启用网站托管。
+项目采用静态 HTML、CSS 和原生 JavaScript，运行时不需要数据库、登录服务或第三方 npm/pip 依赖。原生 APK/EXE 的网页打包需要先执行 `npm ci --prefix native --ignore-scripts` 安装固定构建工具，详见 `native/README.md`。将完整 `dist/` 发布为静态站点即可；推送 GitHub 本身不等于已启用网站托管。
 
 ## 早期 Python 局域网版
 
@@ -144,9 +145,12 @@ python -X utf8 content/import-apk.py path/to/app.apk work/apk-import
 
 ## 验证
 
-先构建 Windows 网页，再运行：
+先安装原生网页构建依赖并生成两套网页，再运行：
 
 ```powershell
+npm ci --prefix native --ignore-scripts
+node native/build-web.mjs
+node windows/build-offline.mjs
 node --test --test-isolation=none tests/*.test.mjs
 ```
 

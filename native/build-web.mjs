@@ -3,6 +3,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 import {gzipSync} from 'node:zlib';
 import {createHash} from 'node:crypto';
+import {transformSync} from 'esbuild';
 const root=path.dirname(fileURLToPath(import.meta.url));
 const dir=path.join(root,'web'),out=path.join(root,'../work/peer-build');
 fs.mkdirSync(out,{recursive:true});
@@ -23,5 +24,7 @@ let scripts=[
 ].join('\n');
 const downloads={};for(const name of fs.readdirSync(dir).filter(n=>/\.(csv|md)$/.test(n)))downloads[name]=Buffer.from(read(name)).toString('base64');
 scripts+='\nconst offlineAssets='+JSON.stringify(downloads)+';\ndocument.addEventListener("click",e=>{const a=e.target.closest("a[download]");if(!a)return;const n=a.getAttribute("href").replace(/^\\.\\//,"");if(!offlineAssets[n])return;e.preventDefault();const u=URL.createObjectURL(new Blob([Uint8Array.from(atob(offlineAssets[n]),c=>c.charCodeAt(0))],{type:"text/plain;charset=utf-8"}));const link=document.createElement("a");link.href=u;link.download=n;link.click();setTimeout(()=>URL.revokeObjectURL(u),60000);},true);';
+// Compile only the embedded application; bank identity still hashes the source files above.
+scripts=read('compat.js')+'\n'+transformSync(scripts,{target:'chrome58',charset:'utf8'}).code;
 const html=read('index.html').replace('<link rel="stylesheet" href="./app.css">',()=>'<style>'+read('app.css')+'</style>').replace('<script type="module" src="./app.js"></script>',()=>'<script>'+scripts.replace(/<\/script/gi,'<\\/script')+'</script>');
 fs.writeFileSync(path.join(out,'index.html'),html);fs.writeFileSync(path.join(out,'CPAPeer.html.gz'),gzipSync(html,{level:9}));fs.writeFileSync(path.join(out,'bank-id.txt'),bankId);console.log(JSON.stringify({bankId,htmlBytes:Buffer.byteLength(html)}));

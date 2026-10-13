@@ -8,6 +8,7 @@ import android.net.wifi.WifiManager;
 import android.security.KeyPairGeneratorSpec;
 import android.util.Base64;
 import java.io.*;
+import java.nio.charset.StandardCharsets;
 import java.security.*;
 import java.math.BigInteger;
 import java.util.*;
@@ -26,17 +27,26 @@ public final class MainActivity extends Activity {
         WebSettings settings=web.getSettings();settings.setJavaScriptEnabled(true);settings.setDomStorageEnabled(true);
         settings.setAllowFileAccess(false);settings.setAllowContentAccess(false);
         web.setWebChromeClient(new WebChromeClient());
-        web.setWebViewClient(new WebViewClient(){public boolean shouldOverrideUrlLoading(WebView view,String url){
-            if(url.startsWith("https://appassets.androidplatform.net/"))return false;
-            if(url.startsWith("https://")||url.startsWith("http://"))try{startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(url)));}catch(Exception ignored){}
-            return true;
-        }});
+        web.setWebViewClient(new WebViewClient(){
+            public WebResourceResponse shouldInterceptRequest(WebView view,WebResourceRequest request){
+                Uri url=request.getUrl();
+                if(!"https".equalsIgnoreCase(url.getScheme())||!"appassets.androidplatform.net".equalsIgnoreCase(url.getHost())
+                    ||(url.getPort()!=-1&&url.getPort()!=443)||!("/".equals(url.getPath())||"/index.html".equals(url.getPath())))return null;
+                try {
+                    return new WebResourceResponse("text/html","UTF-8",getAssets().open("index.html"));
+                }catch(IOException e){
+                    byte[] message="无法读取内置题库，请重启应用后重试。".getBytes(StandardCharsets.UTF_8);
+                    return new WebResourceResponse("text/plain","UTF-8",new ByteArrayInputStream(message));
+                }
+            }
+            public boolean shouldOverrideUrlLoading(WebView view,String url){
+                if(url.startsWith("https://appassets.androidplatform.net/"))return false;
+                if(url.startsWith("https://")||url.startsWith("http://"))try{startActivity(new Intent(Intent.ACTION_VIEW,Uri.parse(url)));}catch(Exception ignored){}
+                return true;
+            }
+        });
         web.addJavascriptInterface(new Bridge(),"CpaNative");
-        try {
-            InputStream in=getAssets().open("index.html");ByteArrayOutputStream out=new ByteArrayOutputStream();byte[] b=new byte[8192];int n;
-            while((n=in.read(b))!=-1)out.write(b,0,n);in.close();
-            web.loadDataWithBaseURL("https://appassets.androidplatform.net/",out.toString("UTF-8"),"text/html","UTF-8",null);
-        }catch(Exception e){web.loadData("无法载入题库","text/plain","UTF-8");}
+        web.loadUrl("https://appassets.androidplatform.net/");
         tasks.execute(new Runnable(){public void run(){try{
             KeyStore keys=KeyStore.getInstance("AndroidKeyStore");keys.load(null);
             String alias="cpa-lan-tls-v1";

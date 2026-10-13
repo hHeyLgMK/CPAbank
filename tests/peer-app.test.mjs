@@ -2,6 +2,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import vm from 'node:vm';
+import {createRequire} from 'node:module';
 import {chapters as accountingChapters,questions as accountingQuestions} from '../dist/questions.js';
 import {extraSubjects} from '../dist/extra-subjects.js';
 import {strategySubject} from '../dist/strategy.js';
@@ -15,7 +16,7 @@ const expectedTotal=Object.values(expectedCounts).reduce((sum,count)=>sum+count,
 const source = fs.readFileSync(new URL('../native/web/app.js',import.meta.url),'utf8').replace(/^import .*;\r?\n/gm,'');
 // Run the production application with an in-memory DOM and persistent storage.
 // A fresh VM represents reopening the application; no session variables survive.
-function boot(disk=new Map(), script=source, syncFactory) {
+function boot(disk=new Map(), script=source, syncFactory, legacy=false) {
   const nodes = new Map(), events = {}, timers = new Map();
   let timerId=0;
   class Node {
@@ -29,26 +30,78 @@ function boot(disk=new Map(), script=source, syncFactory) {
     set id(id){this._id=id;nodes.set(id,this);} get id(){return this._id;}
     append(...children){this.children.push(...children);}
     replaceChildren(...children){this.children=children;}
+    get ownerDocument(){return document;}
+    get firstChild(){return this.children[0] || null;}
+    removeChild(child){this.children.splice(this.children.indexOf(child),1);return child;}
+    appendChild(child){
+      if(child.nodeType===11)this.children.push(...child.children);
+      else this.children.push(child);
+      return child;
+    }
     setAttribute(k,v){this.attrs[k]=v;} getAttribute(k){return this.attrs[k]??null;}
     addEventListener(k,fn){this.listeners[k]=fn;}
     querySelector(){return new Node();}
     focus(){} closest(){return null;}
   }
+  if(legacy)delete Node.prototype.replaceChildren;
   const node = id => {if(!nodes.has(id))nodes.set(id,new Node());return nodes.get(id);};
+  // Match the static visibility in native/web/index.html before app startup.
+  node('subjectPicker').hidden=false;
+  node('practiceApp').hidden=true;
   const document={getElementById:node,createElement:()=>new Node(),createTextNode:text=>({textContent:text}),
+    createDocumentFragment:()=>Object.assign(new Node(),{nodeType:11}),
     querySelector:node,querySelectorAll:()=>[],activeElement:null,hidden:false,
     addEventListener:(name,fn)=>{events[name]=fn;}};
   let peerHooks;
-  const context=vm.createContext({document,navigator:{userAgent:'Test'},crypto:globalThis.crypto,createPeerSync:hooks=>{peerHooks=hooks;return null;},
+  const context=vm.createContext({document,Element:Node,Node,navigator:{userAgent:'Test'},crypto:globalThis.crypto,createPeerSync:hooks=>{peerHooks=hooks;return null;},
     window:{addEventListener:(name,fn)=>{events[name]=fn;}},
     localStorage:{getItem:key=>disk.get(key)??null,setItem:(key,value)=>disk.set(key,value)},
     setInterval:fn=>{timers.set(++timerId,fn);return timerId;},clearInterval:id=>timers.delete(id),
     createLanSync:syncFactory,matchMedia:()=>({matches:false}),accountingChapters,accountingQuestions,extraSubjects,strategySubject,questionNumbers,attachProgression,progressionPlan,readProgress,writeProgress,
     URL:{createObjectURL:()=> 'blob:test'},Blob,Uint8Array,atob});
+  if(legacy)vm.runInContext('Array.prototype.flatMap=undefined;Object.hasOwn=undefined;String.prototype.replaceAll=undefined;',context);
   vm.runInContext(script,context,{timeout:10000});
   return {disk,nodes,events,timers,hooks:peerHooks,run:code=>vm.runInContext(code,context),
     json:code=>JSON.parse(vm.runInContext('JSON.stringify('+code+')',context))};
 }
+
+test('native bundle parses for Android 8 WebView and keeps its question bank identity',()=>{
+  const requireNative=createRequire(new URL('../native/package.json',import.meta.url));
+  const {parse}=requireNative('acorn');
+  const html=fs.readFileSync(new URL('../work/peer-build/index.html',import.meta.url),'utf8');
+  const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+  assert.doesNotThrow(()=>parse(code,{ecmaVersion:2017,sourceType:'script'}));
+  const release=JSON.parse(fs.readFileSync(new URL('../downloads/peer/release.json',import.meta.url),'utf8'));
+  assert.equal(fs.readFileSync(new URL('../work/peer-build/bank-id.txt',import.meta.url),'utf8').trim(),release.bankId);
+});
+
+test('native bundle starts, scores, filters, calculates and resumes with Android 8 browser APIs',()=>{
+  const html=fs.readFileSync(new URL('../work/peer-build/index.html',import.meta.url),'utf8');
+  const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+  let app=boot(new Map(),code,undefined,true);
+  assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),expectedTotal);
+  assert.equal(app.nodes.get('subjectPicker').hidden,false);
+  assert.equal(app.nodes.get('practiceApp').hidden,true);
+  for(const id of Object.keys(expectedCounts)){
+    app.run('openSubject('+JSON.stringify(id)+')');
+    assert.ok(app.run('current().stem'));
+    assert.equal(app.nodes.get('practiceApp').hidden,false);
+    assert.equal(app.nodes.get('subjectPicker').hidden,true);
+    assert.ok(app.nodes.get('chapterSelect').children.length);
+  }
+  app.run("openSubject('accounting');selectChoice(current(),current().answer);submitAnswer();submitAnswer()");
+  assert.equal(app.run('data.records[current().id].attempts'),1);
+  assert.equal(app.run('calculate("(20−5)×2÷3")'),10);
+  app.run("openSubject('tax');changePracticeStage('chapter')");
+  const chapter=app.run("questions.find(q=>q.practiceStage==='chapter').chapterIndex");
+  app.run(`startChapter(${chapter});answerFor(current()).text='兼容版草稿';saveProgress()`);
+  const expected=app.json('({subjectId,practiceStage,id:current().id,text:answerFor(current()).text,data})');
+  const backup=app.run('exportProgress()');
+  app.run('mergeProgress(normalizeBackup('+JSON.stringify(backup)+'))');
+  assert.deepEqual(app.json('data.records'),expected.data.records);
+  app=boot(app.disk,code,undefined,true);
+  assert.deepEqual(app.json('({subjectId,practiceStage,id:current().id,text:answerFor(current()).text,data})'),expected);
+});
 
 test('new native app retains all six banks and restarts at draft without duplicate outcomes',()=>{
   let app=boot();app.run("openSubject('strategy');selectChoice(current(),current().answer);submitAnswer();navigate(3);selectChoice(current(),0)");
