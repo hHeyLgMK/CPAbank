@@ -201,7 +201,7 @@ function adaptTextbookQuestion(item) {
     sample:item.sample,
     explain:item.explanation,
     knowledgePoint:item.topic,
-    source:{chapter:item.chapter,section:item.section,printedPage:item.printedPage,pdfPage:item.pdfPage},
+    source:{book:'2026年注册会计师全国统一考试辅导教材《会计》',chapter:item.chapter,section:item.section,printedPage:item.printedPage,pdfPage:item.pdfPage,locationGranularity:'topic-page'},
     level:'零基础'
   };
 }

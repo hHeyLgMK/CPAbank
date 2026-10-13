@@ -2,12 +2,14 @@
 import csv
 import json
 from pathlib import Path
+from source_index import apply_source_index
 
 HERE = Path(__file__).resolve().parent
 OUT = HERE.parent / 'dist'
 subject = json.loads((HERE / 'supplemental/strategy.json').read_text(encoding='utf-8'))
 numbers = json.loads((HERE / 'question-numbers.json').read_text(encoding='utf-8'))
 subject['questions'] = [q for chapter in subject['chapters'] for q in chapter['items']]
+apply_source_index('strategy', subject)
 ids = set()
 rows, coverage = [], []
 for q in subject['questions']:

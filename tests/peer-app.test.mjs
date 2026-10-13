@@ -6,8 +6,12 @@ import {chapters as accountingChapters,questions as accountingQuestions} from '.
 import {extraSubjects} from '../dist/extra-subjects.js';
 import {strategySubject} from '../dist/strategy.js';
 import {questionNumbers} from '../dist/question-numbers.js';
+import {attachProgression,progressionQuestions,progressionPlan} from '../dist/progression.js';
 import {readProgress,writeProgress} from '../dist/progress.js';
 
+const foundationSubjects={accounting:{questions:accountingQuestions},...extraSubjects,strategy:strategySubject};
+const expectedCounts=Object.fromEntries(Object.entries(foundationSubjects).map(([id,subject])=>[id,new Set([...subject.questions,...(progressionQuestions[id] || [])].map(q=>q.id)).size]));
+const expectedTotal=Object.values(expectedCounts).reduce((sum,count)=>sum+count,0);
 const source = fs.readFileSync(new URL('../native/web/app.js',import.meta.url),'utf8').replace(/^import .*;\r?\n/gm,'');
 // Run the production application with an in-memory DOM and persistent storage.
 // A fresh VM represents reopening the application; no session variables survive.
@@ -39,7 +43,7 @@ function boot(disk=new Map(), script=source, syncFactory) {
     window:{addEventListener:(name,fn)=>{events[name]=fn;}},
     localStorage:{getItem:key=>disk.get(key)??null,setItem:(key,value)=>disk.set(key,value)},
     setInterval:fn=>{timers.set(++timerId,fn);return timerId;},clearInterval:id=>timers.delete(id),
-    createLanSync:syncFactory,matchMedia:()=>({matches:false}),accountingChapters,accountingQuestions,extraSubjects,strategySubject,questionNumbers,readProgress,writeProgress,
+    createLanSync:syncFactory,matchMedia:()=>({matches:false}),accountingChapters,accountingQuestions,extraSubjects,strategySubject,questionNumbers,attachProgression,progressionPlan,readProgress,writeProgress,
     URL:{createObjectURL:()=> 'blob:test'},Blob,Uint8Array,atob});
   vm.runInContext(script,context,{timeout:10000});
   return {disk,nodes,events,timers,hooks:peerHooks,run:code=>vm.runInContext(code,context),
@@ -50,7 +54,7 @@ test('new native app retains all six banks and restarts at draft without duplica
   let app=boot();app.run("openSubject('strategy');selectChoice(current(),current().answer);submitAnswer();navigate(3);selectChoice(current(),0)");
   const expected=app.json('({data,session})');app=boot(app.disk);
   assert.deepEqual(app.json('({data,session})'),expected);
-  assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),4412);
+  assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),expectedTotal);
   app.run('navigate(0);submitAnswer()');assert.deepEqual(app.json('data.records'),expected.data.records);
 });
 test('two offline devices merge repeatedly, resume drafts, and preserve the three-correct removal rule',()=>{
@@ -94,10 +98,15 @@ test('conflicting submissions of the same resumed question converge to one outco
 test('embedded Windows bank and native application initialize and preserve a written draft',()=>{
   const html=fs.readFileSync(new URL('../work/peer-build/index.html',import.meta.url),'utf8');
   const code=html.match(/<script>([\s\S]*?)<\/script>/)[1];
-  let app=boot(new Map(),code);assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),4412);
+  let app=boot(new Map(),code);assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),expectedTotal);
   app.run("openSubject('law');startChapter(0,'__all__');navigate(session.items.findIndex(q=>q.type==='written'))");
   app.nodes.get('writtenInput').listeners.input({target:{value:'EXE 中的退出续答草稿'}});
   app=boot(app.disk,code);assert.equal(app.run('answerFor(current()).text'),'EXE 中的退出续答草稿');
+  app.run("openSubject('accounting');startPlannedPaper(progressionPlan.papers.find(p=>p.subjectId==='accounting'))");
+  assert.match(app.run('numberFor(current())'),/^ACC-\d{5}$/);
+  app.run('session.seconds=7055;saveProgress()');app=boot(app.disk,code);
+  assert.equal(app.run('session.seconds'),7055);
+  assert.ok(app.run('session.paperLabel'));
 });
 test('upgrade from the actual 3.0.3 APK retains statistics, wrong book, marks and history',()=>{
   let oldSource=fs.readFileSync(new URL('../native/tests/fixtures/3.0.3-app.js',import.meta.url),'utf8');
@@ -110,8 +119,51 @@ test('upgrade from the actual 3.0.3 APK retains statistics, wrong book, marks an
   assert.deepEqual(upgraded.json('data.history'),before.history);
   assert.deepEqual(upgraded.json('data.marks'),before.marks);
   const latest=JSON.parse(fs.readFileSync(new URL('../content/android-import.json',import.meta.url),'utf8')).questionDataSha256;
-  assert.equal(upgraded.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),4412);
+  assert.equal(upgraded.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),expectedTotal);
   upgraded.run("openSubject('strategy');navigate(4);selectChoice(current(),1)");
   const question=upgraded.run('current().id'),reopened=boot(upgraded.disk);
   assert.equal(reopened.run('current().id'),question);assert.deepEqual(reopened.json('answerFor(current()).choices'),[1]);
+});
+
+test('native level filtering resumes advanced drafts and keeps an empty selected level explicit',()=>{
+  let app=boot();app.run("openSubject('tax');changePracticeStage('chapter')");
+  const chapter=app.run("questions.find(q=>q.practiceStage==='chapter').chapterIndex");
+  app.run(`startChapter(${chapter});answerFor(current()).text='手机综合题草稿';saveProgress()`);
+  assert.equal(app.run('sectionName'),'__all__');
+  assert.equal(app.run("session.items.every(q=>q.practiceStage==='chapter')"),true);
+  const id=app.run('current().id');app=boot(app.disk);
+  assert.equal(app.run('practiceStage'),'chapter');assert.equal(app.run('current().id'),id);
+  assert.equal(app.run('answerFor(current()).text'),'手机综合题草稿');
+  assert.doesNotMatch(app.nodes.get('questionContent').children[0].textContent,/章内小综合 · 章内小综合/);
+  app.run('submitAnswer()');
+  assert.equal(app.run('data.history[0].practiceStage'),'chapter');
+  const backup=app.run('exportProgress()');app.run('mergeProgress(normalizeBackup('+JSON.stringify(backup)+'))');
+  assert.equal(app.run('data.history[0].practiceStage'),'chapter');
+  app.run("openSubject('law')");
+  assert.equal(app.run('practiceStage'),'chapter');assert.equal(app.run('session.items.length'),0);
+  assert.equal(app.nodes.get('questionContent').children[0].children[0].textContent,'当前筛选暂无题目');
+  app=boot(app.disk);assert.equal(app.run('practiceStage'),'chapter');assert.equal(app.run('session.items.length'),0);
+});
+
+test('native planned paper keeps its two-hour clock, fixed questions and backup metadata',()=>{
+  let app=boot();app.run("openSubject('strategy')");
+  const paper=progressionPlan.papers.find(p=>p.subjectId==='strategy');
+  app.run('startPlannedPaper('+JSON.stringify(paper)+');answerFor(current()).text="限时草稿";session.seconds-=11;saveProgress()');
+  app=boot(app.disk);assert.equal(app.run('session.seconds'),paper.minutes*60-11);
+  assert.equal(app.run('session.paperLabel'),paper.label);
+  assert.deepEqual(app.json('session.items.map(q=>q.id)'),paper.questionIds);
+  app.run('session.items.forEach(q=>answerFor(q).text="已完成答案");finishMock(false)');
+  assert.match(app.nodes.get('modalBody').children[0].textContent,/逐题对照自评/);
+  assert.doesNotMatch(app.nodes.get('modalBody').children[0].textContent,/客观题成绩/);
+  app.run('finishMock(true)');
+  assert.match(app.nodes.get('result').children[1].textContent,/简答与应用题已填写/);
+  assert.doesNotMatch(app.nodes.get('result').children[1].textContent,/客观题|0\s*\/\s*0/);
+  const backup=app.run('exportProgress()');app.run('mergeProgress(normalizeBackup('+JSON.stringify(backup)+'))');
+  assert.equal(app.run('data.history[0].paperLabel'),paper.label);
+  assert.equal(app.run('data.history[0].paperMinutes'),paper.minutes);
+  const actions=app.nodes.get('result').children.find(node=>node.className==='self-grade');
+  assert.equal(actions.children[1].textContent,'重新练习本套');
+  actions.children[1].onclick();
+  assert.deepEqual(app.json('session.items.map(q=>q.id)'),paper.questionIds);
+  assert.equal(app.run('session.seconds'),paper.minutes*60);
 });

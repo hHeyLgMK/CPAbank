@@ -1,24 +1,37 @@
-# CPA刷题库 3.2.3 原生设备同步版
+# CPA刷题库 3.3.0 原生设备同步版
 
-`web/` 是 APK 和 EXE 共用的实际界面与题库源码；`android/` 是 WebView、AndroidKeyStore 身份和 Java 设备通信；`windows/PeerApp.cs` 是 Windows 本地启动器与通信。`dist/` 属于早期网页版本。
+`web/` 是 APK 和 EXE 共用的实际界面与题库源码；`android/` 是 WebView、AndroidKeyStore 身份和 Java 设备通信；`windows/PeerApp.cs` 是 Windows 本地启动器与通信。仓库根目录的 `dist/` 是独立网页版及题库生成目录；安装包使用的界面与同步逻辑以 `native/web/` 为准。
+
+本版题库共 4,593 题：原 4,412 题的内部题号、题干、答案和解析保留，核对并修正教材来源索引；新增会计 100 题、税法 39 题、战略 42 题，共 181 道原创进阶题。新增练习层级筛选、备考计划练习入口、评分要点和建议用时，提供 46 周进阶定位与 12 组原创限时综合练习。详见 [3.3.0 更新说明](../docs/updates/2026-10-13.md)。
 
 ## 使用与升级
 
-点击左上角“CPA刷题库”打开侧边菜单，进入选科、练习历史或设备同步。关闭应用会保存题号、选择、简答草稿、提交状态和模拟剩余时间；重新打开不会重复计分。累计统计、错题、标记和历史兼容原六科离线版存储。旧版从未保存的草稿无法补回。
+点击左上角“CPA刷题库”打开侧边菜单，进入选科、备考计划练习、练习历史或设备同步。练习时可选择零基础、应用推进、章内小综合或跨章综合；计划题组使用固定题目和设定时长。关闭应用会保存题号、选择、简答草稿、练习层级、题组、提交状态和模拟剩余时间；重新打开不会重复计分。累计统计、错题、标记和历史兼容原六科离线版存储。旧版从未保存的草稿无法补回。
 
 学习和错题练习中按回车可提交当前答案，提交后保持当前题目以便查看解析。简答输入框里的回车继续换行；输入法选词、弹窗、其他按钮和模拟练习沿用原操作。长按回车不会重复提交。
 
-Android 8.0+，包名 `cn.cpa26.workbook`，版本码 37。保留原签名证书和 WebView 来源，可覆盖同包名六科离线版 3.0.3 和设备同步版 3.2.0 / 3.2.1 / 3.2.2。不同包名的独立续答版不能被本包覆盖。
+Android 8.0+，包名 `cn.cpa26.workbook`，版本 `3.3.0`，版本码 `38`。保留原签名证书和 WebView 来源，可覆盖同包名六科离线版 3.0.3 和设备同步版 3.2.x。不同包名的独立续答版不能被本包覆盖。覆盖升级时保留应用数据，勿先卸载。
 
 Windows 需要 .NET Framework 4；运行 EXE 后通过默认浏览器答题。EXE 保持运行才能发现、同步设备；再次运行打开相同本机页面。原来通过文件网页打开的旧 Windows 版记录使用不同来源，可通过进度备份导入迁移。
 
-Windows 安装包为 **3.2.3.0**，保留 3.2.1.1 的证书启动修复。已有设备证书继续沿用，六科题库不变。
+Windows 安装包为 **3.3.0.0**，保留 3.2.1.1 的证书启动修复。已有设备证书继续沿用，题库升级为包含进阶题与统一索引的 3.3.0 数据。
 
-两端连接同一热点或 Wi-Fi，在菜单中打开设备同步，发现对方后点击“同步”。选择后自动交换记录，取消配对码输入步骤；按“在本机继续对方进度”接管未完成练习，点击“停止同步”停止本机与该设备的连接。请一次在一台设备继续同一场练习。错题连续答对三次移出，多次收到同一提交事件不会重复累计。两端均需更新到 3.2.2 或以上版本。
+两端连接同一热点或 Wi-Fi，在菜单中打开设备同步，发现对方后点击“同步”。选择后自动交换记录，取消配对码输入步骤；按“在本机继续对方进度”接管未完成练习，点击“停止同步”停止本机与该设备的连接。请一次在一台设备继续同一场练习。错题连续答对三次移出，多次收到同一提交事件不会重复累计。本次升级须将 Android 与 Windows 两端均更新为 3.3.0 系列，并核对相同题库标识；新增题与索引使题库标识发生变化，不能与旧题库同步。
 
 数据格式保留 `cpa-p2p-v1`，设备发现协议版本为 2，并声明 `directSync`。UDP 多播 `224.0.0.169:53319` 用于发现，TCP/TLS 53319 用于设备通信，Windows 本机网页为 `127.0.0.1:53320`。点击同步后自动建立连接，保存证书指纹和通信令牌；同时点击不会重置令牌而中断连接。端口被占用、防火墙、访客网络和热点隔离会影响连接；发现失败可手动输入 IP。
 
 ## 构建
+
+先在仓库根目录构建基础题、来源索引和进阶题，进阶构建必须放在最后：
+
+```powershell
+python -X utf8 content/build_bank.py
+python -X utf8 content/build_strategy.py
+node content/accounting/build.mjs
+node content/build_progression.mjs
+```
+
+将 `dist/` 生成的 `basic-theory.js`、`accounting-expanded.js`、`questions.js`、`extra-subjects.js`、`strategy.js`、`question-numbers.js`、`progression.js`、`coverage.json` 和所有 CSV / Markdown 下载文件复制到 `native/web/`。保留该目录现有的 `app.js`、`index.html`、`app.css` 和 `peer-sync.js`，以保留安装包的界面与设备同步代码。然后执行 `node native/build-web.mjs`，从 `work/peer-build/bank-id.txt` 核对本次题库标识；新题库版本须完整构建两端并同步维护 `downloads/peer/release.json` 的版本、题数和题库标识。
 
 Windows 上构建 Android APK，可使用 JDK 21、Android 34 平台和 SDK Build-Tools 35.0.0：
 
@@ -70,7 +83,7 @@ python native/build.py --tools-root /path/to/tools-root --signing-key /private/s
 ```bash
 node native/build-web.mjs
 node windows/build-offline.mjs
-node --test tests/*.test.mjs
+node --test --test-isolation=none tests/*.test.mjs
 ```
 
 生产 Java / EXE 通信联测：
@@ -82,6 +95,6 @@ python native/tests/transport_test.py /path/to/tools-root
 
 Windows 上可运行 `python native/tests/transport_test.py --tool-paths /path/to/paths.json`，JSON 另需 `json_jar` 指向 JVM 使用的 org.json 实现。
 
-当前 35 项 Node 测试通过，覆盖六科数据、退出续答、草稿和计时接管、幂等合并、实际 3.0.3 旧存储升级、直接同步页面和旧协议提示。生产 Java 与实际 Windows EXE 联测通过组播发现、直接连接、双向 TLS、并发连接、来源保护、重启持久化及停止后重连；Windows 原生证书与启动测试通过。手机与电脑热点之间的实际互通尚未实测。
+此前 3.2.x 的验证记录包括 35 项 Node 测试、生产 Java 与实际 Windows EXE 通信联测，以及 Windows 原生证书与启动测试，详见历史更新说明。3.3.0 增加了原 4,412 题正文基线、进阶题与计划题组、来源页码结构等校验；最终构建与运行结果应以本版实际执行记录为准，不沿用旧版通过数。手机与电脑热点之间的实际互通尚未实测。
 
 `web/import-manifest.json` 记录导入时的原始 APK 网页与文件哈希，是来源记录；其中界面文件随后已增加续答、同步和菜单功能。`tests/fixtures/3.0.3-app.js` 保留原 APK 应用逻辑以验证真实旧存储兼容；题库由测试注入当前校验一致的原版数据。

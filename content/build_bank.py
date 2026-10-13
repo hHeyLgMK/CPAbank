@@ -4,6 +4,7 @@ from pathlib import Path
 from collections import Counter
 from catalog import CATALOG
 from expansion.sections import SECTIONS
+from source_index import apply_source_index
 HERE=Path(__file__).resolve().parent
 OUT=HERE.parent/'dist'
 BANK=json.loads((HERE/'seed-bank.json').read_text())
@@ -55,6 +56,7 @@ for key,subject in BANK.items():
         assert q['studySection']==SECTIONS[key][q['chapterIndex']][q['sectionNumber']-1]['label']
         subject['chapters'][q['chapterIndex']]['items'].append(q)
     subject['questions']=[q for ch in subject['chapters'] for q in ch['items']]
+    apply_source_index(key,subject)
     subject['coverage']={'chapters':len(subject['chapters']),'sections':len(expected),'coveredSections':len(seen),'addedQuestions':sum(ordinal.values())+len(supplements),'totalQuestions':len(subject['questions']),'coverageBasis':'教材目录逐节覆盖；知识点按清单核对，不等于穷尽全部条款、例外与综合题。'}
     for ci,ch in enumerate(subject['chapters']):
         for si,sec in enumerate(ch['sections']):

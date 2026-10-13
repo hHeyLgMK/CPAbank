@@ -9,6 +9,8 @@ export function writeProgress(storage, key, active, previousSubjects) {
     sessions[id] = {
       id:s.id, startedAt:s.startedAt,
       chapterIndex:state.chapterIndex, sectionName:state.sectionName,
+      practiceStage:['foundation','application','chapter','cross','all'].includes(state.practiceStage) ? state.practiceStage : 'foundation',
+      paperLabel:s.paperLabel, paperMinutes:s.paperMinutes,
       mode:s.mode, ids:s.items.map(q => q.id), index:s.index,
       answers:s.answers, orders:s.orders,
       finished:s.finished, showResult:s.showResult, seconds:s.seconds
@@ -34,12 +36,14 @@ export function readProgress(storage, key, subjects) {
     const byId = new Map(subject.questions.map(q => [q.id,q]));
     const items = value.ids.map(id => byId.get(id));
     // A removed question invalidates this session, without touching statistics.
-    if (items.some(q => !q) || (!items.length && value.mode !== 'wrong')) continue;
-    const sections = [...new Set(subject.questions.filter(q => q.chapterIndex === value.chapterIndex)
+    const practiceStage = ['foundation','application','chapter','cross','all'].includes(value.practiceStage) ? value.practiceStage : 'foundation';
+    if (items.some(q => !q) || (!items.length && value.mode === 'mock')) continue;
+    const matchesStage = q => practiceStage === 'all' || (q.practiceStage || 'foundation') === practiceStage;
+    const sections = [...new Set(subject.questions.filter(q => q.chapterIndex === value.chapterIndex && matchesStage(q))
       .map(q => q.studySection || q.source?.section).filter(Boolean))];
     const sectionName = value.sectionName === '__all__' || sections.includes(value.sectionName)
       ? value.sectionName : sections[0] || '__all__';
-    if (value.mode === 'learn' && items.some(q => q.chapterIndex !== value.chapterIndex ||
+    if (value.mode === 'learn' && items.some(q => !matchesStage(q) || q.chapterIndex !== value.chapterIndex ||
         (sectionName !== '__all__' && (q.studySection || q.source?.section) !== sectionName))) continue;
     const answers = {}, orders = {};
     const finished = ['learn','mock'].includes(value.mode) && value.finished === true;
@@ -61,13 +65,15 @@ export function readProgress(storage, key, subjects) {
         judged:typeof a.judged === 'boolean' ? a.judged : null,
         recorded:a.recorded === true && (submitted || finished)};
     }
+    const paperMinutes = Number.isInteger(value.paperMinutes) && value.paperMinutes > 0 && value.paperMinutes <= 180 ? value.paperMinutes : 45;
     const session = {mode:value.mode, items,
+      paperLabel:typeof value.paperLabel === 'string' ? value.paperLabel.slice(0,200) : null, paperMinutes,
       id:typeof value.id === 'string' ? value.id : undefined,
       startedAt:typeof value.startedAt === 'string' ? value.startedAt : undefined,
       index:Number.isInteger(value.index) ? Math.max(0,Math.min(value.index,items.length-1)) : 0,
       answers, orders, finished, showResult:finished && value.showResult === true,
-      seconds:Number.isFinite(value.seconds) ? Math.max(0,Math.min(2700,Math.floor(value.seconds))) : 2700};
-    states.set(id, {session, chapterIndex:value.chapterIndex, sectionName});
+      seconds:Number.isFinite(value.seconds) ? Math.max(0,Math.min(paperMinutes*60,Math.floor(value.seconds))) : paperMinutes*60};
+    states.set(id, {session, chapterIndex:value.chapterIndex, sectionName, practiceStage});
   }
   if (!states.has(saved.subjectId)) return null;
   return {subjectId:saved.subjectId, selectionOpen:saved.selectionOpen === true,

@@ -102,3 +102,52 @@ test('unavailable storage is safe to read and reports write failures to the appl
   assert.equal(readProgress(disk,key,subjects),null);
   assert.throws(() => writeProgress(disk,key,active(),new Map()),/quota/);
 });
+
+test('practice level restores its questions and missing legacy level defaults to foundation',() => {
+  const disk=storage(), state=active();
+  const advanced={...items[0],id:'application-one',practiceStage:'application'};
+  const bank={...subjects,accounting:{chapters:[{}],questions:[...items,advanced]}};
+  state.practiceStage='application';state.session.items=[advanced];state.session.index=0;
+  writeProgress(disk,key,state,new Map());
+  const restored=readProgress(disk,key,bank).states.get('accounting');
+  assert.equal(restored.practiceStage,'application');
+  assert.deepEqual(restored.session.items.map(q=>q.id),['application-one']);
+  writeProgress(disk,key,active(),new Map());
+  const legacy=JSON.parse(disk.getItem(key));delete legacy.sessions.accounting.practiceStage;
+  disk.setItem(key,JSON.stringify(legacy));
+  assert.equal(readProgress(disk,key,bank).states.get('accounting').practiceStage,'foundation');
+});
+
+test('level mismatch cannot silently restore foundation questions and empty level remains selected',() => {
+  const disk=storage(), state=active();state.practiceStage='chapter';
+  writeProgress(disk,key,state,new Map());
+  assert.equal(readProgress(disk,key,subjects),null);
+  state.session.items=[];state.sectionName='__all__';state.session.index=0;
+  writeProgress(disk,key,state,new Map());
+  const restored=readProgress(disk,key,subjects).states.get('accounting');
+  assert.equal(restored.practiceStage,'chapter');
+  assert.equal(restored.sectionName,'__all__');
+  assert.equal(restored.session.items.length,0);
+  assert.equal(restored.session.index,0);
+});
+
+test('all levels session may combine foundation and advanced questions',() => {
+  const disk=storage(), state=active();
+  const advanced={...items[2],id:'cross-one',practiceStage:'cross'};
+  state.practiceStage='all';state.session.items=[items[0],advanced];
+  writeProgress(disk,key,state,new Map());
+  const restored=readProgress(disk,key,{accounting:{chapters:[{}],questions:[...items,advanced]}}).states.get('accounting');
+  assert.equal(restored.practiceStage,'all');
+  assert.deepEqual(restored.session.items.map(q=>q.id),['one','cross-one']);
+});
+
+test('planned two-hour mock restores paper identity and remaining time beyond the old 45-minute cap',() => {
+  const disk=storage(), state=active('mock');
+  state.session.paperLabel='原创限时综合练习 1';state.session.paperMinutes=120;state.session.seconds=7013;
+  writeProgress(disk,key,state,new Map());
+  const restored=readProgress(disk,key,subjects).states.get('accounting').session;
+  assert.equal(restored.paperLabel,'原创限时综合练习 1');assert.equal(restored.paperMinutes,120);
+  assert.equal(restored.seconds,7013);
+  state.session.paperMinutes=180;state.session.seconds=12000;writeProgress(disk,key,state,new Map());
+  assert.equal(readProgress(disk,key,subjects).states.get('accounting').session.seconds,10800);
+});

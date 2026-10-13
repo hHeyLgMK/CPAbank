@@ -20,6 +20,7 @@ const scripts = [
   "const {extraSubjects} = "+wrap('extra-subjects.js','extraSubjects')+';',
   "const {strategySubject} = "+wrap('strategy.js','strategySubject')+';',
   "const {questionNumbers} = "+wrap('question-numbers.js','questionNumbers')+';',
+  "const {progressionQuestions,progressionPlan,attachProgression} = "+wrap('progression.js','progressionQuestions,progressionPlan,attachProgression')+';',
   "const {readProgress,writeProgress} = "+wrap('progress.js','readProgress,writeProgress')+';',
   "const {createLanSync} = "+wrap('lan-sync.js','createLanSync')+';',
   moduleBody('app.js')

@@ -1,0 +1,1996 @@
+{
+  "weeks": [
+    {
+      "week": 1,
+      "start": "2026-10-12",
+      "end": "2026-10-18",
+      "stage": "foundation",
+      "subjects": {
+        "accounting": {
+          "label": "第1章 总论：会计概述、财务报告目标、会计基本假设和会计基础",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "首周沿用原计划65道零基础推荐题。"
+        },
+        "strategy": {
+          "label": "第1章 战略与战略管理概述：公司战略的基本概念",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "首周沿用原计划65道零基础推荐题。"
+        },
+        "tax": {
+          "label": "第1章 税法总论：税法概念、税法原则",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "首周沿用原计划65道零基础推荐题。"
+        }
+      }
+    },
+    {
+      "week": 2,
+      "start": "2026-10-19",
+      "end": "2026-10-25",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第1章 总论：会计信息质量要求、会计要素及其确认与计量、财务报告",
+          "questionIds": [
+            "accounting-progress-01-001"
+          ],
+          "displayNumbers": [
+            "ACC-02332"
+          ],
+          "minutes": 15,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第1章 战略与战略管理概述：公司战略管理",
+          "questionIds": [
+            "strategy-progress-01-001"
+          ],
+          "displayNumbers": [
+            "STR-00436"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "tax": {
+          "label": "第1章 税法总论：税法（种）要素、税收立法与我国税法体系、税收执法、税务权利与义务、国际税收关系",
+          "questionIds": [
+            "tax-progress-01-001"
+          ],
+          "displayNumbers": [
+            "TAX-00555"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 3,
+      "start": "2026-10-26",
+      "end": "2026-11-01",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第1章 总论：可持续信息披露、人工智能在会计审计领域的应用；第2章 存货：存货的确认和初始计量",
+          "questionIds": [
+            "accounting-progress-02-001"
+          ],
+          "displayNumbers": [
+            "ACC-02335"
+          ],
+          "minutes": 15,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第2章 战略分析：企业外部环境分析",
+          "questionIds": [
+            "strategy-progress-02-001"
+          ],
+          "displayNumbers": [
+            "STR-00440"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "tax": {
+          "label": "第2章 增值税法：征税范围、纳税人和扣缴义务人",
+          "questionIds": [
+            "tax-progress-02-003"
+          ],
+          "displayNumbers": [
+            "TAX-00591"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 4,
+      "start": "2026-11-02",
+      "end": "2026-11-08",
+      "stage": "chapter",
+      "subjects": {
+        "accounting": {
+          "label": "第2章 存货：发出存货的计量、期末存货的计量、存货的清查盘点、存货的列示与披露",
+          "questionIds": [
+            "accounting-progress-02-003"
+          ],
+          "displayNumbers": [
+            "ACC-02337"
+          ],
+          "minutes": 25,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第2章 战略分析：企业内部环境分析",
+          "questionIds": [
+            "strategy-progress-02-004"
+          ],
+          "displayNumbers": [
+            "STR-00443"
+          ],
+          "minutes": 20,
+          "note": "本周用内部环境BCG与基准分析做章内题，SWOT案例安排在下周。"
+        },
+        "tax": {
+          "label": "第2章 增值税法：税率、一般计税方法应纳税额的计算",
+          "questionIds": [
+            "tax-progress-02-001"
+          ],
+          "displayNumbers": [
+            "TAX-00557"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 5,
+      "start": "2026-11-09",
+      "end": "2026-11-15",
+      "stage": "chapter",
+      "subjects": {
+        "accounting": {
+          "label": "第3章 固定资产：固定资产的确认和初始计量、固定资产的后续计量",
+          "questionIds": [
+            "accounting-progress-03-001"
+          ],
+          "displayNumbers": [
+            "ACC-02338"
+          ],
+          "minutes": 15,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第2章 战略分析：企业内外部环境综合分析",
+          "questionIds": [
+            "strategy-progress-02-003"
+          ],
+          "displayNumbers": [
+            "STR-00442"
+          ],
+          "minutes": 20,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "tax": {
+          "label": "第2章 增值税法：简易计税方法",
+          "questionIds": [
+            "tax-progress-02-004"
+          ],
+          "displayNumbers": [
+            "TAX-00592"
+          ],
+          "minutes": 20,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 6,
+      "start": "2026-11-16",
+      "end": "2026-11-22",
+      "stage": "chapter",
+      "subjects": {
+        "accounting": {
+          "label": "第3章 固定资产：固定资产的处置；第4章 无形资产：无形资产的确认和初始计量、内部研究开发支出的确认和计量",
+          "questionIds": [
+            "accounting-progress-03-003"
+          ],
+          "displayNumbers": [
+            "ACC-02340"
+          ],
+          "minutes": 25,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第3章 战略选择：总体战略",
+          "questionIds": [
+            "strategy-progress-03-001"
+          ],
+          "displayNumbers": [
+            "STR-00444"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "tax": {
+          "label": "第2章 增值税法：进口环节增值税的征收、出口货物和跨境销售服务、无形资产增值税政策",
+          "questionIds": [
+            "tax-progress-02-005"
+          ],
+          "displayNumbers": [
+            "TAX-00593"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 7,
+      "start": "2026-11-23",
+      "end": "2026-11-29",
+      "stage": "chapter",
+      "subjects": {
+        "accounting": {
+          "label": "第4章 无形资产：无形资产的后续计量、无形资产的处置、无形资产的列示与披露",
+          "questionIds": [
+            "accounting-progress-04-003"
+          ],
+          "displayNumbers": [
+            "ACC-02343"
+          ],
+          "minutes": 25,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第3章 战略选择：业务单位战略",
+          "questionIds": [
+            "strategy-progress-03-002"
+          ],
+          "displayNumbers": [
+            "STR-00445"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "tax": {
+          "label": "第2章 增值税法：税收优惠、征收管理",
+          "questionIds": [
+            "tax-progress-02-002"
+          ],
+          "displayNumbers": [
+            "TAX-00558"
+          ],
+          "minutes": 20,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 8,
+      "start": "2026-11-30",
+      "end": "2026-12-06",
+      "stage": "chapter",
+      "subjects": {
+        "accounting": {
+          "label": "第5章 投资性房地产：投资性房地产的特征与范围、投资性房地产的确认和初始计量、投资性房地产的后续计量、投资性房地产的转换和处置",
+          "questionIds": [
+            "accounting-progress-05-003"
+          ],
+          "displayNumbers": [
+            "ACC-02346"
+          ],
+          "minutes": 25,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "strategy": {
+          "label": "第3章 战略选择：职能战略",
+          "questionIds": [
+            "strategy-progress-03-003"
+          ],
+          "displayNumbers": [
+            "STR-00446"
+          ],
+          "minutes": 20,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        },
+        "tax": {
+          "label": "第3章 消费税法：纳税人与税目、税率、计税依据",
+          "questionIds": [
+            "tax-progress-03-001"
+          ],
+          "displayNumbers": [
+            "TAX-00559"
+          ],
+          "minutes": 10,
+          "note": "按当周已学内容选用应用题或章内题；从原科目时段中抽取，不额外增加每周总时数。"
+        }
+      }
+    },
+    {
+      "week": 9,
+      "start": "2026-12-07",
+      "end": "2026-12-13",
+      "stage": "review",
+      "subjects": {
+        "accounting": {
+          "label": "第1—5章复习与补漏",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "strategy": {
+          "label": "第1—3章案例复盘",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "tax": {
+          "label": "增值税与消费税阶段复盘",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        }
+      }
+    },
+    {
+      "week": 10,
+      "start": "2026-12-14",
+      "end": "2026-12-20",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第6章 长期股权投资与合营安排：基本概念、长期股权投资的初始计量",
+          "questionIds": [
+            "accounting-progress-06-001"
+          ],
+          "displayNumbers": [
+            "ACC-02347"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第3章 战略选择：国际化经营战略",
+          "questionIds": [
+            "strategy-progress-03-001"
+          ],
+          "displayNumbers": [
+            "STR-00444"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第3章 消费税法：应纳税额的计算、征收管理",
+          "questionIds": [
+            "tax-progress-03-001"
+          ],
+          "displayNumbers": [
+            "TAX-00559"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 11,
+      "start": "2026-12-21",
+      "end": "2026-12-27",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第6章 长期股权投资与合营安排：长期股权投资的后续计量、长期股权投资核算方法的转换及处置、合营安排",
+          "questionIds": [
+            "accounting-progress-06-002"
+          ],
+          "displayNumbers": [
+            "ACC-02348"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第4章 战略实施：公司战略与组织结构",
+          "questionIds": [
+            "strategy-progress-04-001"
+          ],
+          "displayNumbers": [
+            "STR-00448"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第4章 企业所得税法：纳税人、征税对象与税率、应纳税所得额",
+          "questionIds": [
+            "tax-progress-04-001"
+          ],
+          "displayNumbers": [
+            "TAX-00561"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 12,
+      "start": "2026-12-28",
+      "end": "2027-01-03",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第7章 资产减值：资产减值概述、资产可收回金额的计量、资产减值损失的确认与计量",
+          "questionIds": [
+            "accounting-progress-07-001"
+          ],
+          "displayNumbers": [
+            "ACC-02350"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第4章 战略实施：公司战略与企业文化",
+          "questionIds": [
+            "strategy-progress-04-002"
+          ],
+          "displayNumbers": [
+            "STR-00449"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第4章 企业所得税法：资产的税务处理、资产损失的所得税处理",
+          "questionIds": [
+            "tax-progress-04-001"
+          ],
+          "displayNumbers": [
+            "TAX-00561"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 13,
+      "start": "2027-01-04",
+      "end": "2027-01-10",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第7章 资产减值：资产组的认定及减值处理、商誉减值测试与处理；第8章 负债：流动负债",
+          "questionIds": [
+            "accounting-progress-08-001"
+          ],
+          "displayNumbers": [
+            "ACC-02353"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第4章 战略实施：战略控制",
+          "questionIds": [
+            "strategy-progress-04-001"
+          ],
+          "displayNumbers": [
+            "STR-00448"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第4章 企业所得税法：企业重组的所得税处理、税收优惠",
+          "questionIds": [
+            "tax-progress-04-001"
+          ],
+          "displayNumbers": [
+            "TAX-00561"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 14,
+      "start": "2027-01-11",
+      "end": "2027-01-17",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第8章 负债：非流动负债；第9章 职工薪酬：职工和职工薪酬的范围及分类、短期薪酬的确认与计量",
+          "questionIds": [
+            "accounting-progress-09-001"
+          ],
+          "displayNumbers": [
+            "ACC-02356"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第4章 战略实施：公司战略与数智化转型",
+          "questionIds": [
+            "strategy-progress-04-001"
+          ],
+          "displayNumbers": [
+            "STR-00448"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第4章 企业所得税法：应纳税额的计算、征收管理",
+          "questionIds": [
+            "tax-progress-04-001"
+          ],
+          "displayNumbers": [
+            "TAX-00561"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 15,
+      "start": "2027-01-18",
+      "end": "2027-01-24",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第9章 职工薪酬：离职后福利的确认与计量、辞退福利的确认与计量、其他长期职工福利的确认与计量；第10章 股份支付：股份支付概述",
+          "questionIds": [
+            "accounting-progress-10-001"
+          ],
+          "displayNumbers": [
+            "ACC-02359"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第4章 战略实施：公司战略与可持续发展管理",
+          "questionIds": [
+            "strategy-progress-04-001"
+          ],
+          "displayNumbers": [
+            "STR-00448"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第5章 个人所得税法：纳税义务人与征税范围、税率、应纳税所得额的确定与应纳税额的计算",
+          "questionIds": [
+            "tax-progress-05-001"
+          ],
+          "displayNumbers": [
+            "TAX-00563"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 16,
+      "start": "2027-01-25",
+      "end": "2027-01-31",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第10章 股份支付：股份支付的确认和计量、股份支付的应用举例；第11章 借款费用：借款费用概述",
+          "questionIds": [
+            "accounting-progress-11-001"
+          ],
+          "displayNumbers": [
+            "ACC-02362"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第5章 公司治理：公司治理概述",
+          "questionIds": [
+            "strategy-progress-05-001"
+          ],
+          "displayNumbers": [
+            "STR-00452"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第5章 个人所得税法：税收优惠",
+          "questionIds": [
+            "tax-progress-05-001"
+          ],
+          "displayNumbers": [
+            "TAX-00563"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 17,
+      "start": "2027-02-01",
+      "end": "2027-02-07",
+      "stage": "application",
+      "subjects": {
+        "accounting": {
+          "label": "第11章 借款费用：借款费用的确认、借款费用的计量；第12章 或有事项：或有事项概述",
+          "questionIds": [
+            "accounting-progress-12-001"
+          ],
+          "displayNumbers": [
+            "ACC-02365"
+          ],
+          "minutes": 15,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第5章 公司治理：公司治理的主要问题",
+          "questionIds": [
+            "strategy-progress-05-002"
+          ],
+          "displayNumbers": [
+            "STR-00453"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第5章 个人所得税法：境外所得的税额扣除、应纳税额计算中的特殊问题处理",
+          "questionIds": [
+            "tax-progress-05-001"
+          ],
+          "displayNumbers": [
+            "TAX-00563"
+          ],
+          "minutes": 10,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 18,
+      "start": "2027-02-08",
+      "end": "2027-02-14",
+      "stage": "review",
+      "subjects": {
+        "accounting": {
+          "label": "第6—12章综合复盘",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "strategy": {
+          "label": "战略选择与实施案例",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "tax": {
+          "label": "两大所得税阶段复盘",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        }
+      }
+    },
+    {
+      "week": 19,
+      "start": "2027-02-15",
+      "end": "2027-02-21",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第12章 或有事项：或有事项的确认和计量、或有事项会计处理的具体应用、或有事项的列报；第13章 金融工具与保险合同：金融工具概述",
+          "questionIds": [
+            "accounting-progress-13-003",
+            "accounting-progress-12-003"
+          ],
+          "displayNumbers": [
+            "ACC-02370",
+            "ACC-02367"
+          ],
+          "minutes": 50,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第5章 公司治理：公司内部治理结构和外部治理机制",
+          "questionIds": [
+            "strategy-progress-05-003",
+            "strategy-progress-05-004"
+          ],
+          "displayNumbers": [
+            "STR-00454",
+            "STR-00455"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第5章 个人所得税法：征收管理；第6章 城市维护建设税法和烟叶税法：城市维护建设税法、烟叶税法、教育费附加和地方教育附加",
+          "questionIds": [
+            "tax-progress-03-003"
+          ],
+          "displayNumbers": [
+            "TAX-00583"
+          ],
+          "minutes": 30,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 20,
+      "start": "2027-02-22",
+      "end": "2027-02-28",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第13章 金融工具与保险合同：金融资产和金融负债的分类和重分类、金融负债和权益工具的区分",
+          "questionIds": [
+            "accounting-progress-13-003"
+          ],
+          "displayNumbers": [
+            "ACC-02370"
+          ],
+          "minutes": 25,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第5章 公司治理：管理实践发展与公司治理",
+          "questionIds": [
+            "strategy-progress-05-003",
+            "strategy-progress-05-004"
+          ],
+          "displayNumbers": [
+            "STR-00454",
+            "STR-00455"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第7章 关税法和船舶吨税法：征税对象与纳税人、进出口税则、关税计税价格与应纳税额的计算",
+          "questionIds": [
+            "tax-progress-07-003",
+            "tax-progress-03-003"
+          ],
+          "displayNumbers": [
+            "TAX-00584",
+            "TAX-00583"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 21,
+      "start": "2027-03-01",
+      "end": "2027-03-07",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第13章 金融工具与保险合同：金融工具的确认和计量",
+          "questionIds": [
+            "accounting-progress-13-003"
+          ],
+          "displayNumbers": [
+            "ACC-02370"
+          ],
+          "minutes": 25,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第6章 风险与风险管理概述：风险的概念及风险的要素、风险管理的概念、特征、目标和职能",
+          "questionIds": [
+            "strategy-progress-06-003",
+            "strategy-progress-06-004"
+          ],
+          "displayNumbers": [
+            "STR-00458",
+            "STR-00459"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第7章 关税法和船舶吨税法：减免规定、征收管理、船舶吨税法",
+          "questionIds": [
+            "tax-progress-07-003",
+            "tax-progress-03-003"
+          ],
+          "displayNumbers": [
+            "TAX-00584",
+            "TAX-00583"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 22,
+      "start": "2027-03-08",
+      "end": "2027-03-14",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第13章 金融工具与保险合同：金融资产转移、套期会计、金融工具的披露、保险合同概述",
+          "questionIds": [
+            "accounting-progress-13-003"
+          ],
+          "displayNumbers": [
+            "ACC-02370"
+          ],
+          "minutes": 25,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第6章 风险与风险管理概述：风险管理理论的演进和风险管理实践的发展",
+          "questionIds": [
+            "strategy-progress-06-003",
+            "strategy-progress-06-004"
+          ],
+          "displayNumbers": [
+            "STR-00458",
+            "STR-00459"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第8章 资源税法和环境保护税法：资源税法、环境保护税法",
+          "questionIds": [
+            "tax-progress-08-003",
+            "tax-progress-07-003"
+          ],
+          "displayNumbers": [
+            "TAX-00589",
+            "TAX-00584"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 23,
+      "start": "2027-03-15",
+      "end": "2027-03-21",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第14章 租赁：租赁概述、承租人会计处理、出租人会计处理、特殊租赁业务的会计处理；第15章 持有待售的非流动资产、处置组和终止经营：持有待售的非流动资产和处置组、终止经营",
+          "questionIds": [
+            "accounting-progress-15-003",
+            "accounting-progress-14-003"
+          ],
+          "displayNumbers": [
+            "ACC-02376",
+            "ACC-02373"
+          ],
+          "minutes": 50,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第7章 风险管理的流程、体系与方法：风险管理的流程",
+          "questionIds": [
+            "strategy-progress-07-003",
+            "strategy-progress-07-004"
+          ],
+          "displayNumbers": [
+            "STR-00462",
+            "STR-00463"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第9章 城镇土地使用税法和耕地占用税法：城镇土地使用税法、耕地占用税法；第10章 房产税法、契税法和土地增值税法：房产税法",
+          "questionIds": [
+            "tax-progress-08-003",
+            "tax-progress-07-003"
+          ],
+          "displayNumbers": [
+            "TAX-00589",
+            "TAX-00584"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 24,
+      "start": "2027-03-22",
+      "end": "2027-03-28",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第16章 所有者权益：实收资本、其他权益工具、资本公积、其他综合收益及留存收益；第17章 收入、费用和利润：收入",
+          "questionIds": [
+            "accounting-progress-17-003",
+            "accounting-progress-16-003"
+          ],
+          "displayNumbers": [
+            "ACC-02382",
+            "ACC-02379"
+          ],
+          "minutes": 50,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第7章 风险管理的流程、体系与方法：风险管理体系",
+          "questionIds": [
+            "strategy-progress-07-003",
+            "strategy-progress-07-004"
+          ],
+          "displayNumbers": [
+            "STR-00462",
+            "STR-00463"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第10章 房产税法、契税法和土地增值税法：契税法、土地增值税法",
+          "questionIds": [
+            "tax-progress-08-003",
+            "tax-progress-07-003"
+          ],
+          "displayNumbers": [
+            "TAX-00589",
+            "TAX-00584"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 25,
+      "start": "2027-03-29",
+      "end": "2027-04-04",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第17章 收入、费用和利润：费用、利润；第18章 政府补助：政府补助概述、政府补助的会计处理、政府补助的列报",
+          "questionIds": [
+            "accounting-progress-03-004"
+          ],
+          "displayNumbers": [
+            "ACC-02423"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第7章 风险管理的流程、体系与方法：风险管理的技术与方法",
+          "questionIds": [
+            "strategy-progress-07-003",
+            "strategy-progress-07-004"
+          ],
+          "displayNumbers": [
+            "STR-00462",
+            "STR-00463"
+          ],
+          "minutes": 40,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第11章 车辆购置税法、车船税法和印花税法：车辆购置税法、车船税法、印花税法",
+          "questionIds": [
+            "tax-progress-10-003",
+            "tax-progress-10-004"
+          ],
+          "displayNumbers": [
+            "TAX-00587",
+            "TAX-00588"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 26,
+      "start": "2027-04-05",
+      "end": "2027-04-11",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第19章 所得税：所得税会计的基本原理、资产、负债的计税基础、暂时性差异、递延所得税资产及负债的确认和计量、所得税费用的确认和计量、所得税的列报",
+          "questionIds": [
+            "accounting-progress-04-004",
+            "accounting-progress-03-004"
+          ],
+          "displayNumbers": [
+            "ACC-02424",
+            "ACC-02423"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第8章 企业面对的主要风险与应对：战略风险与应对",
+          "questionIds": [
+            "strategy-progress-08-005",
+            "strategy-progress-08-006"
+          ],
+          "displayNumbers": [
+            "STR-00475",
+            "STR-00476"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第12章 国际税收税务管理实务：国际税收协定、非居民企业税收管理",
+          "questionIds": [
+            "tax-progress-04-003",
+            "tax-progress-10-003"
+          ],
+          "displayNumbers": [
+            "TAX-00585",
+            "TAX-00587"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 27,
+      "start": "2027-04-12",
+      "end": "2027-04-18",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第20章 非货币性资产交换：非货币性资产交换的概念、非货币性资产交换的确认和计量、非货币性资产交换的会计处理；第21章 债务重组：债务重组的定义和方式、债务重组的会计处理、债务重组的相关披露",
+          "questionIds": [
+            "accounting-progress-04-004",
+            "accounting-progress-03-004"
+          ],
+          "displayNumbers": [
+            "ACC-02424",
+            "ACC-02423"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第8章 企业面对的主要风险与应对：市场风险与应对",
+          "questionIds": [
+            "strategy-progress-08-007",
+            "strategy-progress-07-005"
+          ],
+          "displayNumbers": [
+            "STR-00477",
+            "STR-00473"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第12章 国际税收税务管理实务：境外所得税收管理、国际反避税",
+          "questionIds": [
+            "tax-progress-10-003",
+            "tax-progress-10-004"
+          ],
+          "displayNumbers": [
+            "TAX-00587",
+            "TAX-00588"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 28,
+      "start": "2027-04-19",
+      "end": "2027-04-25",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第22章 外币折算：记账本位币的确定、外币交易的会计处理、外币财务报表折算；第23章 财务报告：财务报表概述、资产负债表",
+          "questionIds": [
+            "accounting-progress-14-004",
+            "accounting-progress-04-004"
+          ],
+          "displayNumbers": [
+            "ACC-02429",
+            "ACC-02424"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第8章 企业面对的主要风险与应对：财务风险与应对",
+          "questionIds": [
+            "strategy-progress-07-006",
+            "strategy-progress-06-005"
+          ],
+          "displayNumbers": [
+            "STR-00474",
+            "STR-00472"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第12章 国际税收税务管理实务：转让定价税务管理、国际税收征管合作",
+          "questionIds": [
+            "tax-progress-10-003",
+            "tax-progress-10-004"
+          ],
+          "displayNumbers": [
+            "TAX-00587",
+            "TAX-00588"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 29,
+      "start": "2027-04-26",
+      "end": "2027-05-02",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第23章 财务报告：利润表、现金流量表、所有者权益变动表、财务报表附注披露、中期财务报告；第24章 会计政策、会计估计及其变更和差错更正：会计政策及其变更概述、会计估计及其变更概述、会计政策变更与会计估计变更的划分、会计政策和会计估计变更的会计处理、前期差错及其更正",
+          "questionIds": [
+            "accounting-progress-24-004",
+            "accounting-progress-14-004"
+          ],
+          "displayNumbers": [
+            "ACC-02431",
+            "ACC-02429"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第8章 企业面对的主要风险与应对：运营风险与应对",
+          "questionIds": [
+            "strategy-progress-04-005",
+            "strategy-progress-03-005"
+          ],
+          "displayNumbers": [
+            "STR-00471",
+            "STR-00469"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第13章 税收征收管理法：概述、税务管理、税款征收",
+          "questionIds": [
+            "tax-progress-05-003",
+            "tax-progress-10-003"
+          ],
+          "displayNumbers": [
+            "TAX-00586",
+            "TAX-00587"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 30,
+      "start": "2027-05-03",
+      "end": "2027-05-09",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第25章 资产负债表日后事项：资产负债表日后事项概述、调整事项的会计处理、非调整事项的会计处理；第26章 企业合并：企业合并概述、企业合并的会计处理",
+          "questionIds": [
+            "accounting-progress-12-004",
+            "accounting-progress-02-004"
+          ],
+          "displayNumbers": [
+            "ACC-02428",
+            "ACC-02422"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第8章 企业面对的主要风险与应对：法律风险和合规风险与应对",
+          "questionIds": [
+            "strategy-progress-03-006",
+            "strategy-progress-02-005"
+          ],
+          "displayNumbers": [
+            "STR-00470",
+            "STR-00468"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第13章 税收征收管理法：税务检查、法律责任、纳税担保和抵押",
+          "questionIds": [
+            "tax-progress-10-003",
+            "tax-progress-10-004"
+          ],
+          "displayNumbers": [
+            "TAX-00587",
+            "TAX-00588"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 31,
+      "start": "2027-05-10",
+      "end": "2027-05-16",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第27章 合并财务报表：合并范围的确定、合并财务报表编制原则、前期准备事项及程序、长期股权投资与所有者权益的合并处理（同一控制下）、长期股权投资与所有者权益的合并处理（非同一控制下）",
+          "questionIds": [
+            "accounting-progress-07-004",
+            "accounting-progress-06-004"
+          ],
+          "displayNumbers": [
+            "ACC-02427",
+            "ACC-02426"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第1—3章案例",
+          "questionIds": [
+            "strategy-progress-08-005",
+            "strategy-progress-08-006"
+          ],
+          "displayNumbers": [
+            "STR-00475",
+            "STR-00476"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第13章 税收征收管理法：纳税缴费信用管理和重大税收违法失信主体信息公布管理、税收违法行为检举管理办法、涉税专业服务管理办法与基本准则",
+          "questionIds": [
+            "tax-progress-10-003",
+            "tax-progress-10-004"
+          ],
+          "displayNumbers": [
+            "TAX-00587",
+            "TAX-00588"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 32,
+      "start": "2027-05-17",
+      "end": "2027-05-23",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第27章 合并财务报表：内部商品交易的合并处理、内部债权债务的合并处理、内部固定资产交易的合并处理、内部无形资产交易的合并处理",
+          "questionIds": [
+            "accounting-progress-24-004",
+            "accounting-progress-14-004"
+          ],
+          "displayNumbers": [
+            "ACC-02431",
+            "ACC-02429"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第4—5章案例",
+          "questionIds": [
+            "strategy-progress-08-005",
+            "strategy-progress-08-006"
+          ],
+          "displayNumbers": [
+            "STR-00475",
+            "STR-00476"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第13章 税收征收管理法：税务文书电子送达规定、互联网平台企业涉税信息报送规定、税务人员税收业务违法行为处分规定；第14章 税务行政法制：税务行政处罚",
+          "questionIds": [
+            "tax-progress-13-003",
+            "tax-progress-10-003"
+          ],
+          "displayNumbers": [
+            "TAX-00590",
+            "TAX-00587"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 33,
+      "start": "2027-05-24",
+      "end": "2027-05-30",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第27章 合并财务报表：特殊交易在合并财务报表中的会计处理、所得税会计相关的合并处理、合并现金流量表的编制；第28章 每股收益：每股收益的基本概念、基本每股收益、稀释每股收益、每股收益的列报",
+          "questionIds": [
+            "accounting-progress-10-004",
+            "accounting-progress-24-004"
+          ],
+          "displayNumbers": [
+            "ACC-02430",
+            "ACC-02431"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第6—7章风险方法",
+          "questionIds": [
+            "strategy-progress-08-005",
+            "strategy-progress-08-006"
+          ],
+          "displayNumbers": [
+            "STR-00475",
+            "STR-00476"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "第14章 税务行政法制：税务行政复议、税务行政诉讼",
+          "questionIds": [
+            "tax-progress-13-003",
+            "tax-progress-10-003"
+          ],
+          "displayNumbers": [
+            "TAX-00590",
+            "TAX-00587"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 34,
+      "start": "2027-05-31",
+      "end": "2027-06-06",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第29章 公允价值计量：公允价值概述、公允价值计量基本方法、公允价值计量的具体应用；第30章 政府及民间非营利组织会计：政府会计概述",
+          "questionIds": [
+            "accounting-progress-05-004",
+            "accounting-progress-24-004"
+          ],
+          "displayNumbers": [
+            "ACC-02425",
+            "ACC-02431"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "第8章风险应对",
+          "questionIds": [
+            "strategy-progress-08-005",
+            "strategy-progress-08-006"
+          ],
+          "displayNumbers": [
+            "STR-00475",
+            "STR-00476"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "2027大纲更新与税种归类",
+          "questionIds": [
+            "tax-progress-13-003",
+            "tax-progress-10-003"
+          ],
+          "displayNumbers": [
+            "TAX-00590",
+            "TAX-00587"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 35,
+      "start": "2027-06-07",
+      "end": "2027-06-13",
+      "stage": "cross",
+      "subjects": {
+        "accounting": {
+          "label": "第30章 政府及民间非营利组织会计：政府单位特定业务的会计核算、民间非营利组织会计",
+          "questionIds": [
+            "accounting-progress-24-004",
+            "accounting-progress-14-004"
+          ],
+          "displayNumbers": [
+            "ACC-02431",
+            "ACC-02429"
+          ],
+          "minutes": 80,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "strategy": {
+          "label": "完整案例与答题框架",
+          "questionIds": [
+            "strategy-progress-08-005",
+            "strategy-progress-08-006"
+          ],
+          "displayNumbers": [
+            "STR-00475",
+            "STR-00476"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        },
+        "tax": {
+          "label": "税法第一轮收尾与薄弱点",
+          "questionIds": [
+            "tax-progress-13-003",
+            "tax-progress-10-003"
+          ],
+          "displayNumbers": [
+            "TAX-00590",
+            "TAX-00587"
+          ],
+          "minutes": 60,
+          "note": "先核对各题相关章节，再按计划独立作答并复盘。"
+        }
+      }
+    },
+    {
+      "week": 36,
+      "start": "2027-06-14",
+      "end": "2027-06-20",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "资产与长期投资（第2—7章）",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "战略分析与选择",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "增值税与消费税联算",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 37,
+      "start": "2027-06-21",
+      "end": "2027-06-27",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "金融工具与租赁（第13—14章）",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "战略实施与治理",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "企业所得税调整与优惠",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 38,
+      "start": "2027-06-28",
+      "end": "2027-07-04",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "收入、所得税与特殊交易（第17—22章）",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "风险流程与方法",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "个人所得税申报与特殊事项",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 39,
+      "start": "2027-07-05",
+      "end": "2027-07-11",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "报告、变更与日后事项（第23—25章）",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "主要风险案例",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "财产行为税和小税种",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 40,
+      "start": "2027-07-12",
+      "end": "2027-07-18",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "企业合并与合并报表（第26—27章）",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "全科跨章案例",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "国际税收与征管",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 41,
+      "start": "2027-07-19",
+      "end": "2027-07-25",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "全科真题训练1",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "历年案例训练1",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "历年综合计算1",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 42,
+      "start": "2027-07-26",
+      "end": "2027-08-01",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "全科真题训练2",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "历年案例训练2",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "历年综合计算2",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 43,
+      "start": "2027-08-02",
+      "end": "2027-08-08",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "全科真题训练3",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "历年案例训练3",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "历年综合计算3",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 44,
+      "start": "2027-08-09",
+      "end": "2027-08-15",
+      "stage": "paper",
+      "subjects": {
+        "accounting": {
+          "label": "全科真题训练4＋综合薄弱点回炉",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "strategy": {
+          "label": "历年案例训练4＋风险应对表达",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        },
+        "tax": {
+          "label": "历年综合计算4＋税额计算易错点",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "原创限时综合练习用于补充训练；计划中的历年真题仍按原要求另做。"
+        }
+      }
+    },
+    {
+      "week": 45,
+      "start": "2027-08-16",
+      "end": "2027-08-22",
+      "stage": "review",
+      "subjects": {
+        "accounting": {
+          "label": "错题和计算模板",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "strategy": {
+          "label": "关键词与案例结构",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "tax": {
+          "label": "税率政策与申报流程",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        }
+      }
+    },
+    {
+      "week": 46,
+      "start": "2027-08-23",
+      "end": "2027-08-29",
+      "stage": "review",
+      "subjects": {
+        "accounting": {
+          "label": "考前轻复习",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "strategy": {
+          "label": "考前轻复习",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        },
+        "tax": {
+          "label": "考前轻复习",
+          "questionIds": [],
+          "displayNumbers": [],
+          "minutes": 0,
+          "note": "回做错题与已学进阶题，不新增大块任务。"
+        }
+      }
+    }
+  ],
+  "papers": [
+    {
+      "id": "accounting-paper-1",
+      "subjectId": "accounting",
+      "label": "会计原创限时综合练习1",
+      "questionIds": [
+        "accounting-progress-01-003",
+        "accounting-progress-05-003",
+        "accounting-progress-09-003",
+        "accounting-progress-13-003",
+        "accounting-progress-17-003",
+        "accounting-progress-21-003",
+        "accounting-progress-25-003",
+        "accounting-progress-29-003"
+      ],
+      "minutes": 120,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "accounting-paper-2",
+      "subjectId": "accounting",
+      "label": "会计原创限时综合练习2",
+      "questionIds": [
+        "accounting-progress-02-003",
+        "accounting-progress-06-003",
+        "accounting-progress-10-003",
+        "accounting-progress-14-003",
+        "accounting-progress-18-003",
+        "accounting-progress-22-003",
+        "accounting-progress-26-003",
+        "accounting-progress-30-003"
+      ],
+      "minutes": 120,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "accounting-paper-3",
+      "subjectId": "accounting",
+      "label": "会计原创限时综合练习3",
+      "questionIds": [
+        "accounting-progress-03-003",
+        "accounting-progress-07-003",
+        "accounting-progress-11-003",
+        "accounting-progress-15-003",
+        "accounting-progress-19-003",
+        "accounting-progress-23-003",
+        "accounting-progress-27-003",
+        "accounting-progress-02-004"
+      ],
+      "minutes": 120,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "accounting-paper-4",
+      "subjectId": "accounting",
+      "label": "会计原创限时综合练习4",
+      "questionIds": [
+        "accounting-progress-04-003",
+        "accounting-progress-08-003",
+        "accounting-progress-12-003",
+        "accounting-progress-16-003",
+        "accounting-progress-20-003",
+        "accounting-progress-24-003",
+        "accounting-progress-28-003",
+        "accounting-progress-03-004"
+      ],
+      "minutes": 120,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "tax-paper-1",
+      "subjectId": "tax",
+      "label": "税法原创限时综合练习1",
+      "questionIds": [
+        "tax-progress-01-002",
+        "tax-progress-05-002",
+        "tax-progress-09-002",
+        "tax-progress-13-002",
+        "tax-progress-04-003"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "tax-paper-2",
+      "subjectId": "tax",
+      "label": "税法原创限时综合练习2",
+      "questionIds": [
+        "tax-progress-02-002",
+        "tax-progress-06-002",
+        "tax-progress-10-002",
+        "tax-progress-14-002",
+        "tax-progress-05-003"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "tax-paper-3",
+      "subjectId": "tax",
+      "label": "税法原创限时综合练习3",
+      "questionIds": [
+        "tax-progress-03-002",
+        "tax-progress-07-002",
+        "tax-progress-11-002",
+        "tax-progress-03-003",
+        "tax-progress-10-003"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "tax-paper-4",
+      "subjectId": "tax",
+      "label": "税法原创限时综合练习4",
+      "questionIds": [
+        "tax-progress-04-002",
+        "tax-progress-08-002",
+        "tax-progress-12-002",
+        "tax-progress-07-003",
+        "tax-progress-10-004"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "strategy-paper-1",
+      "subjectId": "strategy",
+      "label": "公司战略与风险管理原创限时综合练习1",
+      "questionIds": [
+        "strategy-progress-01-003",
+        "strategy-progress-03-003",
+        "strategy-progress-05-003",
+        "strategy-progress-07-003",
+        "strategy-progress-02-005"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "strategy-paper-2",
+      "subjectId": "strategy",
+      "label": "公司战略与风险管理原创限时综合练习2",
+      "questionIds": [
+        "strategy-progress-01-004",
+        "strategy-progress-03-004",
+        "strategy-progress-05-004",
+        "strategy-progress-07-004",
+        "strategy-progress-03-005"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "strategy-paper-3",
+      "subjectId": "strategy",
+      "label": "公司战略与风险管理原创限时综合练习3",
+      "questionIds": [
+        "strategy-progress-02-003",
+        "strategy-progress-04-003",
+        "strategy-progress-06-003",
+        "strategy-progress-08-003",
+        "strategy-progress-03-006"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    },
+    {
+      "id": "strategy-paper-4",
+      "subjectId": "strategy",
+      "label": "公司战略与风险管理原创限时综合练习4",
+      "questionIds": [
+        "strategy-progress-02-004",
+        "strategy-progress-04-004",
+        "strategy-progress-06-004",
+        "strategy-progress-08-004",
+        "strategy-progress-04-005"
+      ],
+      "minutes": 90,
+      "note": "全部为原创进阶题，非历年真题，不对应正式考试题型比例或评分。"
+    }
+  ]
+}

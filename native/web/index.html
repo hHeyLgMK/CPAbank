@@ -48,13 +48,15 @@
         <div class="sidebar-body">
           <label class="section-label" for="chapterSelect">学习模块与章节</label>
           <select id="chapterSelect" aria-label="选择章节"></select>
+          <div id="practiceStagePicker" class="section-picker"><label class="section-label" for="practiceStageSelect">练习层级</label><select id="practiceStageSelect" aria-label="选择练习层级"><option value="foundation">零基础</option><option value="application">应用推进</option><option value="chapter">章内小综合</option><option value="cross">跨章综合</option><option value="all">全部层级</option></select></div>
           <div id="sectionPicker" class="section-picker" hidden><label class="section-label" for="sectionSelect">知识节</label><select id="sectionSelect" aria-label="选择知识节"></select></div>
+          <button type="button" id="plannedPracticeBtn" class="planned-practice-button">备考计划练习</button>
           <div id="chapterNote" class="chapter-note"></div>
           <div class="list-heading"><strong>试题列表</strong><button type="button" id="toggleSidebar" title="收起或展开试题列表">收起</button></div>
           <div id="questionNav" class="question-nav"></div>
           <div class="legend"><span><i class="dot current"></i>当前</span><span><i class="dot answered"></i>已答</span><span><i class="dot marked"></i>标记</span></div>
         </div>
-        <div class="sidebar-bottom"><label class="switch-line"><input type="checkbox" id="shuffleOptions"><span>随机选项位置</span></label><a class="download-link" href="./questions.csv" download>下载题库 CSV</a><a class="download-link guide-link" href="./study-guide.md" download>下载四科模块与知识点清单</a><a class="download-link coverage-link" href="./knowledge-points.csv" download>下载知识点与题号对应表</a><p>记录保存在本设备。到“练习历史”导出或导入备份，可在手机与电脑之间手动同步。</p></div>
+        <div class="sidebar-bottom"><label class="switch-line"><input type="checkbox" id="shuffleOptions"><span>随机选项位置</span></label><a class="download-link" href="./questions.csv" download>下载题库 CSV</a><a class="download-link" href="./progression-guide.md" download>下载进阶题与完整解析</a><a class="download-link" href="./progression-plan.csv" download>下载逐周进阶题号</a><a class="download-link" href="./knowledge-index.csv" download>下载六科知识点索引</a><a class="download-link guide-link" href="./study-guide.md" download>下载四科模块与知识点清单</a><a class="download-link coverage-link" href="./knowledge-points.csv" download>下载知识点与题号对应表</a><p>记录保存在本设备。到“练习历史”导出或导入备份，可在手机与电脑之间手动同步。</p></div>
       </aside>
       <main class="workbench">
         <div class="workhead">

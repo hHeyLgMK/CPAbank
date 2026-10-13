@@ -8,7 +8,7 @@ const dir=path.join(root,'web'),out=path.join(root,'../work/peer-build');
 fs.mkdirSync(out,{recursive:true});
 const read=name=>fs.readFileSync(path.join(dir,name),'utf8');
 const wrap=(name,bindings)=>'(()=>{'+read(name).replace(/^import .*;\n/gm,'').replace(/^export /gm,'')+'\nreturn {'+bindings+'};})()';
-const files=['basic-theory.js','accounting-expanded.js','questions.js','extra-subjects.js','strategy.js','question-numbers.js'];
+const files=['basic-theory.js','accounting-expanded.js','questions.js','extra-subjects.js','strategy.js','question-numbers.js','progression.js'];
 const bankId=createHash('sha256').update(files.map(read).join('\n')).digest('hex');
 let scripts=[
   'const {basicTheoryQuestions}='+wrap('basic-theory.js','basicTheoryQuestions')+';',
@@ -17,6 +17,7 @@ let scripts=[
   'const {extraSubjects}='+wrap('extra-subjects.js','extraSubjects')+';',
   'const {strategySubject}='+wrap('strategy.js','strategySubject')+';',
   'const {questionNumbers}='+wrap('question-numbers.js','questionNumbers')+';',
+  'const {progressionQuestions,progressionPlan,attachProgression}='+wrap('progression.js','progressionQuestions,progressionPlan,attachProgression')+';',
   'const {createPeerSync}='+wrap('peer-sync.js','createPeerSync')+';',
   read('app.js').replace(/^import .*;\n/gm,'').replaceAll('BANK_PLACEHOLDER',bankId)
 ].join('\n');

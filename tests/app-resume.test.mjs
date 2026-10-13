@@ -6,8 +6,12 @@ import {chapters as accountingChapters,questions as accountingQuestions} from '.
 import {extraSubjects} from '../dist/extra-subjects.js';
 import {strategySubject} from '../dist/strategy.js';
 import {questionNumbers} from '../dist/question-numbers.js';
+import {attachProgression,progressionQuestions,progressionPlan} from '../dist/progression.js';
 import {readProgress,writeProgress} from '../dist/progress.js';
 
+const foundationSubjects={accounting:{questions:accountingQuestions},...extraSubjects,strategy:strategySubject};
+const expectedCounts=Object.fromEntries(Object.entries(foundationSubjects).map(([id,subject])=>[id,new Set([...subject.questions,...(progressionQuestions[id] || [])].map(q=>q.id)).size]));
+const expectedTotal=Object.values(expectedCounts).reduce((sum,count)=>sum+count,0);
 const source = fs.readFileSync(new URL('../dist/app.js',import.meta.url),'utf8').replace(/^import .*;\r?\n/gm,'');
 // Run the production application with an in-memory DOM and persistent storage.
 // A fresh VM represents reopening the application; no session variables survive.
@@ -38,7 +42,7 @@ function boot(disk=new Map(), script=source, syncFactory) {
     window:{addEventListener:(name,fn)=>{events[name]=fn;}},
     localStorage:{getItem:key=>disk.get(key)??null,setItem:(key,value)=>disk.set(key,value)},
     setInterval:fn=>{timers.set(++timerId,fn);return timerId;},clearInterval:id=>timers.delete(id),
-    createLanSync:syncFactory,matchMedia:()=>({matches:false}),accountingChapters,accountingQuestions,extraSubjects,strategySubject,questionNumbers,readProgress,writeProgress,
+    createLanSync:syncFactory,matchMedia:()=>({matches:false}),accountingChapters,accountingQuestions,extraSubjects,strategySubject,questionNumbers,attachProgression,progressionPlan,readProgress,writeProgress,
     URL:{createObjectURL:()=> 'blob:test'},Blob,Uint8Array,atob});
   vm.runInContext(script,context,{timeout:10000});
   return {disk,nodes,events,timers,run:code=>vm.runInContext(code,context),
@@ -89,11 +93,15 @@ test('real app ignores malformed progress without losing existing practice stati
 test('EXE HTML initializes the full bank and resumes production answers after restart',()=>{
   const html=fs.readFileSync(new URL('../work/windows-build/CPA_Accounting_Offline.html',import.meta.url),'utf8');
   const scripts=[...html.matchAll(/<script>([\s\S]*?)<\/script>/g)];assert.equal(scripts.length,1);
-  let app=boot(new Map(),scripts[0][1]);assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),4412);
+  let app=boot(new Map(),scripts[0][1]);assert.equal(app.run('Object.values(subjects).reduce((n,s)=>n+s.questions.length,0)'),expectedTotal);
   app.run('openAccounting();navigate(2);selectChoice(current(),1)');
   const expected=app.run('current().id');app=boot(app.disk,scripts[0][1]);
   assert.equal(app.run('current().id'),expected);assert.deepEqual(app.json('answerFor(current()).choices'),[1]);
-  assert.equal(app.run('Object.keys(offlineURLs).length'),12);
+  const downloads=fs.readdirSync(new URL('../dist/',import.meta.url)).filter(name=>/\.(csv|md)$/.test(name));
+  assert.equal(app.run('Object.keys(offlineURLs).length'),downloads.length);
+  for(const name of ['progression-guide.md','progression-plan.csv','knowledge-index.csv']) {
+    assert.equal(app.run('typeof offlineURLs['+JSON.stringify(name)+']'),'string');
+  }
 });
 
 test('six subjects and the latest tax supplement survive reopening with their displayed numbers',()=>{
@@ -105,7 +113,7 @@ test('six subjects and the latest tax supplement survive reopening with their di
   const taxId=app.run('current().id');app=boot(app.disk);
   assert.equal(app.run('subjectId'),'tax');assert.equal(app.run('current().id'),taxId);
   assert.equal(app.run('answerFor(current()).text'),'税法补充题的未提交草稿');
-  assert.equal(app.run('subjects.tax.questions.length'),554);
+  assert.equal(app.run('subjects.tax.questions.length'),expectedCounts.tax);
   app.run("openSubject('strategy')");
   assert.equal(app.run('current().id'),strategy.id);assert.equal(app.run('session.id'),strategy.sessionId);
   assert.equal(app.run('data.history.length'),1);
@@ -174,4 +182,92 @@ test('passive LAN device does not decrement mock time; invalid import preserves 
   const before=new Map(app.disk);
   assert.throws(()=>hooks.apply({data:'{}',progress:'invalid'}));
   assert.deepEqual(app.disk,before);
+});
+
+test('practice levels filter actual new questions, default composite groups to all sections and preserve level across subjects',()=>{
+  const app=boot();
+  for(const subject of ['accounting','tax','strategy']) {
+    app.run(`openSubject('${subject}')`);
+    for(const stage of ['application','chapter','cross']) {
+      const chapter=app.run(`questions.find(q=>q.practiceStage==='${stage}').chapterIndex`);
+      app.run(`startChapter(${chapter});changePracticeStage('${stage}')`);
+      assert.ok(app.run('session.items.length')>0);
+      assert.equal(app.run(`session.items.every(q=>q.practiceStage==='${stage}')`),true);
+      assert.equal(app.nodes.get('practiceStageSelect').value,stage);
+      if(stage!=='application') assert.equal(app.run('sectionName'),'__all__');
+    }
+  }
+  app.run("openSubject('law')");
+  assert.equal(app.run('practiceStage'),'cross');
+  assert.equal(app.run('session.items.length'),0);
+  assert.equal(app.nodes.get('questionContent').children[0].children[0].textContent,'当前筛选暂无题目');
+  app.nodes.get('questionContent').children[0].children[2].onclick();
+  assert.equal(app.run('practiceStage'),'all');
+  assert.ok(app.run('session.items.length')>0);
+});
+
+test('advanced level, draft, history and multi-point knowledge index survive real app restart',()=>{
+  let app=boot();app.run("openSubject('accounting');changePracticeStage('chapter')");
+  const chapter=app.run("questions.find(q=>q.practiceStage==='chapter').chapterIndex");
+  app.run(`startChapter(${chapter});answerFor(current()).text='综合题未提交草稿';saveProgress()`);
+  const id=app.run('current().id');app=boot(app.disk);
+  assert.equal(app.run('practiceStage'),'chapter');assert.equal(app.run('current().id'),id);
+  assert.equal(app.run('answerFor(current()).text'),'综合题未提交草稿');
+  assert.match(app.nodes.get('questionContent').children[0].textContent,/建议 \d+ 分钟/);
+  assert.doesNotMatch(app.nodes.get('questionContent').children[0].textContent,/章内小综合 · 章内小综合/);
+  app.run('submitAnswer()');
+  assert.equal(app.run('data.history[0].practiceStage'),'chapter');
+  assert.match(app.run('historyTitle(data.history[0])'),/章内小综合/);
+  const lines=app.nodes.get('feedback').children.filter(node=>node.className==='knowledge-line');
+  assert.ok(lines.length>0);assert.ok(lines.every(node=>node.textContent.startsWith('知识点索引：')));
+  const rubric=app.nodes.get('feedback').children.find(node=>node.className==='scoring-points');
+  assert.equal(rubric.children.length,app.run('current().rubric.length'));
+  app.run(`appendKnowledgeIndex($('feedback'),{knowledgePoint:'收入确认',source:{chapter:'第十七章 收入',section:'第二节 收入确认',printedPage:'430—439',pdfPage:'453—462',locationGranularity:'section'}})`);
+  const range=app.nodes.get('feedback').children.at(-1).textContent;
+  assert.match(range,/教材阅读范围第 430—439 页/);assert.match(range,/PDF阅读范围第 453—462 页/);
+});
+
+test('knowledge index lists each referenced point and preserves official supplementary links',()=>{
+  const app=boot();
+  app.run(`$('feedback').replaceChildren();appendKnowledgeIndex($('feedback'),{knowledgePoint:'综合分析',source:{references:[
+    {knowledgePoint:'收入确认',chapter:'第十七章 收入',section:'第二节 收入确认',printedPage:430,pdfPage:453,locationGranularity:'point'},
+    {knowledgePoint:'所得税费用',chapter:'第十九章 所得税',section:'第三节 所得税费用',printedPage:511,pdfPage:534,locationGranularity:'point'}
+  ]}})`);
+  const lines=app.nodes.get('feedback').children;
+  assert.equal(lines.length,2);
+  assert.equal(lines[0].textContent,'知识点索引：收入确认 · 第十七章 收入 · 第二节 收入确认 · 教材第 430 页 · PDF第 453 页');
+  assert.match(lines[1].textContent,/所得税费用.*教材第 511 页.*PDF第 534 页/);
+  app.run(`appendKnowledgeIndex($('feedback'),{knowledgePoint:'纳税信用',source:{locationGranularity:'official',url:'https://www.chinatax.gov.cn/'}})`);
+  const official=app.nodes.get('feedback').children.at(-1);
+  assert.match(official.textContent,/知识点索引：纳税信用 · 官方补充/);
+  assert.equal(official.children.at(-1).href,'https://www.chinatax.gov.cn/');
+  app.run(`appendKnowledgeIndex($('feedback'),{knowledgePoint:'收入确认',source:{printedPage:'430—431',pdfPage:'453—454',locationGranularity:'topic-range'}})`);
+  assert.match(app.nodes.get('feedback').children.at(-1).textContent,/教材知识点范围第 430—431 页.*PDF知识点范围第 453—454 页/);
+});
+
+test('planned paper uses its fixed questions and two-hour clock through restart and history',()=>{
+  let app=boot();app.run("openSubject('accounting');showPlannedPractice()");
+  assert.equal(app.nodes.get('modalTitle').textContent,'备考计划练习');
+  const paper=progressionPlan.papers.find(p=>p.subjectId==='accounting');
+  app.run('startPlannedPaper('+JSON.stringify(paper)+');answerFor(current()).text="限时综合草稿";saveProgress()');
+  assert.deepEqual(app.json('session.items.map(q=>q.id)'),paper.questionIds);
+  assert.equal(app.run('session.mode'),'mock');assert.equal(app.run('session.seconds'),paper.minutes*60);
+  for(let i=0;i<17;i++)for(const tick of app.timers.values())tick();
+  app=boot(app.disk);
+  assert.equal(app.run('session.seconds'),paper.minutes*60-17);assert.equal(app.run('session.paperLabel'),paper.label);
+  assert.equal(app.run('answerFor(current()).text'),'限时综合草稿');
+  assert.match(app.nodes.get('chapterNote').textContent,new RegExp(paper.minutes+' 分钟'));
+  app.run('session.items.forEach(q=>answerFor(q).text="已完成答案");finishMock(false)');
+  assert.match(app.nodes.get('modalBody').children[0].textContent,/逐题对照自评/);
+  assert.doesNotMatch(app.nodes.get('modalBody').children[0].textContent,/客观题成绩/);
+  app.run('finishMock(true)');
+  assert.equal(app.run('data.history[0].paperLabel'),paper.label);
+  assert.equal(app.run('data.history[0].paperMinutes'),paper.minutes);
+  assert.match(app.nodes.get('result').children[1].textContent,/简答与应用题已填写/);
+  assert.doesNotMatch(app.nodes.get('result').children[1].textContent,/客观题|0\s*\/\s*0/);
+  const actions=app.nodes.get('result').children.find(node=>node.className==='self-grade');
+  assert.equal(actions.children[1].textContent,'重新练习本套');
+  actions.children[1].onclick();
+  assert.deepEqual(app.json('session.items.map(q=>q.id)'),paper.questionIds);
+  assert.equal(app.run('session.seconds'),paper.minutes*60);
 });

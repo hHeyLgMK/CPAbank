@@ -2,11 +2,13 @@ import {chapters as accountingChapters, questions as accountingQuestions} from '
 import {extraSubjects} from './extra-subjects.js';
 import {strategySubject} from './strategy.js';
 import {questionNumbers} from './question-numbers.js';
+import {attachProgression,progressionPlan} from './progression.js';
 import {createPeerSync} from './peer-sync.js';
 const accountingModules = [['基础理论',[1,2,3]],['资产与投资',[4,5,6,7,15]],['负债与权益',[8,9,10,11,12,16]],['金融工具与租赁',[13,14]],['收入与特殊交易',[17,18,19,20,21,22]],['报告与会计变更',[23,24,25]],['合并与计量',[26,27,28,29]],['政府与非营利会计',[30]]];
 const subjects = {accounting:{name:'会计',chapters:accountingChapters,questions:accountingQuestions,modules:accountingModules},...extraSubjects,strategy:strategySubject};
+attachProgression(subjects);
 let subjectId='accounting';
-let chapters=accountingChapters, questions=accountingQuestions;
+let {chapters,questions}=subjects.accounting;
 const subjectSessions=new Map();
 let peerSync=null;
 let appMenuOpen=false;
@@ -18,6 +20,8 @@ const letters = ['A','B','C','D'];
 const storageKey = 'cpa-accounting-zero-v1';
 // GitHub latest cpa-practice-sessions-v1 compatible per-subject resume support.
 const progressKey = 'cpa-practice-sessions-v1';
+// Store question IDs rather than a second copy of the question bank.
+// Store question IDs rather than a second copy of the question bank.
 function writeProgress(storage, key, active, previousSubjects) {
   const states = new Map(previousSubjects);
   states.set(active.subjectId, active);
@@ -28,6 +32,8 @@ function writeProgress(storage, key, active, previousSubjects) {
     sessions[id] = {
       id:s.id, startedAt:s.startedAt,
       chapterIndex:state.chapterIndex, sectionName:state.sectionName,
+      practiceStage:['foundation','application','chapter','cross','all'].includes(state.practiceStage) ? state.practiceStage : 'foundation',
+      paperLabel:s.paperLabel, paperMinutes:s.paperMinutes,
       mode:s.mode, ids:s.items.map(q => q.id), index:s.index,
       answers:s.answers, orders:s.orders,
       finished:s.finished, showResult:s.showResult, seconds:s.seconds
@@ -36,9 +42,11 @@ function writeProgress(storage, key, active, previousSubjects) {
   storage.setItem(key, JSON.stringify({version:1, subjectId:active.subjectId,
     selectionOpen:active.selectionOpen, fontSize:active.fontSize, sessions}));
 }
+
 function readProgress(storage, key, subjects) {
   let saved;
-  try { saved = JSON.parse(storage.getItem(key) || 'null'); } catch { return null; }
+  try { saved = JSON.parse(storage.getItem(key) || 'null'); }
+  catch { return null; }
   if (!saved || saved.version !== 1 || !subjects[saved.subjectId] ||
       !saved.sessions || typeof saved.sessions !== 'object') return null;
   const states = new Map();
@@ -50,12 +58,15 @@ function readProgress(storage, key, subjects) {
         new Set(value.ids).size !== value.ids.length) continue;
     const byId = new Map(subject.questions.map(q => [q.id,q]));
     const items = value.ids.map(id => byId.get(id));
-    if (items.some(q => !q) || (!items.length && value.mode !== 'wrong')) continue;
-    const sections = [...new Set(subject.questions.filter(q => q.chapterIndex === value.chapterIndex)
+    // A removed question invalidates this session, without touching statistics.
+    const practiceStage = ['foundation','application','chapter','cross','all'].includes(value.practiceStage) ? value.practiceStage : 'foundation';
+    if (items.some(q => !q) || (!items.length && value.mode === 'mock')) continue;
+    const matchesStage = q => practiceStage === 'all' || (q.practiceStage || 'foundation') === practiceStage;
+    const sections = [...new Set(subject.questions.filter(q => q.chapterIndex === value.chapterIndex && matchesStage(q))
       .map(q => q.studySection || q.source?.section).filter(Boolean))];
     const sectionName = value.sectionName === '__all__' || sections.includes(value.sectionName)
       ? value.sectionName : sections[0] || '__all__';
-    if (value.mode === 'learn' && items.some(q => q.chapterIndex !== value.chapterIndex ||
+    if (value.mode === 'learn' && items.some(q => !matchesStage(q) || q.chapterIndex !== value.chapterIndex ||
         (sectionName !== '__all__' && (q.studySection || q.source?.section) !== sectionName))) continue;
     const answers = {}, orders = {};
     const finished = ['learn','mock'].includes(value.mode) && value.finished === true;
@@ -77,23 +88,26 @@ function readProgress(storage, key, subjects) {
         judged:typeof a.judged === 'boolean' ? a.judged : null,
         recorded:a.recorded === true && (submitted || finished)};
     }
+    const paperMinutes = Number.isInteger(value.paperMinutes) && value.paperMinutes > 0 && value.paperMinutes <= 180 ? value.paperMinutes : 45;
     const session = {mode:value.mode, items,
+      paperLabel:typeof value.paperLabel === 'string' ? value.paperLabel.slice(0,200) : null, paperMinutes,
       id:typeof value.id === 'string' ? value.id : undefined,
       startedAt:typeof value.startedAt === 'string' ? value.startedAt : undefined,
       index:Number.isInteger(value.index) ? Math.max(0,Math.min(value.index,items.length-1)) : 0,
       answers, orders, finished, showResult:finished && value.showResult === true,
-      seconds:Number.isFinite(value.seconds) ? Math.max(0,Math.min(2700,Math.floor(value.seconds))) : 2700};
-    states.set(id, {session, chapterIndex:value.chapterIndex, sectionName});
+      seconds:Number.isFinite(value.seconds) ? Math.max(0,Math.min(paperMinutes*60,Math.floor(value.seconds))) : paperMinutes*60};
+    states.set(id, {session, chapterIndex:value.chapterIndex, sectionName, practiceStage});
   }
   if (!states.has(saved.subjectId)) return null;
   return {subjectId:saved.subjectId, selectionOpen:saved.selectionOpen === true,
     fontSize:Number.isFinite(saved.fontSize) ? Math.max(.85,Math.min(1.4,saved.fontSize)) : 1, states};
 }
+
 function saveProgress() {
   if (!session) return;
   try {
     writeProgress(localStorage,progressKey,
-      {subjectId,chapterIndex,sectionName,session,selectionOpen,fontSize},subjectSessions);
+      {subjectId,chapterIndex,sectionName,practiceStage,session,selectionOpen,fontSize},subjectSessions);
     const status=$('progressStatus');
     if (status) status.textContent = '已保存当前作答，退出后可继续';
   } catch {
@@ -115,7 +129,7 @@ function restorePractice() {
   subjectId=saved.subjectId;
   ({chapters,questions}=subjects[subjectId]);
   byId=new Map(questions.map(q=>[q.id,q]));
-  ({session,chapterIndex,sectionName}=active);
+  ({session,chapterIndex,sectionName,practiceStage}=active);
   fontSize=saved.fontSize;
   populateChapters();
   populateSections();
@@ -155,6 +169,16 @@ if (!data.sync || !data.sync.bases || !Array.isArray(data.sync.events)) {
 }
 let chapterIndex = 0;
 let sectionName = null;
+const practiceStageName = {foundation:'零基础',application:'应用推进',chapter:'章内小综合',cross:'跨章综合',all:'全部层级'};
+let practiceStage = 'foundation';
+function matchesPracticeStage(q) { return practiceStage === 'all' || (q.practiceStage || 'foundation') === practiceStage; }
+function stageChapterQuestions(index) { return questions.filter(q => q.chapterIndex === index && matchesPracticeStage(q)); }
+function changePracticeStage(value) {
+  practiceStage = Object.hasOwn(practiceStageName,value) ? value : 'foundation';
+  sectionName = null;
+  populateChapters();
+  startChapter(chapterIndex,['chapter','cross'].includes(practiceStage) ? '__all__' : undefined);
+}
 let session;
 let fontSize = 1;
 let timerHandle = null;
@@ -181,12 +205,12 @@ function shuffle(input) {
   }
   return a;
 }
-function makeSession(mode, items) {
+function makeSession(mode, items, paper = null) {
   const orders = {};
   items.forEach(q => {
     if (q.options) orders[q.id] = data.shuffle ? shuffle(q.options.map((_,i) => i)) : q.options.map((_,i) => i);
   });
-  session = {id:Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9), startedAt:new Date().toISOString(), mode, items, index:0, answers:{}, orders, marked:new Set(data.marks), finished:false, showResult:false, seconds:45*60};
+  session = {id:Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,9), startedAt:new Date().toISOString(), mode, items, index:0, answers:{}, orders, marked:new Set(data.marks), finished:false, showResult:false, paperLabel:paper?.label || null, paperMinutes:paper?.minutes || 45, seconds:(paper?.minutes || 45)*60};
   startTimer();
   closeDrawer();
   render();
@@ -205,40 +229,68 @@ function startTimer() {
   }
 }
 function chapterSections(index) {
-  return [...new Set(questions.filter(q => q.chapterIndex === index).map(q => q.studySection || q.source?.section).filter(Boolean))];
+  return [...new Set(stageChapterQuestions(index).map(q => q.studySection || q.source?.section).filter(Boolean))];
 }
 function startChapter(index, requestedSection) {
   const previousSection = index === chapterIndex ? sectionName : null;
   chapterIndex = index;
   const sections = chapterSections(index);
-  sectionName = requestedSection === undefined ? (previousSection && (previousSection === '__all__' || sections.includes(previousSection)) ? previousSection : (subjectId === 'accounting' ? sections[0] : '__all__') || '__all__') : requestedSection;
-  if (sectionName !== '__all__' && !sections.includes(sectionName)) sectionName = sections[0] || '__all__';
+  const defaultSection = subjectId === 'accounting' && !['chapter','cross','all'].includes(practiceStage) ? sections[0] : '__all__';
+  sectionName = requestedSection === undefined ? (previousSection && (previousSection === '__all__' || sections.includes(previousSection)) ? previousSection : defaultSection) || '__all__' : requestedSection;
+  if (sectionName !== '__all__' && !sections.includes(sectionName)) sectionName = defaultSection || '__all__';
   populateSections();
-  makeSession('learn', questions.filter(q => q.chapterIndex === index && (sectionName === '__all__' || (q.studySection || q.source?.section) === sectionName)));
+  makeSession('learn', stageChapterQuestions(index).filter(q => sectionName === '__all__' || (q.studySection || q.source?.section) === sectionName));
 }
 function populateSections() {
-  const index=chapterIndex;
-  const sections=chapterSections(index);
+  const items = stageChapterQuestions(chapterIndex);
+  const sections = chapterSections(chapterIndex);
   const sectionSelect = $('sectionSelect');
   sectionSelect.replaceChildren();
-  if (sections.length) {
-    const all = el('option','','本章全部（'+chapters[chapterIndex].items.length+' 题）');
-    all.value = '__all__';
-    sectionSelect.append(all);
-    sections.forEach(section => {
-      const count = questions.filter(q => q.chapterIndex === index && (q.studySection || q.source?.section) === section).length;
-      const option = el('option','',section+'（'+count+' 题）');
-      option.value = section;
-      sectionSelect.append(option);
-    });
-    sectionSelect.value = sectionName;
-  }
+  const all = el('option','','本章全部（'+items.length+' 题）');
+  all.value = '__all__';
+  sectionSelect.append(all);
+  sections.forEach(section => {
+    const count = items.filter(q => (q.studySection || q.source?.section) === section).length;
+    const option = el('option','',section+'（'+count+' 题）');
+    option.value = section;
+    sectionSelect.append(option);
+  });
+  sectionSelect.value = sectionName;
 }
 function startMock() {
   const singles = shuffle(questions.filter(q => q.type === 'single')).slice(0,10);
   const multis = shuffle(questions.filter(q => q.type === 'multi')).slice(0,5);
   const writtens = shuffle(questions.filter(q => q.type === 'written')).slice(0,5);
   makeSession('mock', [...singles,...multis,...writtens]);
+}
+function startPlannedPaper(paper) {
+  const items = paper.questionIds.map(id => byId.get(id));
+  if (paper.subjectId !== subjectId || !items.length || items.some(q => !q) ||
+      !Number.isInteger(paper.minutes) || paper.minutes <= 0 || paper.minutes > 180) {
+    openModal('限时练习暂不可用',body => body.append(el('p','','当前题库无法完整加载这组计划题，请选择其他限时练习。')));
+    return;
+  }
+  closeModal();
+  makeSession('mock',items,paper);
+}
+function showPlannedPractice() {
+  openModal('备考计划练习',body => {
+    body.append(el('p','history-note','先完成应用推进与综合练习，再按计划进入限时训练。以下均为原创限时综合练习，非官方试卷；交卷后逐题查看解析并自评。'));
+    const papers = progressionPlan.papers.filter(paper => paper.subjectId === subjectId);
+    if (!papers.length) {
+      body.append(el('p','','本科学习计划暂未安排限时综合练习，可继续使用章节学习与 45 分钟模拟练习。'));
+      return;
+    }
+    const list = el('div','history-list');
+    papers.forEach(paper => {
+      const button = el('button','history-card');
+      button.type='button';
+      button.append(el('strong','',paper.label),el('span','',paper.minutes+' 分钟 · '+paper.questionIds.length+' 题 · 原创练习'));
+      button.onclick = () => startPlannedPaper(paper);
+      list.append(button);
+    });
+    body.append(list);
+  });
 }
 function startWrong() {
   const items = questions.filter(q => data.records[q.id]?.wrong);
@@ -280,7 +332,8 @@ function historyEntry() {
   let entry = data.history.find(item => item.id === session.id);
   if (!entry) {
     entry = {id:session.id, startedAt:session.startedAt, finishedAt:null,
-      subject:subjectId, mode:session.mode,
+      subject:subjectId, mode:session.mode, practiceStage:session.mode === 'learn' ? practiceStage : 'all',
+      paperLabel:session.paperLabel, paperMinutes:session.paperMinutes,
       chapter:session.mode === 'learn' ? chapters[chapterIndex]?.title : null,
       section:session.mode === 'learn' && sectionName !== '__all__' ? sectionName : null,
       total:session.items.length, items:[]};
@@ -351,7 +404,7 @@ function normalizeBackup(text) {
     });
     history.push({id:entry.id,startedAt:entry.startedAt,
       finishedAt:typeof entry.finishedAt === 'string' && Number.isFinite(Date.parse(entry.finishedAt)) ? entry.finishedAt : null,
-      subject:entry.subject,mode:entry.mode,chapter:String(entry.chapter || '').slice(0,200) || null,
+      subject:entry.subject,mode:entry.mode,paperLabel:typeof entry.paperLabel === 'string' ? entry.paperLabel.slice(0,200) : null,paperMinutes:Number.isInteger(entry.paperMinutes) && entry.paperMinutes > 0 && entry.paperMinutes <= 180 ? entry.paperMinutes : 45,practiceStage:Object.hasOwn(practiceStageName,entry.practiceStage) ? entry.practiceStage : 'foundation',chapter:String(entry.chapter || '').slice(0,200) || null,
       section:String(entry.section || '').slice(0,200) || null,total:entry.total,items});
   }
   if (backup.data.marks.length > 10000 || !backup.data.marks.every(id => typeof id === 'string' && id.length <= 150)) throw Error('标记题目格式不正确');
@@ -474,7 +527,7 @@ function finishMock(auto) {
       return q.type === 'written' ? !a.text.trim() : !a.choices.length;
     }).length;
     openModal('确认交卷', body => {
-      body.append(el('p','',unanswered ? '还有 '+unanswered+' 题未填写。交卷后可查看解析与参考答案。' : '交卷后会显示客观题成绩和所有题目的解析。'));
+      body.append(el('p','',unanswered ? '还有 '+unanswered+' 题未填写。交卷后可查看解析与参考答案。' : session.items.some(q => q.type !== 'written') ? '交卷后会显示客观题成绩和所有题目的解析。' : '交卷后可查看参考答案与得分点，请逐题对照自评。'));
       const row = el('div','self-grade');
       const yes = el('button','','确认交卷');
       const cancel = el('button','no','继续作答');
@@ -509,7 +562,7 @@ function finishLearning(confirmed) {
     openModal('提交本组练习', body => {
       body.append(el('p','',unanswered
         ? '本组还有 '+unanswered+' 题未填写。已作答题目会一起提交；未答题不会计入错题。提交后不能修改答案。'
-        : '本组题目已填写。提交后会显示客观题结果；简答题需要对照参考答案自行评价。'));
+        : session.items.some(q => q.type !== 'written') ? '本组题目已填写。提交后会显示客观题结果；简答题需要对照参考答案自行评价。' : '本组题目已填写。提交后请对照参考答案与得分点逐题自评。'));
       const row = el('div','self-grade');
       const yes = el('button','','确认提交');
       const cancel = el('button','no','继续作答');
@@ -552,7 +605,7 @@ function renderNav() {
   const container = $('questionNav');
   container.replaceChildren();
   if (!session.items.length) {
-    container.append(el('p','writing-hint','暂无错题，先去章节学习。'));
+    container.append(el('p','writing-hint',session.mode === 'learn' ? '当前章节和练习层级暂无题目。' : '暂无错题，先去章节学习。'));
     return;
   }
   for (const type of ['single','multi','written']) {
@@ -588,7 +641,7 @@ function renderQuestion(q) {
   box.replaceChildren();
   box.hidden = false;
   const a = answerFor(q);
-  box.append(el('div','question-head', '第 '+(session.index+1)+' / '+session.items.length+' 题 · 编号 '+numberFor(q)+' · '+typeName[q.type]+' · '+q.level));
+  box.append(el('div','question-head', '第 '+(session.index+1)+' / '+session.items.length+' 题 · 编号 '+numberFor(q)+' · '+typeName[q.type]+' · '+practiceStageName[q.practiceStage || 'foundation']+(q.level && q.level !== practiceStageName[q.practiceStage || 'foundation'] ? ' · '+q.level : '')+(q.recommendedMinutes ? ' · 建议 '+q.recommendedMinutes+' 分钟' : '')));
   box.append(el('h2','question-title',q.stem));
   if (q.options) {
     const optionBox = el('div','options');
@@ -622,12 +675,31 @@ function renderQuestion(q) {
   }
   renderFeedback(q,a);
 }
-function sourceLabel(q) {
-  if (!q.source) return '';
-  const {book, chapter, section, printedPage, pdfPage, note} = q.source;
-  const location = [book, chapter, section].filter(Boolean).join(' · ');
-  const pages = [printedPage ? '教材第 '+printedPage+' 页' : '', pdfPage ? 'PDF 第 '+pdfPage+' 页' : ''].filter(Boolean).join(' / ');
-  return [location, pages, note].filter(Boolean).join(' · ');
+function sourceLabel(q, source = q.source) {
+  if (!source) return q.knowledgePoint || '';
+  const {chapter, section, printedPage, pdfPage, note, locationGranularity} = source;
+  const pageLabel = (value,kind) => {
+    if (!value) return '';
+    const exact = !['section','topic-range'].includes(locationGranularity) && /^\d+$/.test(String(value));
+    const prefix = locationGranularity === 'topic-range' ? '知识点范围第 ' : exact ? '第 ' : '阅读范围第 ';
+    return kind+prefix+value+' 页';
+  };
+  return [source.knowledgePoint || q.knowledgePoint,chapter,section,
+    pageLabel(printedPage,'教材'),pageLabel(pdfPage,'PDF'),
+    locationGranularity === 'official' ? '官方补充' : '',note].filter(Boolean).join(' · ');
+}
+function appendKnowledgeIndex(container,q,className='knowledge-line') {
+  const references = q.source?.references?.length ? q.source.references : [q.source];
+  if (!q.knowledgePoint && !q.source) return;
+  references.forEach(source => {
+    const line = el('p',className,'知识点索引：'+sourceLabel(q,source));
+    if (source?.url || q.source?.url) {
+      const link = el('a','','查看官方原文');
+      link.href=source?.url || q.source.url;link.target='_blank';link.rel='noopener noreferrer';
+      line.append(document.createTextNode(' '),link);
+    }
+    container.append(line);
+  });
 }
 function renderFeedback(q,a) {
   const panel = $('feedback');
@@ -657,16 +729,13 @@ function renderFeedback(q,a) {
       panel.append(row);
     }
   }
-  if (q.knowledgePoint) panel.append(el('p','knowledge-line','知识点：'+q.knowledgePoint));
-  if (q.source) {
-    const line = el('p','source-line',(q.source.locationGranularity === 'official' ? '官方补充：' : q.source.locationGranularity === 'section' ? '教材阅读范围：' : '教材位置：')+sourceLabel(q));
-    if (q.source.url) {
-      const link = el('a','','查看官方原文');
-      link.href=q.source.url;link.target='_blank';link.rel='noopener noreferrer';
-      line.append(document.createTextNode(' '),link);
-    }
-    panel.append(line);
+  if (Array.isArray(q.rubric) && q.rubric.length) {
+    panel.append(el('p','writing-hint','得分点：'));
+    const list = el('ul','scoring-points');
+    q.rubric.forEach(point => list.append(el('li','',point)));
+    panel.append(list);
   }
+  appendKnowledgeIndex(panel,q);
   if (data.records[q.id]?.wrong) {
     const n = data.records[q.id].streak || 0;
     panel.append(el('p','writing-hint','错题复习进度：连续答对 '+n+' / 3 次可移出错题本。'));
@@ -680,23 +749,26 @@ function renderResult() {
   const answeredObjective = objective.filter(q => answerFor(q).choices.length);
   const correct = answeredObjective.filter(q => chosenCorrect(q,answerFor(q))).length;
   const learning = session.mode === 'learn';
-  box.append(el('h2','',learning?'本组练习已提交':'模拟练习完成'));
-  box.append(el('p','score',learning
-    ? '客观题已答 '+answeredObjective.length+' / '+objective.length+'，正确 '+correct+' 题'
+  box.append(el('h2','',learning?'本组练习已提交':(session.paperLabel || '模拟练习')+'完成'));
+  const writtenAnswered = session.items.filter(q => q.type === 'written' && answerFor(q).text.trim()).length;
+  box.append(el('p','score',!objective.length
+    ? '简答与应用题已填写 '+writtenAnswered+' / '+session.items.length+' 题，请逐题对照参考答案与得分点自评。'
+    : learning ? '客观题已答 '+answeredObjective.length+' / '+objective.length+'，正确 '+correct+' 题'
     : '客观题 '+correct+' / '+objective.length+' 题正确'));
   if (learning) {
     const written = session.items.filter(q => q.type === 'written');
     box.append(el('p','','简答题已提交 '+written.filter(q => answerFor(q).text.trim()).length+' / '+written.length+' 题；点击题号查看参考答案并自评。未答题不计入错题。'));
   } else {
-    box.append(el('p','','本套题从原创入门题库抽取，练习时长 45 分钟；不是中注协官方试卷，也不代表真实考试分数。'));
+    box.append(el('p','','本套为原创练习，时长 '+session.paperMinutes+' 分钟，共 '+session.items.length+' 题；不是中注协官方试卷，也不代表真实考试分数。'));
     box.append(el('p','','简答与应用题需点击题号，对照参考答案自行评价。错题会进入错题复习。'));
   }
   const row = el('div','self-grade');
   const review = el('button','','从第 1 题查看解析');
-  const again = el('button','',learning?'重新练习本组':'重新抽题');
+  const again = el('button','',learning?'重新练习本组':session.paperLabel?'重新练习本套':'重新抽题');
   const learn = el('button','',learning?'练习本章全部':'返回章节学习');
   review.onclick = () => navigate(0);
-  again.onclick = learning ? () => startChapter(chapterIndex,sectionName) : startMock;
+  again.onclick = learning ? () => startChapter(chapterIndex,sectionName) : session.paperLabel
+    ? () => makeSession('mock',session.items,{label:session.paperLabel,minutes:session.paperMinutes}) : startMock;
   learn.onclick = learning ? () => startChapter(chapterIndex,'__all__') : () => startChapter(chapterIndex);
   row.append(review,again,learn);
   box.append(row);
@@ -728,19 +800,23 @@ function render() {
   $('chapterSelect').disabled = session.mode !== 'learn';
   $('sectionPicker').hidden = session.mode !== 'learn' || !chapterSections(chapterIndex).length;
   $('sectionSelect').disabled = session.mode !== 'learn';
-  $('chapterNote').textContent = session.mode === 'learn' ? (sectionName === '__all__' ? '本章共 '+chapters[chapterIndex].items.length+' 题。' : '当前练习 '+session.items.length+' / '+chapters[chapterIndex].items.length+' 题；切换知识节可练习其余题目。')+' '+chapters[chapterIndex].lead
-    : session.mode === 'mock' ? '45 分钟 · 随机抽取 20 题 · 交卷后查看解析与自评'
+  $('practiceStagePicker').hidden = session.mode !== 'learn';
+  $('practiceStageSelect').value = practiceStage;
+  $('practiceStageSelect').disabled = session.mode !== 'learn';
+  const stageCount = stageChapterQuestions(chapterIndex).length;
+  $('chapterNote').textContent = session.mode === 'learn' ? practiceStageName[practiceStage]+'：当前练习 '+session.items.length+' / 本章 '+stageCount+' 题。 '+chapters[chapterIndex].lead
+    : session.mode === 'mock' ? session.paperMinutes+' 分钟 · '+session.items.length+' 题 · '+(session.paperLabel ? '计划限时综合' : '随机抽题')+' · 交卷后查看解析与自评'
     : '答错或自评“还不会”的题进入错题本；连续答对 3 次移出。';
   if (session.mode === 'learn' && chapters[chapterIndex].coverage) {
     const c=chapters[chapterIndex].coverage;
-    $('chapterNote').textContent += ' 本章 '+c.sections+' 节均有练习，清单列出 '+c.points+' 个知识点条目。';
+    $('chapterNote').textContent += ' 零基础练习覆盖本章 '+c.sections+' 节，清单列出 '+c.points+' 个知识点条目。';
   }
   renderNav();
   const q = current();
-  $('questionType').textContent = session.mode === 'learn' ? (subjects[subjectId].modules.find(m=>m[1].includes(chapterIndex+1))?.[0]+' · 零基础')
+  $('questionType').textContent = session.mode === 'learn' ? (subjects[subjectId].modules.find(m=>m[1].includes(chapterIndex+1))?.[0]+' · '+practiceStageName[practiceStage])
     : session.mode === 'mock' ? '机考模拟 · 原创练习' : '错题复习 · 巩固';
-  $('sessionTitle').textContent = session.mode === 'learn' ? '第 '+(chapterIndex+1)+' 章 · '+chapters[chapterIndex].title+(sectionName === '__all__' ? '' : ' · '+sectionName)
-    : session.mode === 'mock' ? subjects[subjectId].name+' · 模拟练习' : subjects[subjectId].name+' · 错题复习';
+  $('sessionTitle').textContent = session.mode === 'learn' ? '第 '+(chapterIndex+1)+' 章 · '+chapters[chapterIndex].title+' · '+practiceStageName[practiceStage]+(sectionName === '__all__' ? '' : ' · '+sectionName)
+    : session.mode === 'mock' ? subjects[subjectId].name+' · '+(session.paperLabel || '模拟练习') : subjects[subjectId].name+' · 错题复习';
   $('markBtn').disabled = !q || session.showResult;
   $('markBtn').classList.toggle('active',Boolean(q && data.marks.includes(q.id)));
   $('markBtn').textContent = q && data.marks.includes(q.id) ? '★ 已标记' : '☆ 标记';
@@ -764,9 +840,12 @@ function render() {
   if (!q) {
     $('intro').hidden = true;
     const empty = el('div','empty');
-    empty.append(el('h2','','错题本还是空的'),el('p','','从章节学习开始，答错的题会自动出现在这里。'));
-    const start = el('button','','开始章节学习');
-    start.onclick = () => startChapter(chapterIndex);
+    const learning = session.mode === 'learn';
+    empty.append(el('h2','',learning ? '当前筛选暂无题目' : '错题本还是空的'),el('p','',learning
+      ? subjects[subjectId].name+' · '+chapters[chapterIndex].title+' · '+practiceStageName[practiceStage]+'暂无题目。请选择其他章节或练习层级。'
+      : '从章节学习开始，答错的题会自动出现在这里。'));
+    const start = el('button','',learning ? '查看本章全部层级' : '开始章节学习');
+    start.onclick = learning ? () => changePracticeStage('all') : () => startChapter(chapterIndex);
     empty.append(start);
     $('questionContent').replaceChildren(empty);
     $('questionContent').hidden = false;
@@ -800,8 +879,8 @@ function historyDate(value) {
   return Number.isNaN(date.getTime()) ? '时间未知' : date.toLocaleString('zh-CN');
 }
 function historyTitle(entry) {
-  const mode = {learn:'章节学习',mock:'机考模拟',wrong:'错题复习'}[entry.mode] || '练习';
-  return [subjects[entry.subject]?.name || '原科目',mode,entry.chapter,entry.section].filter(Boolean).join(' · ');
+  const mode = entry.paperLabel || {learn:'章节学习',mock:'机考模拟',wrong:'错题复习'}[entry.mode] || '练习';
+  return [subjects[entry.subject]?.name || '原科目',mode,entry.mode === 'learn' ? practiceStageName[entry.practiceStage || 'foundation'] : null,entry.chapter,entry.section].filter(Boolean).join(' · ');
 }
 function historySummary(entry) {
   const items = Array.isArray(entry.items) ? entry.items : [];
@@ -809,7 +888,7 @@ function historySummary(entry) {
   const objective = items.filter(item => item.type !== 'written' && item.choices?.length);
   const correct = objective.filter(item => item.correct === true).length;
   const pending = items.filter(item => item.type === 'written' && item.correct === null).length;
-  return (entry.finishedAt ? '已完成' : '进行中')+' · 已答 '+attempted+' / '+entry.total+' · 客观题正确 '+correct+' / '+objective.length+(pending ? ' · 简答待自评 '+pending : '');
+  return (entry.finishedAt ? '已完成' : '进行中')+' · 已答 '+attempted+' / '+entry.total+(objective.length ? ' · 客观题正确 '+correct+' / '+objective.length : '')+(pending ? ' · 简答待自评 '+pending : '');
 }
 function showHistory() {
   openModal('练习历史', body => {
@@ -943,6 +1022,7 @@ function showHistoryDetail(id) {
             el('p','history-answer','正确答案：'+format(q.type === 'single' ? [q.answer] : q.answer || [])));
         }
         if (q.explain) card.append(el('p','history-explain','解析：'+q.explain));
+        appendKnowledgeIndex(card,q,'history-index');
       } else card.append(el('p','','此题已不在当前题库中，保留的答案记录仍可查看：'+(item.text || (item.choices || []).map(i => letters[i]).join('、') || '未答')));
       list.append(card);
     });
@@ -988,16 +1068,16 @@ function openAccounting() { openSubject('accounting'); }
 function openSubject(id) {
   saveProgress();
   if (id !== subjectId) {
-    subjectSessions.set(subjectId,{session,chapterIndex,sectionName});
+    subjectSessions.set(subjectId,{session,chapterIndex,sectionName,practiceStage});
     subjectId=id;
     ({chapters,questions}=subjects[id]);
     byId=new Map(questions.map(q=>[q.id,q]));
     populateChapters();
     const previous=subjectSessions.get(id);
-    if (previous) { ({session,chapterIndex,sectionName}=previous); populateSections(); startTimer(); render(); }
-    else {chapterIndex=0;sectionName=null;startChapter(0);}
+    if (previous && previous.practiceStage === practiceStage) { ({session,chapterIndex,sectionName}=previous); populateSections(); startTimer(); render(); }
+    else {chapterIndex=previous?.chapterIndex || 0;sectionName=null;startChapter(chapterIndex);}
   }
-  document.querySelector('.brand small').textContent='2026 教材 · '+subjects[id].name+'入门题库';
+  document.querySelector('.brand small').textContent='2026 教材 · '+subjects[id].name+'分层练习题库';
   document.querySelector('.candidate span').textContent=subjects[id].name+' · '+chapters.length+' 章';
   document.querySelector('.download-link').href=id==='accounting'?'./questions.csv':'./'+id+'-questions.csv';
   document.querySelector('.guide-link').href=id==='strategy'?'./strategy-guide.md':id==='tax'?'./tax-coverage-audit.md':'./study-guide.md';
@@ -1026,8 +1106,9 @@ function showHelp() {
     if (subjects[subjectId].coverage) {
       const c=subjects[subjectId].coverage;
       body.append(el('p','',c.coveredSections+' / '+c.sections+' 节已有题目，知识点清单列出 '+c.knowledgePoints+' 个条目（按节同名去重）。覆盖到每一节不等于穷尽全部细则、例外或综合考法。可下载模块与知识点清单核对。'));
-      body.append(el('p','',subjectId==='strategy'?'战略起步题标注知识节阅读范围，扩充题标注知识点所在教材页。知识点与题号对应表列出实际题目，尚不能据此断言每条细则和综合考法均已覆盖。':subjectId==='tax'?'税法原有逐节题标注所属知识节阅读范围，本次补充题标注知识点所在教材页；扫描缺少印刷页 628—629，相关信用管理题单列官方来源。目录逐节覆盖不代表穷尽所有例外与综合考法。':'新增题标注所属知识节的教材和 PDF 阅读范围。'));
+      body.append(el('p','','解析统一列出知识点索引，包含教材章节、知识节、印刷页和 PDF 页。综合题逐项列出相关知识点；阅读范围和官方补充会明确标注，官方补充保留原文链接。'));
     }
+    body.append(el('p','','章节学习可选择零基础、应用推进、章内小综合、跨章综合或全部层级。切换层级开始新的一组；章内和跨章综合默认显示本章全部知识节。'));
     body.append(el('p','','入口页可以选择六个专业阶段科目。返回选科页时会保留本次作答，并暂停模拟练习计时。'));
     body.append(el('p','','键盘操作：↑ 或 ← 切换到上一题，↓ 或 → 切换到下一题；数字键 1～4 可选答案，回车提交当前答案。在简答输入框内，回车仍用于换行；模拟练习统一交卷。'));
     body.append(el('p','','布局和题号导航、标记、计算器、交卷操作参考官方机考模拟练习系统。本站为独立制作的学习工具，非中注协官方练习网站，题目不是真题。'));
@@ -1100,7 +1181,7 @@ function registerWebMCP() {
       annotations:{readOnlyHint:true,untrustedContentHint:false},
       execute(input) {
         if (!input || typeof input!=='object' || Array.isArray(input) || Object.keys(input).length) throw Error('输入须为空对象');
-        return {subject:subjects[subjectId].name,screen:selectionOpen?'subject_picker':'practice',mode:session.mode,chapter:session.mode==='learn'?chapterIndex+1:null,questionIndex:session.items.length?session.index+1:null,total:session.items.length,wrongCount:wrongCount(),finished:session.finished};
+        return {subject:subjects[subjectId].name,screen:selectionOpen?'subject_picker':'practice',mode:session.mode,practiceStage,chapter:session.mode==='learn'?chapterIndex+1:null,questionIndex:session.items.length?session.index+1:null,total:session.items.length,wrongCount:wrongCount(),finished:session.finished};
       }
     },
     {
@@ -1148,7 +1229,7 @@ function populateChapters() {
   $('chapterSelect').replaceChildren();
   subjects[subjectId].modules.forEach(([name,numbers])=>{
     const group=el('optgroup');group.label=name;
-    numbers.forEach(n=>{const ch=chapters[n-1];const option=el('option','',String(n).padStart(2,'0')+' · '+ch.title+'（'+ch.items.length+' 题）');option.value=String(n-1);group.append(option);});
+    numbers.forEach(n=>{const ch=chapters[n-1];const option=el('option','',String(n).padStart(2,'0')+' · '+ch.title+'（'+stageChapterQuestions(n-1).length+' 题）');option.value=String(n-1);group.append(option);});
     $('chapterSelect').append(group);
   });
 }
@@ -1173,6 +1254,8 @@ $('deviceSyncBtn').onclick = () => {
 };
 $('chapterSelect').onchange = e => startChapter(Number(e.target.value));
 $('sectionSelect').onchange = e => startChapter(chapterIndex,e.target.value);
+$('practiceStageSelect').onchange = e => changePracticeStage(e.target.value);
+$('plannedPracticeBtn').onclick = showPlannedPractice;
 $('shuffleOptions').onchange = e => {
   data.shuffle = e.target.checked;
   save();

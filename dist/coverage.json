@@ -1418,14 +1418,13 @@
       "chapterTitle": "企业破产法律制度",
       "section": "第一节 破产法律制度概述",
       "sectionNumber": 1,
-      "questions": 6,
-      "addedQuestions": 2,
+      "questions": 5,
+      "addedQuestions": 1,
       "knowledgePoints": [
         "破产清算目标",
         "广义破产制度",
         "破产制度构成",
         "集体清偿",
-        "破产原因",
         "破产三种程序"
       ],
       "questionIds": [
@@ -1433,7 +1432,6 @@
         "law-08-02",
         "law-08-03",
         "law-08-04",
-        "law-full-08-01-001",
         "law-full-08-01-002"
       ],
       "source": {
@@ -1454,15 +1452,17 @@
       "chapterTitle": "企业破产法律制度",
       "section": "第二节 破产申请与受理",
       "sectionNumber": 2,
-      "questions": 4,
-      "addedQuestions": 4,
+      "questions": 5,
+      "addedQuestions": 5,
       "knowledgePoints": [
+        "破产原因",
         "破产申请主体",
         "受理与个别清偿",
         "未履行完毕合同",
         "诉讼与执行衔接"
       ],
       "questionIds": [
+        "law-full-08-01-001",
         "law-full-08-02-001",
         "law-full-08-02-002",
         "law-full-08-02-003",
@@ -2113,10 +2113,9 @@
       "chapterTitle": "涉外经济法律制度",
       "section": "第一节 涉外投资法律制度",
       "sectionNumber": 1,
-      "questions": 8,
+      "questions": 7,
       "addedQuestions": 4,
       "knowledgePoints": [
-        "涉外经济关系",
         "涉外投资方向",
         "涉外经济制度构成",
         "涉外投资与贸易",
@@ -2126,7 +2125,6 @@
         "境外投资管理"
       ],
       "questionIds": [
-        "law-12-01",
         "law-12-02",
         "law-12-03",
         "law-12-04",
@@ -2153,14 +2151,16 @@
       "chapterTitle": "涉外经济法律制度",
       "section": "第二节 对外贸易法律制度",
       "sectionNumber": 2,
-      "questions": 3,
+      "questions": 4,
       "addedQuestions": 3,
       "knowledgePoints": [
+        "涉外经济关系",
         "对外贸易经营",
         "反倾销、反补贴与保障措施",
         "服务贸易与技术贸易"
       ],
       "questionIds": [
+        "law-12-01",
         "law-full-12-02-001",
         "law-full-12-02-002",
         "law-full-12-02-003"
@@ -2882,13 +2882,12 @@
       "chapterTitle": "投资项目资本预算",
       "section": "第一节 投资项目的类型和评价程序",
       "sectionNumber": 1,
-      "questions": 6,
+      "questions": 5,
       "addedQuestions": 2,
       "knowledgePoints": [
         "独立项目",
         "互斥项目",
         "项目评价程序",
-        "净现值",
         "独立与互斥项目",
         "资本预算程序"
       ],
@@ -2896,7 +2895,6 @@
         "finance-05-01",
         "finance-05-02",
         "finance-05-03",
-        "finance-05-04",
         "finance-full-05-01-001",
         "finance-full-05-01-002"
       ],
@@ -2918,9 +2916,10 @@
       "chapterTitle": "投资项目资本预算",
       "section": "第二节 投资项目的评价方法",
       "sectionNumber": 2,
-      "questions": 7,
+      "questions": 8,
       "addedQuestions": 7,
       "knowledgePoints": [
+        "净现值",
         "净现值决策",
         "现值指数",
         "内含报酬率",
@@ -2930,6 +2929,7 @@
         "资本限额"
       ],
       "questionIds": [
+        "finance-05-04",
         "finance-full-05-02-001",
         "finance-full-05-02-002",
         "finance-full-05-02-003",
@@ -4025,13 +4025,12 @@
       "chapterTitle": "标准成本法",
       "section": "第一节 标准成本及其制定",
       "sectionNumber": 1,
-      "questions": 7,
+      "questions": 6,
       "addedQuestions": 3,
       "knowledgePoints": [
         "单位标准成本",
         "标准成本总额",
         "标准成本法步骤",
-        "成本差异起步",
         "理想与正常标准成本",
         "标准成本构成",
         "标准制造费用"
@@ -4040,7 +4039,6 @@
         "finance-14-01",
         "finance-14-02",
         "finance-14-03",
-        "finance-14-04",
         "finance-full-14-01-001",
         "finance-full-14-01-002",
         "finance-full-14-01-003"
@@ -4063,9 +4061,10 @@
       "chapterTitle": "标准成本法",
       "section": "第二节 标准成本的差异分析",
       "sectionNumber": 2,
-      "questions": 6,
+      "questions": 7,
       "addedQuestions": 6,
       "knowledgePoints": [
+        "成本差异起步",
         "材料价格差异",
         "材料数量差异",
         "人工工资率与效率差异",
@@ -4074,6 +4073,7 @@
         "固定制造费用三因素"
       ],
       "questionIds": [
+        "finance-14-04",
         "finance-full-14-02-001",
         "finance-full-14-02-002",
         "finance-full-14-02-003",
@@ -5017,10 +5017,9 @@
       "chapterTitle": "税法总论",
       "section": "第三节 税法（种）要素",
       "sectionNumber": 3,
-      "questions": 7,
-      "addedQuestions": 7,
+      "questions": 6,
+      "addedQuestions": 6,
       "knowledgePoints": [
-        "纳税人与负税人",
         "比例、累进与定额税率",
         "超额累进与全额累进",
         "起征点与免征额",
@@ -5029,7 +5028,6 @@
         "纳税环节"
       ],
       "questionIds": [
-        "tax-full-01-03-001",
         "tax-full-01-03-002",
         "tax-full-01-03-003",
         "tax-full-01-03-004",
@@ -5055,15 +5053,17 @@
       "chapterTitle": "税法总论",
       "section": "第四节 税收立法与我国税法体系",
       "sectionNumber": 4,
-      "questions": 4,
-      "addedQuestions": 4,
+      "questions": 5,
+      "addedQuestions": 5,
       "knowledgePoints": [
+        "纳税人与负税人",
         "税收立法权限",
         "现行税法体系",
         "税收立法层级",
         "立法程序与现行税制"
       ],
       "questionIds": [
+        "tax-full-01-03-001",
         "tax-full-01-04-001",
         "tax-full-01-04-002",
         "tax-full-01-04-003",
@@ -5305,8 +5305,8 @@
       "chapterTitle": "增值税法",
       "section": "第四节 一般计税方法应纳税额的计算",
       "sectionNumber": 4,
-      "questions": 16,
-      "addedQuestions": 16,
+      "questions": 17,
+      "addedQuestions": 17,
       "knowledgePoints": [
         "价税分离",
         "一般计税公式",
@@ -5316,6 +5316,7 @@
         "进项税额转出",
         "留抵与应纳税额",
         "加计抵减",
+        "申报调整",
         "价外费用与销售额",
         "折扣折让区分",
         "以旧换新销售额",
@@ -5334,6 +5335,7 @@
         "tax-full-02-04-006",
         "tax-full-02-04-007",
         "tax-full-02-04-008",
+        "tax-full-02-09-004",
         "tax-full-02-04-009",
         "tax-full-02-04-010",
         "tax-full-02-04-011",
@@ -5513,13 +5515,12 @@
       "chapterTitle": "增值税法",
       "section": "第九节 征收管理",
       "sectionNumber": 9,
-      "questions": 9,
-      "addedQuestions": 9,
+      "questions": 8,
+      "addedQuestions": 8,
       "knowledgePoints": [
         "纳税义务发生时间",
         "预缴与最终申报",
         "发票管理",
-        "申报调整",
         "预收款与纳税义务时点",
         "建筑服务预缴",
         "红字发票调整",
@@ -5530,7 +5531,6 @@
         "tax-full-02-09-001",
         "tax-full-02-09-002",
         "tax-full-02-09-003",
-        "tax-full-02-09-004",
         "tax-full-02-09-005",
         "tax-full-02-09-006",
         "tax-full-02-09-007",
@@ -6488,12 +6488,13 @@
       "chapterTitle": "关税法和船舶吨税法",
       "section": "第三节 关税计税价格与应纳税额的计算",
       "sectionNumber": 3,
-      "questions": 7,
-      "addedQuestions": 7,
+      "questions": 8,
+      "addedQuestions": 8,
       "knowledgePoints": [
         "进口关税计税价格",
         "关税与进口增值税",
         "出口关税倒算",
+        "减免税用途改变",
         "进口成交价格调整",
         "出口关税计税价格",
         "跨境电商退运",
@@ -6503,6 +6504,7 @@
         "tax-full-07-03-001",
         "tax-full-07-03-002",
         "tax-full-07-03-003",
+        "tax-full-07-04-002",
         "tax-full-07-03-004",
         "tax-full-07-03-005",
         "tax-full-07-03-006",
@@ -6526,17 +6528,15 @@
       "chapterTitle": "关税法和船舶吨税法",
       "section": "第四节 减免规定",
       "sectionNumber": 4,
-      "questions": 4,
-      "addedQuestions": 4,
+      "questions": 3,
+      "addedQuestions": 3,
       "knowledgePoints": [
         "关税减免分类",
-        "减免税用途改变",
         "法定与特定减免",
         "减免税货物转让"
       ],
       "questionIds": [
         "tax-full-07-04-001",
-        "tax-full-07-04-002",
         "tax-full-07-04-003",
         "tax-full-07-04-004"
       ],
@@ -7073,12 +7073,11 @@
       "chapterTitle": "国际税收税务管理实务",
       "section": "第二节 非居民企业税收管理",
       "sectionNumber": 2,
-      "questions": 7,
-      "addedQuestions": 7,
+      "questions": 6,
+      "addedQuestions": 6,
       "knowledgePoints": [
         "非居民企业所得",
         "源泉扣缴",
-        "间接转让",
         "代表机构收入核定",
         "非居民股息扣缴",
         "间接转让境内财产",
@@ -7087,7 +7086,6 @@
       "questionIds": [
         "tax-full-12-02-001",
         "tax-full-12-02-002",
-        "tax-full-12-02-003",
         "tax-full-12-02-004",
         "tax-full-12-02-005",
         "tax-full-12-02-006",
@@ -7149,9 +7147,10 @@
       "chapterTitle": "国际税收税务管理实务",
       "section": "第四节 国际反避税",
       "sectionNumber": 4,
-      "questions": 9,
-      "addedQuestions": 9,
+      "questions": 10,
+      "addedQuestions": 10,
       "knowledgePoints": [
+        "间接转让",
         "关联申报与独立交易",
         "受控外国企业",
         "资本弱化",
@@ -7162,6 +7161,7 @@
         "资本弱化利息扣除"
       ],
       "questionIds": [
+        "tax-full-12-02-003",
         "tax-full-12-04-001",
         "tax-full-12-04-002",
         "tax-full-12-04-003",
@@ -8647,13 +8647,12 @@
       "chapterTitle": "审计计划",
       "section": "第一节 初步业务活动",
       "sectionNumber": 1,
-      "questions": 7,
+      "questions": 6,
       "addedQuestions": 3,
       "knowledgePoints": [
         "计划的持续性",
         "业务约定",
         "初步业务活动",
-        "计划更新",
         "业务接受前提",
         "审计业务约定书",
         "连续审计"
@@ -8662,7 +8661,6 @@
         "audit-06-01",
         "audit-06-02",
         "audit-06-03",
-        "audit-06-04",
         "audit-full-06-01-001",
         "audit-full-06-01-002",
         "audit-full-06-01-003"
@@ -8685,13 +8683,15 @@
       "chapterTitle": "审计计划",
       "section": "第二节 总体审计策略和具体审计计划",
       "sectionNumber": 2,
-      "questions": 2,
+      "questions": 3,
       "addedQuestions": 2,
       "knowledgePoints": [
+        "计划更新",
         "策略与计划",
         "计划变更记录"
       ],
       "questionIds": [
+        "audit-06-04",
         "audit-full-06-02-001",
         "audit-full-06-02-002"
       ],

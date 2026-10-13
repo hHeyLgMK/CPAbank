@@ -64,10 +64,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "1—6",
-            "pdfPage": "8—13",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 6,
+            "pdfPage": 13,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "总体战略",
@@ -92,10 +92,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "1—6",
-            "pdfPage": "8—13",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "2—4",
+            "pdfPage": "9—11",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "公司存在的理由",
@@ -124,10 +124,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "1—6",
-            "pdfPage": "8—13",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 2,
+            "pdfPage": 9,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "体现战略的应变性：原有计划可以依据环境和竞争变化调整。",
           "explain": "教材区分计划性的传统认识与强调应变、竞争和风险的现代认识；实际战略往往兼有预谋与适应。"
@@ -146,10 +146,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "7—37",
-            "pdfPage": "14—44",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "8—9",
+            "pdfPage": "15—16",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "战略分析",
@@ -174,10 +174,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "7—37",
-            "pdfPage": "14—44",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "8—11",
+            "pdfPage": "15—18",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "分析内外部环境",
@@ -207,10 +207,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "7—37",
-            "pdfPage": "14—44",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 8,
+            "pdfPage": 15,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "不妥。应监测环境变化和实施效果，必要时重新分析并调整战略及资源安排。",
           "explain": "战略管理并非一次性的文件批准，而是随内外部条件变化持续评价、反馈和调整。"
@@ -232,8 +232,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "2",
-            "pdfPage": "9",
+            "printedPage": 2,
+            "pdfPage": 9,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -255,8 +255,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "4",
-            "pdfPage": "11",
+            "printedPage": 4,
+            "pdfPage": 11,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -278,8 +278,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "6",
-            "pdfPage": "13",
+            "printedPage": 6,
+            "pdfPage": 13,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -301,8 +301,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "6",
-            "pdfPage": "13",
+            "printedPage": 6,
+            "pdfPage": 13,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -324,8 +324,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "8",
-            "pdfPage": "15",
+            "printedPage": 8,
+            "pdfPage": 15,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -347,8 +347,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "8",
-            "pdfPage": "15",
+            "printedPage": 8,
+            "pdfPage": 15,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -370,8 +370,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "13",
-            "pdfPage": "20",
+            "printedPage": 13,
+            "pdfPage": 20,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -393,8 +393,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "16",
-            "pdfPage": "23",
+            "printedPage": 16,
+            "pdfPage": 23,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -416,8 +416,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "25",
-            "pdfPage": "32",
+            "printedPage": 25,
+            "pdfPage": 32,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -439,8 +439,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "30",
-            "pdfPage": "37",
+            "printedPage": 30,
+            "pdfPage": 37,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -462,8 +462,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "1",
-            "pdfPage": "8",
+            "printedPage": 1,
+            "pdfPage": 8,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -485,8 +485,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "1",
-            "pdfPage": "8",
+            "printedPage": 1,
+            "pdfPage": 8,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -508,8 +508,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "3",
-            "pdfPage": "10",
+            "printedPage": 3,
+            "pdfPage": 10,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -531,8 +531,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "3",
-            "pdfPage": "10",
+            "printedPage": 3,
+            "pdfPage": 10,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -554,8 +554,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第一节 公司战略的基本概念",
-            "printedPage": "4",
-            "pdfPage": "11",
+            "printedPage": 4,
+            "pdfPage": 11,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -577,8 +577,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "11",
-            "pdfPage": "18",
+            "printedPage": 11,
+            "pdfPage": 18,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -600,8 +600,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "13",
-            "pdfPage": "20",
+            "printedPage": 13,
+            "pdfPage": 20,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -623,8 +623,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "15",
-            "pdfPage": "22",
+            "printedPage": 15,
+            "pdfPage": 22,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -646,8 +646,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "16",
-            "pdfPage": "23",
+            "printedPage": 16,
+            "pdfPage": 23,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -669,8 +669,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "25",
-            "pdfPage": "32",
+            "printedPage": 25,
+            "pdfPage": 32,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -692,8 +692,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "30",
-            "pdfPage": "37",
+            "printedPage": 30,
+            "pdfPage": 37,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -715,8 +715,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "32",
-            "pdfPage": "39",
+            "printedPage": 32,
+            "pdfPage": 39,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -738,8 +738,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第1章 战略与战略管理概述",
             "section": "第二节 公司战略管理",
-            "printedPage": "34",
-            "pdfPage": "41",
+            "printedPage": 34,
+            "pdfPage": 41,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -779,10 +779,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "38—71",
-            "pdfPage": "45—78",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 38,
+            "pdfPage": 45,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "政治与法律因素",
@@ -807,10 +807,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "38—71",
-            "pdfPage": "45—78",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "38—68",
+            "pdfPage": "45—75",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "宏观环境",
@@ -840,10 +840,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "38—71",
-            "pdfPage": "45—78",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 46,
+            "pdfPage": 53,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "潜在进入者的威胁可能增强，现有企业的市场份额和盈利能力可能受到挤压；还要结合进入壁垒等条件判断。",
           "explain": "识别环境变化属于哪一种竞争力量，再分析对行业竞争和企业的影响。"
@@ -862,10 +862,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "72—101",
-            "pdfPage": "79—108",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "89—90",
+            "pdfPage": "96—97",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "价值链活动",
@@ -890,10 +890,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "72—101",
-            "pdfPage": "79—108",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "73—81",
+            "pdfPage": "80—88",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "企业资源",
@@ -923,10 +923,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "72—101",
-            "pdfPage": "79—108",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 82,
+            "pdfPage": 89,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "它能为顾客创造价值并形成竞争优势，而且竞争者难以模仿；还应检验企业能否持续运用。",
           "explain": "“有技术”本身不够，重点是价值、独特性和可持续的竞争作用。"
@@ -945,10 +945,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "102—104",
-            "pdfPage": "109—111",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 102,
+            "pdfPage": 109,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "优势S",
@@ -973,10 +973,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "102—104",
-            "pdfPage": "109—111",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 102,
+            "pdfPage": 109,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "内部成本偏高—劣势",
@@ -1008,8 +1008,8 @@ export const strategySubject = {
             "section": "第三节 企业内外部环境综合分析",
             "printedPage": "102—104",
             "pdfPage": "109—111",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "强大研发团队是内部优势S；原产品需求下降是外部威胁T。可考虑利用研发能力开发适应新需求的产品，并评估可行性。",
           "explain": "先分内部外部，再把优势和威胁组合用于提出方向；不应只罗列字母。"
@@ -1031,8 +1031,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "39",
-            "pdfPage": "46",
+            "printedPage": 39,
+            "pdfPage": 46,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1054,8 +1054,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "39",
-            "pdfPage": "46",
+            "printedPage": 39,
+            "pdfPage": 46,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1077,8 +1077,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "40",
-            "pdfPage": "47",
+            "printedPage": 40,
+            "pdfPage": 47,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1100,8 +1100,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "41",
-            "pdfPage": "48",
+            "printedPage": 41,
+            "pdfPage": 48,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1123,8 +1123,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "43",
-            "pdfPage": "50",
+            "printedPage": 43,
+            "pdfPage": 50,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1146,8 +1146,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "45",
-            "pdfPage": "52",
+            "printedPage": 45,
+            "pdfPage": 52,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1169,8 +1169,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "45",
-            "pdfPage": "52",
+            "printedPage": 45,
+            "pdfPage": 52,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1192,8 +1192,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "53",
-            "pdfPage": "60",
+            "printedPage": 53,
+            "pdfPage": 60,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1215,8 +1215,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "59",
-            "pdfPage": "66",
+            "printedPage": 59,
+            "pdfPage": 66,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1238,8 +1238,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "68",
-            "pdfPage": "75",
+            "printedPage": 68,
+            "pdfPage": 75,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1261,8 +1261,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "77",
-            "pdfPage": "84",
+            "printedPage": 77,
+            "pdfPage": 84,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1284,8 +1284,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "77",
-            "pdfPage": "84",
+            "printedPage": 77,
+            "pdfPage": 84,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1307,8 +1307,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "81",
-            "pdfPage": "88",
+            "printedPage": 81,
+            "pdfPage": 88,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1330,8 +1330,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "84",
-            "pdfPage": "91",
+            "printedPage": 84,
+            "pdfPage": 91,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1353,8 +1353,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "89",
-            "pdfPage": "96",
+            "printedPage": 89,
+            "pdfPage": 96,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1376,8 +1376,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "92",
-            "pdfPage": "99",
+            "printedPage": 92,
+            "pdfPage": 99,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1399,8 +1399,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "97",
-            "pdfPage": "104",
+            "printedPage": 97,
+            "pdfPage": 104,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1422,8 +1422,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "100",
-            "pdfPage": "107",
+            "printedPage": 100,
+            "pdfPage": 107,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1445,8 +1445,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "102",
-            "pdfPage": "109",
+            "printedPage": 102,
+            "pdfPage": 109,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1468,8 +1468,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "103",
-            "pdfPage": "110",
+            "printedPage": 103,
+            "pdfPage": 110,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1491,8 +1491,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "104",
-            "pdfPage": "111",
+            "printedPage": 104,
+            "pdfPage": 111,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1514,8 +1514,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "39",
-            "pdfPage": "46",
+            "printedPage": 39,
+            "pdfPage": 46,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1537,8 +1537,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "40",
-            "pdfPage": "47",
+            "printedPage": 40,
+            "pdfPage": 47,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1560,8 +1560,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "40",
-            "pdfPage": "47",
+            "printedPage": 40,
+            "pdfPage": 47,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1583,8 +1583,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "41",
-            "pdfPage": "48",
+            "printedPage": 41,
+            "pdfPage": 48,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1606,8 +1606,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "46",
-            "pdfPage": "53",
+            "printedPage": 46,
+            "pdfPage": 53,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1629,8 +1629,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "49",
-            "pdfPage": "56",
+            "printedPage": 49,
+            "pdfPage": 56,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1652,8 +1652,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "51",
-            "pdfPage": "58",
+            "printedPage": 51,
+            "pdfPage": 58,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1675,8 +1675,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "63",
-            "pdfPage": "70",
+            "printedPage": 63,
+            "pdfPage": 70,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1698,8 +1698,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "68",
-            "pdfPage": "75",
+            "printedPage": 68,
+            "pdfPage": 75,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1721,8 +1721,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "72",
-            "pdfPage": "79",
+            "printedPage": 72,
+            "pdfPage": 79,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1744,8 +1744,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "76",
-            "pdfPage": "83",
+            "printedPage": 76,
+            "pdfPage": 83,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1767,8 +1767,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "79",
-            "pdfPage": "86",
+            "printedPage": 79,
+            "pdfPage": 86,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1790,8 +1790,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "81",
-            "pdfPage": "88",
+            "printedPage": 81,
+            "pdfPage": 88,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1813,8 +1813,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "84",
-            "pdfPage": "91",
+            "printedPage": 84,
+            "pdfPage": 91,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1836,8 +1836,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "89",
-            "pdfPage": "96",
+            "printedPage": 89,
+            "pdfPage": 96,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1859,8 +1859,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "92",
-            "pdfPage": "99",
+            "printedPage": 92,
+            "pdfPage": 99,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1882,8 +1882,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "98",
-            "pdfPage": "105",
+            "printedPage": 98,
+            "pdfPage": 105,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1905,8 +1905,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "99",
-            "pdfPage": "106",
+            "printedPage": 99,
+            "pdfPage": 106,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1928,8 +1928,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第二节 企业内部环境分析",
-            "printedPage": "100",
-            "pdfPage": "107",
+            "printedPage": 100,
+            "pdfPage": 107,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1951,8 +1951,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "103",
-            "pdfPage": "110",
+            "printedPage": 103,
+            "pdfPage": 110,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1974,8 +1974,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第三节 企业内外部环境综合分析",
-            "printedPage": "104",
-            "pdfPage": "111",
+            "printedPage": 104,
+            "pdfPage": 111,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -1997,8 +1997,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "59",
-            "pdfPage": "66",
+            "printedPage": 59,
+            "pdfPage": 66,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2020,8 +2020,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第2章 战略分析",
             "section": "第一节 企业外部环境分析",
-            "printedPage": "61",
-            "pdfPage": "68",
+            "printedPage": 61,
+            "pdfPage": 68,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2065,10 +2065,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "105—146",
-            "pdfPage": "112—153",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 107,
+            "pdfPage": 114,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "后向一体化",
@@ -2093,10 +2093,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "105—146",
-            "pdfPage": "112—153",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 106,
+            "pdfPage": 113,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "发展战略",
@@ -2126,10 +2126,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "105—146",
-            "pdfPage": "112—153",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 111,
+            "pdfPage": 118,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "属于市场开发：用现有产品开拓新的地区或顾客市场。",
           "explain": "区分现有与新产品、现有与新市场；本例改变的是市场。"
@@ -2148,10 +2148,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "147—195",
-            "pdfPage": "154—202",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 156,
+            "pdfPage": 163,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "集中化战略中的差异化",
@@ -2176,10 +2176,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "147—195",
-            "pdfPage": "154—202",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "147—153",
+            "pdfPage": "154—160",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "成本领先重视持续的低成本地位",
@@ -2208,10 +2208,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "147—195",
-            "pdfPage": "154—202",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "147—151",
+            "pdfPage": "154—158",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "第一家主要是成本领先；第二家主要是差异化。需进一步看其优势能否持续。",
           "explain": "判断依据是形成竞争优势的方式，不只看产品标价。"
@@ -2230,10 +2230,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "196—249",
-            "pdfPage": "203—256",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "196—197",
+            "pdfPage": "203—204",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "市场营销职能战略",
@@ -2258,10 +2258,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "196—249",
-            "pdfPage": "203—256",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 196,
+            "pdfPage": 203,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "人力资源战略",
@@ -2291,10 +2291,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "196—249",
-            "pdfPage": "203—256",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 196,
+            "pdfPage": 203,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "围绕同一业务战略协调研发设计、质量与生产能力、营销定位及渠道，并建立跨部门沟通与反馈。",
           "explain": "职能战略必须相互配合，也要与上层战略保持一致。"
@@ -2313,10 +2313,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "250—277",
-            "pdfPage": "257—284",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "250—251",
+            "pdfPage": "257—258",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "资源",
@@ -2341,10 +2341,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "250—277",
-            "pdfPage": "257—284",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "250—252",
+            "pdfPage": "257—259",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "当地市场需求",
@@ -2374,10 +2374,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "250—277",
-            "pdfPage": "257—284",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "252—254",
+            "pdfPage": "259—261",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "出口可用较少前期投入试探需求；但对当地销售渠道和客户体验的控制可能较弱，仍需评估贸易壁垒等。",
           "explain": "根据投入、控制和风险权衡进入方式，不能只看销售额。"
@@ -2399,8 +2399,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "106",
-            "pdfPage": "113",
+            "printedPage": 106,
+            "pdfPage": 113,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2422,8 +2422,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "108",
-            "pdfPage": "115",
+            "printedPage": 108,
+            "pdfPage": 115,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2445,8 +2445,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "110",
-            "pdfPage": "117",
+            "printedPage": 110,
+            "pdfPage": 117,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2468,8 +2468,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "111",
-            "pdfPage": "118",
+            "printedPage": 111,
+            "pdfPage": 118,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2491,8 +2491,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "113",
-            "pdfPage": "120",
+            "printedPage": 113,
+            "pdfPage": 120,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2514,8 +2514,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "115",
-            "pdfPage": "122",
+            "printedPage": 115,
+            "pdfPage": 122,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2537,8 +2537,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "118",
-            "pdfPage": "125",
+            "printedPage": 118,
+            "pdfPage": 125,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2560,8 +2560,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "119",
-            "pdfPage": "126",
+            "printedPage": 119,
+            "pdfPage": 126,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2583,8 +2583,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "125",
-            "pdfPage": "132",
+            "printedPage": 125,
+            "pdfPage": 132,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2606,8 +2606,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "134",
-            "pdfPage": "141",
+            "printedPage": 134,
+            "pdfPage": 141,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2629,8 +2629,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "148",
-            "pdfPage": "155",
+            "printedPage": 148,
+            "pdfPage": 155,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2652,8 +2652,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "152",
-            "pdfPage": "159",
+            "printedPage": 152,
+            "pdfPage": 159,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2675,8 +2675,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "156",
-            "pdfPage": "163",
+            "printedPage": 156,
+            "pdfPage": 163,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2698,8 +2698,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "158",
-            "pdfPage": "165",
+            "printedPage": 158,
+            "pdfPage": 165,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2721,8 +2721,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "161",
-            "pdfPage": "168",
+            "printedPage": 161,
+            "pdfPage": 168,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2744,8 +2744,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "169",
-            "pdfPage": "176",
+            "printedPage": 169,
+            "pdfPage": 176,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2767,8 +2767,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "175",
-            "pdfPage": "182",
+            "printedPage": 175,
+            "pdfPage": 182,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2790,8 +2790,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "190",
-            "pdfPage": "197",
+            "printedPage": 190,
+            "pdfPage": 197,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2813,8 +2813,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "193",
-            "pdfPage": "200",
+            "printedPage": 193,
+            "pdfPage": 200,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2836,8 +2836,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "197",
-            "pdfPage": "204",
+            "printedPage": 197,
+            "pdfPage": 204,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2859,8 +2859,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "199",
-            "pdfPage": "206",
+            "printedPage": 199,
+            "pdfPage": 206,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2882,8 +2882,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "201",
-            "pdfPage": "208",
+            "printedPage": 201,
+            "pdfPage": 208,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2905,8 +2905,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "202",
-            "pdfPage": "209",
+            "printedPage": 202,
+            "pdfPage": 209,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2928,8 +2928,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "214",
-            "pdfPage": "221",
+            "printedPage": 214,
+            "pdfPage": 221,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2951,8 +2951,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "216",
-            "pdfPage": "223",
+            "printedPage": 216,
+            "pdfPage": 223,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2974,8 +2974,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "222",
-            "pdfPage": "229",
+            "printedPage": 222,
+            "pdfPage": 229,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -2997,8 +2997,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "223",
-            "pdfPage": "230",
+            "printedPage": 223,
+            "pdfPage": 230,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3020,8 +3020,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "226",
-            "pdfPage": "233",
+            "printedPage": 226,
+            "pdfPage": 233,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3043,8 +3043,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "228",
-            "pdfPage": "235",
+            "printedPage": 228,
+            "pdfPage": 235,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3066,8 +3066,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "231",
-            "pdfPage": "238",
+            "printedPage": 231,
+            "pdfPage": 238,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3089,8 +3089,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "236",
-            "pdfPage": "243",
+            "printedPage": 236,
+            "pdfPage": 243,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3112,8 +3112,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "241",
-            "pdfPage": "248",
+            "printedPage": 241,
+            "pdfPage": 248,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3135,8 +3135,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "250",
-            "pdfPage": "257",
+            "printedPage": 250,
+            "pdfPage": 257,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3158,8 +3158,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "251",
-            "pdfPage": "258",
+            "printedPage": 251,
+            "pdfPage": 258,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3181,8 +3181,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "252",
-            "pdfPage": "259",
+            "printedPage": 252,
+            "pdfPage": 259,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3204,8 +3204,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "254",
-            "pdfPage": "261",
+            "printedPage": 254,
+            "pdfPage": 261,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3227,8 +3227,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "263",
-            "pdfPage": "270",
+            "printedPage": 263,
+            "pdfPage": 270,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3250,8 +3250,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "265",
-            "pdfPage": "272",
+            "printedPage": 265,
+            "pdfPage": 272,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3273,8 +3273,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "266",
-            "pdfPage": "273",
+            "printedPage": 266,
+            "pdfPage": 273,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3296,8 +3296,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "266",
-            "pdfPage": "273",
+            "printedPage": 266,
+            "pdfPage": 273,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3319,8 +3319,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "269",
-            "pdfPage": "276",
+            "printedPage": 269,
+            "pdfPage": 276,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3342,8 +3342,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "109",
-            "pdfPage": "116",
+            "printedPage": 109,
+            "pdfPage": 116,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3365,8 +3365,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "110",
-            "pdfPage": "117",
+            "printedPage": 110,
+            "pdfPage": 117,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3388,8 +3388,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "112",
-            "pdfPage": "119",
+            "printedPage": 112,
+            "pdfPage": 119,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3411,8 +3411,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "115",
-            "pdfPage": "122",
+            "printedPage": 115,
+            "pdfPage": 122,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3434,8 +3434,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "120",
-            "pdfPage": "127",
+            "printedPage": 120,
+            "pdfPage": 127,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3457,8 +3457,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "122",
-            "pdfPage": "129",
+            "printedPage": 122,
+            "pdfPage": 129,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3480,8 +3480,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "126",
-            "pdfPage": "133",
+            "printedPage": 126,
+            "pdfPage": 133,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3503,8 +3503,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "130",
-            "pdfPage": "137",
+            "printedPage": 130,
+            "pdfPage": 137,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3526,8 +3526,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第一节 总体战略",
-            "printedPage": "136",
-            "pdfPage": "143",
+            "printedPage": 136,
+            "pdfPage": 143,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3549,8 +3549,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "150",
-            "pdfPage": "157",
+            "printedPage": 150,
+            "pdfPage": 157,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3572,8 +3572,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "153",
-            "pdfPage": "160",
+            "printedPage": 153,
+            "pdfPage": 160,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3595,8 +3595,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "156",
-            "pdfPage": "163",
+            "printedPage": 156,
+            "pdfPage": 163,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3618,8 +3618,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "162",
-            "pdfPage": "169",
+            "printedPage": 162,
+            "pdfPage": 169,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3641,8 +3641,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "169",
-            "pdfPage": "176",
+            "printedPage": 169,
+            "pdfPage": 176,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3664,8 +3664,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "175",
-            "pdfPage": "182",
+            "printedPage": 175,
+            "pdfPage": 182,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3687,8 +3687,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "178",
-            "pdfPage": "185",
+            "printedPage": 178,
+            "pdfPage": 185,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3710,8 +3710,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "191",
-            "pdfPage": "198",
+            "printedPage": 191,
+            "pdfPage": 198,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3733,8 +3733,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "194",
-            "pdfPage": "201",
+            "printedPage": 194,
+            "pdfPage": 201,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3756,8 +3756,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "204",
-            "pdfPage": "211",
+            "printedPage": 204,
+            "pdfPage": 211,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3779,8 +3779,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "207",
-            "pdfPage": "214",
+            "printedPage": 207,
+            "pdfPage": 214,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3802,8 +3802,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "213",
-            "pdfPage": "220",
+            "printedPage": 213,
+            "pdfPage": 220,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3825,8 +3825,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "216",
-            "pdfPage": "223",
+            "printedPage": 216,
+            "pdfPage": 223,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3848,8 +3848,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "220",
-            "pdfPage": "227",
+            "printedPage": 220,
+            "pdfPage": 227,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3871,8 +3871,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "222",
-            "pdfPage": "229",
+            "printedPage": 222,
+            "pdfPage": 229,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3894,8 +3894,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "225",
-            "pdfPage": "232",
+            "printedPage": 225,
+            "pdfPage": 232,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3917,8 +3917,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "230",
-            "pdfPage": "237",
+            "printedPage": 230,
+            "pdfPage": 237,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3940,8 +3940,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "233",
-            "pdfPage": "240",
+            "printedPage": 233,
+            "pdfPage": 240,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3963,8 +3963,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "236",
-            "pdfPage": "243",
+            "printedPage": 236,
+            "pdfPage": 243,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -3986,8 +3986,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "247",
-            "pdfPage": "254",
+            "printedPage": 247,
+            "pdfPage": 254,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4009,8 +4009,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "253",
-            "pdfPage": "260",
+            "printedPage": 253,
+            "pdfPage": 260,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4032,8 +4032,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "256",
-            "pdfPage": "263",
+            "printedPage": 256,
+            "pdfPage": 263,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4055,8 +4055,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "260",
-            "pdfPage": "267",
+            "printedPage": 260,
+            "pdfPage": 267,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4078,8 +4078,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "265",
-            "pdfPage": "272",
+            "printedPage": 265,
+            "pdfPage": 272,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4101,8 +4101,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "266",
-            "pdfPage": "273",
+            "printedPage": 266,
+            "pdfPage": 273,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4124,8 +4124,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第四节 国际化经营战略",
-            "printedPage": "269",
-            "pdfPage": "276",
+            "printedPage": 269,
+            "pdfPage": 276,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4147,8 +4147,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "177",
-            "pdfPage": "184",
+            "printedPage": 177,
+            "pdfPage": 184,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4170,8 +4170,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第二节 业务单位战略",
-            "printedPage": "176",
-            "pdfPage": "183",
+            "printedPage": 176,
+            "pdfPage": 183,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4193,8 +4193,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "214",
-            "pdfPage": "221",
+            "printedPage": 214,
+            "pdfPage": 221,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4216,8 +4216,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "215",
-            "pdfPage": "222",
+            "printedPage": 215,
+            "pdfPage": 222,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4239,8 +4239,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "217",
-            "pdfPage": "224",
+            "printedPage": 217,
+            "pdfPage": 224,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4262,8 +4262,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "220",
-            "pdfPage": "227",
+            "printedPage": 220,
+            "pdfPage": 227,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4285,8 +4285,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第3章 战略选择",
             "section": "第三节 职能战略",
-            "printedPage": "231",
-            "pdfPage": "238",
+            "printedPage": 231,
+            "pdfPage": 238,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4334,10 +4334,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "278—302",
-            "pdfPage": "285—309",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "278—279",
+            "pdfPage": "285—286",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "横向分工",
@@ -4362,10 +4362,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "278—302",
-            "pdfPage": "285—309",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "278—279",
+            "pdfPage": "285—286",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "职责分工",
@@ -4395,10 +4395,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "278—302",
-            "pdfPage": "285—309",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 296,
+            "pdfPage": 303,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "经营业务改变后，原分工和决策机制可能不适合；可评估按业务划分职责、授权及协调机制，使结构支持战略。",
           "explain": "结构要服务战略，不能只因组织图多年未变就沿用原安排。"
@@ -4417,10 +4417,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303—308",
-            "pdfPage": "310—315",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 303,
+            "pdfPage": 310,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "企业文化",
@@ -4445,10 +4445,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303—308",
-            "pdfPage": "310—315",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "305—308",
+            "pdfPage": "312—315",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "说明新战略与现有价值观的关系",
@@ -4477,10 +4477,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303—308",
-            "pdfPage": "310—315",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "306—308",
+            "pdfPage": "313—315",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "创新战略与强调层层审批的实际行为规范不匹配；可调整授权和试验机制，并在可控范围内允许试错。",
           "explain": "判断文化要看真实的行为方式和激励机制，而非只看标语。"
@@ -4499,10 +4499,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "309—318",
-            "pdfPage": "316—325",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 309,
+            "pdfPage": 316,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "战略控制",
@@ -4527,10 +4527,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "309—318",
-            "pdfPage": "316—325",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 309,
+            "pdfPage": 316,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "信息反馈不畅",
@@ -4560,10 +4560,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "309—318",
-            "pdfPage": "316—325",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "316—317",
+            "pdfPage": "323—324",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "考核指标未能充分反映客户留存目标；应补充留存率、复购率等相关指标，并根据结果调整行动。",
           "explain": "控制指标要与战略目标相连，不能以易统计的指标替代真正目标。"
@@ -4582,10 +4582,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "319—336",
-            "pdfPage": "326—343",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "323—325",
+            "pdfPage": "330—332",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "利用数据改进经营决策",
@@ -4610,10 +4610,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "319—336",
-            "pdfPage": "326—343",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "333—334",
+            "pdfPage": "340—341",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "数据治理",
@@ -4643,10 +4643,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "319—336",
-            "pdfPage": "326—343",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "330—334",
+            "pdfPage": "337—341",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "统一数据口径与治理责任；改造流程并培训员工，促进跨部门协同使用系统。",
           "explain": "购买软件不等于完成数智化转型，数据质量和实际使用同样关键。"
@@ -4665,10 +4665,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "337—346",
-            "pdfPage": "344—353",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "337—338",
+            "pdfPage": "344—345",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "环境责任",
@@ -4693,10 +4693,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "337—346",
-            "pdfPage": "344—353",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "337—338",
+            "pdfPage": "344—345",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "经济绩效",
@@ -4726,10 +4726,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "337—346",
-            "pdfPage": "344—353",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "337—338",
+            "pdfPage": "344—345",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "评估项目经济可行性、能耗与环境影响、合规要求及利益相关者影响，并比较节能方案。",
           "explain": "可持续目标需要进入投资和经营决策，不能仅写在年度报告中。"
@@ -4751,8 +4751,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "278",
-            "pdfPage": "285",
+            "printedPage": 278,
+            "pdfPage": 285,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4774,8 +4774,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "279",
-            "pdfPage": "286",
+            "printedPage": 279,
+            "pdfPage": 286,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4797,8 +4797,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "280",
-            "pdfPage": "287",
+            "printedPage": 280,
+            "pdfPage": 287,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4820,8 +4820,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "284",
-            "pdfPage": "291",
+            "printedPage": 284,
+            "pdfPage": 291,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4843,8 +4843,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "290",
-            "pdfPage": "297",
+            "printedPage": 290,
+            "pdfPage": 297,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4866,8 +4866,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "295",
-            "pdfPage": "302",
+            "printedPage": 295,
+            "pdfPage": 302,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4889,8 +4889,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303",
-            "pdfPage": "310",
+            "printedPage": 303,
+            "pdfPage": 310,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4912,8 +4912,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303",
-            "pdfPage": "310",
+            "printedPage": 303,
+            "pdfPage": 310,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4935,8 +4935,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "304",
-            "pdfPage": "311",
+            "printedPage": 304,
+            "pdfPage": 311,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4958,8 +4958,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "304",
-            "pdfPage": "311",
+            "printedPage": 304,
+            "pdfPage": 311,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -4981,8 +4981,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "304",
-            "pdfPage": "311",
+            "printedPage": 304,
+            "pdfPage": 311,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5004,8 +5004,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "307",
-            "pdfPage": "314",
+            "printedPage": 307,
+            "pdfPage": 314,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5027,8 +5027,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "309",
-            "pdfPage": "316",
+            "printedPage": 309,
+            "pdfPage": 316,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5050,8 +5050,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "309",
-            "pdfPage": "316",
+            "printedPage": 309,
+            "pdfPage": 316,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5073,8 +5073,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "310",
-            "pdfPage": "317",
+            "printedPage": 310,
+            "pdfPage": 317,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5096,8 +5096,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "312",
-            "pdfPage": "319",
+            "printedPage": 312,
+            "pdfPage": 319,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5119,8 +5119,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "316",
-            "pdfPage": "323",
+            "printedPage": 316,
+            "pdfPage": 323,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5142,8 +5142,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "320",
-            "pdfPage": "327",
+            "printedPage": 320,
+            "pdfPage": 327,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5165,8 +5165,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "324",
-            "pdfPage": "331",
+            "printedPage": 324,
+            "pdfPage": 331,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5188,8 +5188,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "330",
-            "pdfPage": "337",
+            "printedPage": 330,
+            "pdfPage": 337,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5211,8 +5211,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "335",
-            "pdfPage": "342",
+            "printedPage": 335,
+            "pdfPage": 342,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5234,8 +5234,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "335",
-            "pdfPage": "342",
+            "printedPage": 335,
+            "pdfPage": 342,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5257,8 +5257,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "336",
-            "pdfPage": "343",
+            "printedPage": 336,
+            "pdfPage": 343,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5280,8 +5280,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "337",
-            "pdfPage": "344",
+            "printedPage": 337,
+            "pdfPage": 344,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5303,8 +5303,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "339",
-            "pdfPage": "346",
+            "printedPage": 339,
+            "pdfPage": 346,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5326,8 +5326,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "339",
-            "pdfPage": "346",
+            "printedPage": 339,
+            "pdfPage": 346,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5349,8 +5349,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "341",
-            "pdfPage": "348",
+            "printedPage": 341,
+            "pdfPage": 348,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5372,8 +5372,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "344",
-            "pdfPage": "351",
+            "printedPage": 344,
+            "pdfPage": 351,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5395,8 +5395,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "279",
-            "pdfPage": "286",
+            "printedPage": 279,
+            "pdfPage": 286,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5418,8 +5418,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "280",
-            "pdfPage": "287",
+            "printedPage": 280,
+            "pdfPage": 287,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5441,8 +5441,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "284",
-            "pdfPage": "291",
+            "printedPage": 284,
+            "pdfPage": 291,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5464,8 +5464,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "288",
-            "pdfPage": "295",
+            "printedPage": 288,
+            "pdfPage": 295,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5487,8 +5487,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第一节 公司战略与组织结构",
-            "printedPage": "295",
-            "pdfPage": "302",
+            "printedPage": 295,
+            "pdfPage": 302,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5510,8 +5510,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303",
-            "pdfPage": "310",
+            "printedPage": 303,
+            "pdfPage": 310,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5533,8 +5533,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "303",
-            "pdfPage": "310",
+            "printedPage": 303,
+            "pdfPage": 310,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5556,8 +5556,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "307",
-            "pdfPage": "314",
+            "printedPage": 307,
+            "pdfPage": 314,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5579,8 +5579,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "309",
-            "pdfPage": "316",
+            "printedPage": 309,
+            "pdfPage": 316,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5602,8 +5602,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "310",
-            "pdfPage": "317",
+            "printedPage": 310,
+            "pdfPage": 317,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5625,8 +5625,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "316",
-            "pdfPage": "323",
+            "printedPage": 316,
+            "pdfPage": 323,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5648,8 +5648,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "320",
-            "pdfPage": "327",
+            "printedPage": 320,
+            "pdfPage": 327,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5671,8 +5671,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "333",
-            "pdfPage": "340",
+            "printedPage": 333,
+            "pdfPage": 340,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5694,8 +5694,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第四节 公司战略与数智化转型",
-            "printedPage": "334",
-            "pdfPage": "341",
+            "printedPage": 334,
+            "pdfPage": 341,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5717,8 +5717,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "337",
-            "pdfPage": "344",
+            "printedPage": 337,
+            "pdfPage": 344,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5740,8 +5740,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "339",
-            "pdfPage": "346",
+            "printedPage": 339,
+            "pdfPage": 346,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5763,8 +5763,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第五节 公司战略与可持续发展管理",
-            "printedPage": "343",
-            "pdfPage": "350",
+            "printedPage": 343,
+            "pdfPage": 350,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5786,8 +5786,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "306",
-            "pdfPage": "313",
+            "printedPage": 306,
+            "pdfPage": 313,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5809,8 +5809,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第二节 公司战略与企业文化",
-            "printedPage": "308",
-            "pdfPage": "315",
+            "printedPage": 308,
+            "pdfPage": 315,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5832,8 +5832,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第4章 战略实施",
             "section": "第三节 战略控制",
-            "printedPage": "318",
-            "pdfPage": "325",
+            "printedPage": 318,
+            "pdfPage": 325,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -5885,10 +5885,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "347—355",
-            "pdfPage": "354—362",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "351—352",
+            "pdfPage": "358—359",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "协调利益并监督与激励经营者",
@@ -5913,10 +5913,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "347—355",
-            "pdfPage": "354—362",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "355—356",
+            "pdfPage": "362—363",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "股东",
@@ -5946,10 +5946,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "347—355",
-            "pdfPage": "354—362",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "351—352",
+            "pdfPage": "358—359",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "经营决策权缺少有效监督与制衡，可能产生代理问题和不当投资；应明确授权边界、审议与监督机制。",
           "explain": "治理不是由谁日常经营这么简单，还包括权力、责任和监督的配置。"
@@ -5968,10 +5968,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "356—366",
-            "pdfPage": "363—373",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "361—362",
+            "pdfPage": "368—369",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "公司及中小股东",
@@ -5996,10 +5996,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "356—366",
-            "pdfPage": "363—373",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 356,
+            "pdfPage": 363,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "股东与经理层",
@@ -6028,10 +6028,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "356—366",
-            "pdfPage": "363—373",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "357—360",
+            "pdfPage": "364—367",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "经理追求短期个人报酬与股东长期价值发生冲突；可完善长期激励与董事会监督。",
           "explain": "识别委托代理关系后，要说明行为怎样偏离公司的长期目标。"
@@ -6050,10 +6050,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "367—378",
-            "pdfPage": "374—385",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 372,
+            "pdfPage": 379,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "公司内部治理",
@@ -6078,10 +6078,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "367—378",
-            "pdfPage": "374—385",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "364—379",
+            "pdfPage": "371—386",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "董事会及经理层权责安排",
@@ -6111,10 +6111,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "367—378",
-            "pdfPage": "374—385",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "372—379",
+            "pdfPage": "379—386",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "内部可强化董事会及审计相关监督、完善信息披露控制；外部可发挥审计等中介机构和监管监督作用。",
           "explain": "先区分公司内部权力制衡与市场、监管及中介等外部机制。"
@@ -6132,11 +6132,11 @@ export const strategySubject = {
           "source": {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
-            "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "379—384",
-            "pdfPage": "386—391",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "section": "第三节 公司内部治理结构和外部治理机制",
+            "printedPage": "378—379",
+            "pdfPage": "385—386",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "利益相关者的信息不对称",
@@ -6163,8 +6163,8 @@ export const strategySubject = {
             "section": "第四节 管理实践发展与公司治理",
             "printedPage": "379—384",
             "pdfPage": "386—391",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "提高信息透明度",
@@ -6192,11 +6192,11 @@ export const strategySubject = {
           "source": {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
-            "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "379—384",
-            "pdfPage": "386—391",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "section": "第三节 公司内部治理结构和外部治理机制",
+            "printedPage": "378—379",
+            "pdfPage": "385—386",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "投资者等利益相关者无法获得充分信息并有效监督、决策；应建立真实完整的信息披露与核查机制。",
           "explain": "披露质量与权责监督相连，不能只把年报当成宣传材料。"
@@ -6218,8 +6218,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "347",
-            "pdfPage": "354",
+            "printedPage": 347,
+            "pdfPage": 354,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6241,8 +6241,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "352",
-            "pdfPage": "359",
+            "printedPage": 352,
+            "pdfPage": 359,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6264,8 +6264,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "353",
-            "pdfPage": "360",
+            "printedPage": 353,
+            "pdfPage": 360,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6287,8 +6287,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "354",
-            "pdfPage": "361",
+            "printedPage": 354,
+            "pdfPage": 361,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6310,8 +6310,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "355",
-            "pdfPage": "362",
+            "printedPage": 355,
+            "pdfPage": 362,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6333,8 +6333,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "356",
-            "pdfPage": "363",
+            "printedPage": 356,
+            "pdfPage": 363,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6356,8 +6356,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "357",
-            "pdfPage": "364",
+            "printedPage": 357,
+            "pdfPage": 364,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6379,8 +6379,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "359",
-            "pdfPage": "366",
+            "printedPage": 359,
+            "pdfPage": 366,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6402,8 +6402,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "361",
-            "pdfPage": "368",
+            "printedPage": 361,
+            "pdfPage": 368,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6425,8 +6425,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "363",
-            "pdfPage": "370",
+            "printedPage": 363,
+            "pdfPage": 370,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6448,8 +6448,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "366",
-            "pdfPage": "373",
+            "printedPage": 366,
+            "pdfPage": 373,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6471,8 +6471,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "367",
-            "pdfPage": "374",
+            "printedPage": 367,
+            "pdfPage": 374,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6494,8 +6494,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "367",
-            "pdfPage": "374",
+            "printedPage": 367,
+            "pdfPage": 374,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6517,8 +6517,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "371",
-            "pdfPage": "378",
+            "printedPage": 371,
+            "pdfPage": 378,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6540,8 +6540,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "376",
-            "pdfPage": "383",
+            "printedPage": 376,
+            "pdfPage": 383,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6563,8 +6563,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "378",
-            "pdfPage": "385",
+            "printedPage": 378,
+            "pdfPage": 385,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6586,8 +6586,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "380",
-            "pdfPage": "387",
+            "printedPage": 380,
+            "pdfPage": 387,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6609,8 +6609,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "382",
-            "pdfPage": "389",
+            "printedPage": 382,
+            "pdfPage": 389,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6632,8 +6632,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "383",
-            "pdfPage": "390",
+            "printedPage": 383,
+            "pdfPage": 390,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6655,8 +6655,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "383",
-            "pdfPage": "390",
+            "printedPage": 383,
+            "pdfPage": 390,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6678,8 +6678,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "351",
-            "pdfPage": "358",
+            "printedPage": 351,
+            "pdfPage": 358,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6701,8 +6701,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "355",
-            "pdfPage": "362",
+            "printedPage": 355,
+            "pdfPage": 362,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6724,8 +6724,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "352",
-            "pdfPage": "359",
+            "printedPage": 352,
+            "pdfPage": 359,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6747,8 +6747,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "357",
-            "pdfPage": "364",
+            "printedPage": 357,
+            "pdfPage": 364,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6770,8 +6770,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "362",
-            "pdfPage": "369",
+            "printedPage": 362,
+            "pdfPage": 369,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6793,8 +6793,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第二节 公司治理的主要问题",
-            "printedPage": "366",
-            "pdfPage": "373",
+            "printedPage": 366,
+            "pdfPage": 373,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6816,8 +6816,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "373",
-            "pdfPage": "380",
+            "printedPage": 373,
+            "pdfPage": 380,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6839,8 +6839,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "376",
-            "pdfPage": "383",
+            "printedPage": 376,
+            "pdfPage": 383,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6862,8 +6862,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "378",
-            "pdfPage": "385",
+            "printedPage": 378,
+            "pdfPage": 385,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6885,8 +6885,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "381",
-            "pdfPage": "388",
+            "printedPage": 381,
+            "pdfPage": 388,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6908,8 +6908,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第四节 管理实践发展与公司治理",
-            "printedPage": "383",
-            "pdfPage": "390",
+            "printedPage": 383,
+            "pdfPage": 390,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6931,8 +6931,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第一节 公司治理概述",
-            "printedPage": "348",
-            "pdfPage": "355",
+            "printedPage": 348,
+            "pdfPage": 355,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -6954,8 +6954,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第5章 公司治理",
             "section": "第三节 公司内部治理结构和外部治理机制",
-            "printedPage": "368",
-            "pdfPage": "375",
+            "printedPage": 368,
+            "pdfPage": 375,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7003,10 +7003,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "385—387",
-            "pdfPage": "392—394",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "387—388",
+            "pdfPage": "394—395",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "发生火灾",
@@ -7031,10 +7031,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "385—387",
-            "pdfPage": "392—394",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 387,
+            "pdfPage": 394,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "直接财产损失",
@@ -7064,10 +7064,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "385—387",
-            "pdfPage": "392—394",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "387—388",
+            "pdfPage": "394—395",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "缺乏维护是风险因素；起火是风险事件；设备损坏及停工损失是后果。",
           "explain": "用因果链区分潜在条件、实际发生的事件和对目标的影响。"
@@ -7086,10 +7086,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "388—391",
-            "pdfPage": "395—398",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "390—391",
+            "pdfPage": "397—398",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "在可接受风险水平下支持目标实现",
@@ -7114,10 +7114,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "388—391",
-            "pdfPage": "395—398",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "391—392",
+            "pdfPage": "398—399",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "规划",
@@ -7145,12 +7145,12 @@ export const strategySubject = {
           "level": "零基础",
           "source": {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
-            "chapter": "第6章 风险与风险管理概述",
-            "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "388—391",
-            "pdfPage": "395—398",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "chapter": "第7章 风险管理的流程、体系与方法",
+            "section": "第二节 风险管理体系",
+            "printedPage": "417—420",
+            "pdfPage": "424—427",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "不同目标的风险偏好和承受度不同；可以在限额内试验研发，同时对安全风险采取更严格预防和控制。",
           "explain": "风险管理要联系企业目标、风险特征和可承受程度。"
@@ -7169,10 +7169,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "392—403",
-            "pdfPage": "399—410",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "394—397",
+            "pdfPage": "401—404",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "把风险管理融入各项业务和战略",
@@ -7197,10 +7197,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "392—403",
-            "pdfPage": "399—410",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "392—402",
+            "pdfPage": "399—409",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "从单一损失处理扩展到全面管理",
@@ -7230,10 +7230,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "392—403",
-            "pdfPage": "399—410",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "392—397",
+            "pdfPage": "399—404",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "被动追责不能及时发现和控制风险；应增加事前识别、评估、预警及持续改进。",
           "explain": "风险管理实践从事后处理逐步发展为覆盖事前、事中和事后的管理。"
@@ -7255,8 +7255,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "385",
-            "pdfPage": "392",
+            "printedPage": 385,
+            "pdfPage": 392,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7278,8 +7278,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "387",
-            "pdfPage": "394",
+            "printedPage": 387,
+            "pdfPage": 394,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7301,8 +7301,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "387",
-            "pdfPage": "394",
+            "printedPage": 387,
+            "pdfPage": 394,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7324,8 +7324,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "388",
-            "pdfPage": "395",
+            "printedPage": 388,
+            "pdfPage": 395,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7347,8 +7347,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "389",
-            "pdfPage": "396",
+            "printedPage": 389,
+            "pdfPage": 396,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7370,8 +7370,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "390",
-            "pdfPage": "397",
+            "printedPage": 390,
+            "pdfPage": 397,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7393,8 +7393,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "390",
-            "pdfPage": "397",
+            "printedPage": 390,
+            "pdfPage": 397,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7416,8 +7416,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "391",
-            "pdfPage": "398",
+            "printedPage": 391,
+            "pdfPage": 398,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7439,8 +7439,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "392",
-            "pdfPage": "399",
+            "printedPage": 392,
+            "pdfPage": 399,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7462,8 +7462,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "394",
-            "pdfPage": "401",
+            "printedPage": 394,
+            "pdfPage": 401,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7485,8 +7485,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "397",
-            "pdfPage": "404",
+            "printedPage": 397,
+            "pdfPage": 404,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7508,8 +7508,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "387",
-            "pdfPage": "394",
+            "printedPage": 387,
+            "pdfPage": 394,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7531,8 +7531,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第一节 风险的概念及风险的要素",
-            "printedPage": "387",
-            "pdfPage": "394",
+            "printedPage": 387,
+            "pdfPage": 394,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7554,8 +7554,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "390",
-            "pdfPage": "397",
+            "printedPage": 390,
+            "pdfPage": 397,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7577,8 +7577,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "391",
-            "pdfPage": "398",
+            "printedPage": 391,
+            "pdfPage": 398,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7600,8 +7600,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "394",
-            "pdfPage": "401",
+            "printedPage": 394,
+            "pdfPage": 401,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7623,8 +7623,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-            "printedPage": "397",
-            "pdfPage": "404",
+            "printedPage": 397,
+            "pdfPage": 404,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7646,8 +7646,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "391",
-            "pdfPage": "398",
+            "printedPage": 391,
+            "pdfPage": 398,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7669,8 +7669,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第6章 风险与风险管理概述",
             "section": "第二节 风险管理的概念、特征、目标和职能",
-            "printedPage": "391",
-            "pdfPage": "398",
+            "printedPage": 391,
+            "pdfPage": 398,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7714,10 +7714,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "404—411",
-            "pdfPage": "411—418",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "405—406",
+            "pdfPage": "412—413",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "风险评估",
@@ -7742,10 +7742,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "404—411",
-            "pdfPage": "411—418",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 404,
+            "pdfPage": 411,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "收集初始信息",
@@ -7775,10 +7775,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "404—411",
-            "pdfPage": "411—418",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "405—406",
+            "pdfPage": "412—413",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "先识别并分析应收款风险的可能性、影响和原因，再选择信用政策、催收或其他合适措施。",
           "explain": "先评估再选择应对方案，不能对所有风险机械套用同一种工具。"
@@ -7797,10 +7797,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "412—441",
-            "pdfPage": "419—448",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "413—416",
+            "pdfPage": "420—423",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "组织职能体系",
@@ -7825,10 +7825,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "412—441",
-            "pdfPage": "419—448",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 412,
+            "pdfPage": 419,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "组织职能体系",
@@ -7857,11 +7857,11 @@ export const strategySubject = {
           "source": {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
-            "section": "第二节 风险管理体系",
-            "printedPage": "412—441",
-            "pdfPage": "419—448",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "section": "第一节 风险管理的流程",
+            "printedPage": "407—408",
+            "pdfPage": "414—415",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "明确职责、授权和限额，把要求写入采购审批及检查流程，并通过信息系统监控执行。",
           "explain": "策略需要内部控制和组织职责转化为日常行动。"
@@ -7880,10 +7880,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "442—458",
-            "pdfPage": "449—465",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 444,
+            "pdfPage": 451,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "德尔菲法",
@@ -7908,10 +7908,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "442—458",
-            "pdfPage": "449—465",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "442—443",
+            "pdfPage": "449—450",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "头脑风暴法",
@@ -7941,10 +7941,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "442—458",
-            "pdfPage": "449—465",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "453—454",
+            "pdfPage": "460—461",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "在其他条件相对不变时改变原料价格假设，计算利润变化，识别结果对该变量的敏感程度。",
           "explain": "敏感性分析检验关键变量变化对结果的影响，不等于预测唯一确定结果。"
@@ -7966,8 +7966,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "404",
-            "pdfPage": "411",
+            "printedPage": 404,
+            "pdfPage": 411,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -7989,8 +7989,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "405",
-            "pdfPage": "412",
+            "printedPage": 405,
+            "pdfPage": 412,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8012,8 +8012,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "406",
-            "pdfPage": "413",
+            "printedPage": 406,
+            "pdfPage": 413,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8035,8 +8035,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "407",
-            "pdfPage": "414",
+            "printedPage": 407,
+            "pdfPage": 414,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8058,8 +8058,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "408",
-            "pdfPage": "415",
+            "printedPage": 408,
+            "pdfPage": 415,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8081,8 +8081,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "409",
-            "pdfPage": "416",
+            "printedPage": 409,
+            "pdfPage": 416,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8104,8 +8104,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "413",
-            "pdfPage": "420",
+            "printedPage": 413,
+            "pdfPage": 420,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8127,8 +8127,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "417",
-            "pdfPage": "424",
+            "printedPage": 417,
+            "pdfPage": 424,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8150,8 +8150,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "420",
-            "pdfPage": "427",
+            "printedPage": 420,
+            "pdfPage": 427,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8173,8 +8173,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "422",
-            "pdfPage": "429",
+            "printedPage": 422,
+            "pdfPage": 429,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8196,8 +8196,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "422",
-            "pdfPage": "429",
+            "printedPage": 422,
+            "pdfPage": 429,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8219,8 +8219,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "423",
-            "pdfPage": "430",
+            "printedPage": 423,
+            "pdfPage": 430,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8242,8 +8242,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "423",
-            "pdfPage": "430",
+            "printedPage": 423,
+            "pdfPage": 430,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8265,8 +8265,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "425",
-            "pdfPage": "432",
+            "printedPage": 425,
+            "pdfPage": 432,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8288,8 +8288,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "433",
-            "pdfPage": "440",
+            "printedPage": 433,
+            "pdfPage": 440,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8311,8 +8311,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "440",
-            "pdfPage": "447",
+            "printedPage": 440,
+            "pdfPage": 447,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8334,8 +8334,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "442",
-            "pdfPage": "449",
+            "printedPage": 442,
+            "pdfPage": 449,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8357,8 +8357,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "444",
-            "pdfPage": "451",
+            "printedPage": 444,
+            "pdfPage": 451,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8380,8 +8380,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "445",
-            "pdfPage": "452",
+            "printedPage": 445,
+            "pdfPage": 452,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8403,8 +8403,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "448",
-            "pdfPage": "455",
+            "printedPage": 448,
+            "pdfPage": 455,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8426,8 +8426,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "449",
-            "pdfPage": "456",
+            "printedPage": 449,
+            "pdfPage": 456,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8449,8 +8449,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "451",
-            "pdfPage": "458",
+            "printedPage": 451,
+            "pdfPage": 458,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8472,8 +8472,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "452",
-            "pdfPage": "459",
+            "printedPage": 452,
+            "pdfPage": 459,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8495,8 +8495,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "453",
-            "pdfPage": "460",
+            "printedPage": 453,
+            "pdfPage": 460,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8518,8 +8518,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "454",
-            "pdfPage": "461",
+            "printedPage": 454,
+            "pdfPage": 461,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8541,8 +8541,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "456",
-            "pdfPage": "463",
+            "printedPage": 456,
+            "pdfPage": 463,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8564,8 +8564,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "458",
-            "pdfPage": "465",
+            "printedPage": 458,
+            "pdfPage": 465,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8587,8 +8587,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "405",
-            "pdfPage": "412",
+            "printedPage": 405,
+            "pdfPage": 412,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8610,8 +8610,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "405",
-            "pdfPage": "412",
+            "printedPage": 405,
+            "pdfPage": 412,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8633,8 +8633,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "407",
-            "pdfPage": "414",
+            "printedPage": 407,
+            "pdfPage": 414,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8656,8 +8656,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "409",
-            "pdfPage": "416",
+            "printedPage": 409,
+            "pdfPage": 416,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8679,8 +8679,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "413",
-            "pdfPage": "420",
+            "printedPage": 413,
+            "pdfPage": 420,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8702,8 +8702,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "415",
-            "pdfPage": "422",
+            "printedPage": 415,
+            "pdfPage": 422,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8725,8 +8725,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "425",
-            "pdfPage": "432",
+            "printedPage": 425,
+            "pdfPage": 432,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8748,8 +8748,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "427",
-            "pdfPage": "434",
+            "printedPage": 427,
+            "pdfPage": 434,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8771,8 +8771,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "433",
-            "pdfPage": "440",
+            "printedPage": 433,
+            "pdfPage": 440,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8794,8 +8794,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "440",
-            "pdfPage": "447",
+            "printedPage": 440,
+            "pdfPage": 447,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8817,8 +8817,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "442",
-            "pdfPage": "449",
+            "printedPage": 442,
+            "pdfPage": 449,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8840,8 +8840,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "443",
-            "pdfPage": "450",
+            "printedPage": 443,
+            "pdfPage": 450,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8863,8 +8863,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "444",
-            "pdfPage": "451",
+            "printedPage": 444,
+            "pdfPage": 451,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8886,8 +8886,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "448",
-            "pdfPage": "455",
+            "printedPage": 448,
+            "pdfPage": 455,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8909,8 +8909,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "453",
-            "pdfPage": "460",
+            "printedPage": 453,
+            "pdfPage": 460,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8932,8 +8932,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "456",
-            "pdfPage": "463",
+            "printedPage": 456,
+            "pdfPage": 463,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8955,8 +8955,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第一节 风险管理的流程",
-            "printedPage": "405",
-            "pdfPage": "412",
+            "printedPage": 405,
+            "pdfPage": 412,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -8978,8 +8978,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "416",
-            "pdfPage": "423",
+            "printedPage": 416,
+            "pdfPage": 423,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9001,8 +9001,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第二节 风险管理体系",
-            "printedPage": "424",
-            "pdfPage": "431",
+            "printedPage": 424,
+            "pdfPage": 431,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9024,8 +9024,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "447",
-            "pdfPage": "454",
+            "printedPage": 447,
+            "pdfPage": 454,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9047,8 +9047,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "450",
-            "pdfPage": "457",
+            "printedPage": 450,
+            "pdfPage": 457,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9070,8 +9070,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "455",
-            "pdfPage": "462",
+            "printedPage": 455,
+            "pdfPage": 462,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9093,8 +9093,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第7章 风险管理的流程、体系与方法",
             "section": "第三节 风险管理的技术与方法",
-            "printedPage": "458",
-            "pdfPage": "465",
+            "printedPage": 458,
+            "pdfPage": 465,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9138,10 +9138,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "459—463",
-            "pdfPage": "466—470",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "459—460",
+            "pdfPage": "466—467",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "战略风险",
@@ -9166,10 +9166,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "459—463",
-            "pdfPage": "466—470",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "459—460",
+            "pdfPage": "466—467",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "宏观与产业环境变化",
@@ -9199,10 +9199,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "459—463",
-            "pdfPage": "466—470",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "460—461",
+            "pdfPage": "467—468",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "分析行业、竞争和政策环境；评估自身资源与能力及与新业务的匹配，并设置分阶段决策与监测机制。",
           "explain": "战略风险应对要处理内外部匹配，而不只是提高盈利预测数字。"
@@ -9221,10 +9221,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "464—467",
-            "pdfPage": "471—474",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 464,
+            "pdfPage": 471,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "市场风险",
@@ -9249,10 +9249,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "464—467",
-            "pdfPage": "471—474",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 464,
+            "pdfPage": 471,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "客户需求变化",
@@ -9282,10 +9282,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "464—467",
-            "pdfPage": "471—474",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "464—465",
+            "pdfPage": "471—472",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "加强客户需求和渠道数据研究；调整线上线下销售渠道与产品组合，并持续监测效果。",
           "explain": "先识别市场趋势变化，再采取与需求相适应的行动。"
@@ -9304,10 +9304,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "468—476",
-            "pdfPage": "475—483",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "470—472",
+            "pdfPage": "477—479",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "财务风险",
@@ -9332,10 +9332,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "468—476",
-            "pdfPage": "475—483",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 468,
+            "pdfPage": 475,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "全面预算",
@@ -9365,10 +9365,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "468—476",
-            "pdfPage": "475—483",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "469—470",
+            "pdfPage": "476—477",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "建立预算执行监控与差异分析；对超预算支出设置授权审批和责任考核，并按规定调整预算。",
           "explain": "预算不仅要编制，还需要执行、监控与纠偏。"
@@ -9387,10 +9387,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "477—499",
-            "pdfPage": "484—506",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 477,
+            "pdfPage": 484,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "运营风险",
@@ -9415,10 +9415,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "477—499",
-            "pdfPage": "484—506",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "477—478",
+            "pdfPage": "484—485",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "产品研发与质量",
@@ -9448,10 +9448,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "477—499",
-            "pdfPage": "484—506",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 497,
+            "pdfPage": 504,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "sample": "存在信息安全与运营风险，也可能引发合规问题；应限定访问权限、培训员工、采用受控系统并建立监测和应急机制。",
           "explain": "案例可能有多种风险标签，但要抓住业务控制失效及相应措施。"
@@ -9470,10 +9470,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "500—503",
-            "pdfPage": "507—510",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": 500,
+            "pdfPage": 507,
+            "locationGranularity": "topic-page",
+            "note": ""
           },
           "options": [
             "法律风险",
@@ -9498,10 +9498,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "500—503",
-            "pdfPage": "507—510",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "500—502",
+            "pdfPage": "507—509",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "options": [
             "合同条款设计不当",
@@ -9531,10 +9531,10 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "500—503",
-            "pdfPage": "507—510",
-            "locationGranularity": "section",
-            "note": "所属知识节的阅读范围；非逐题精确页码。"
+            "printedPage": "500—502",
+            "pdfPage": "507—509",
+            "locationGranularity": "topic-range",
+            "note": ""
           },
           "sample": "开展当地法律和监管尽职调查；由专业人员审核合同条款、付款保障和争议解决安排，并跟踪履约。",
           "explain": "法律风险侧重不利法律后果，合规风险还关注违反监管要求及规范的影响。"
@@ -9556,8 +9556,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "459",
-            "pdfPage": "466",
+            "printedPage": 459,
+            "pdfPage": 466,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9579,8 +9579,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "460",
-            "pdfPage": "467",
+            "printedPage": 460,
+            "pdfPage": 467,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9602,8 +9602,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "460",
-            "pdfPage": "467",
+            "printedPage": 460,
+            "pdfPage": 467,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9625,8 +9625,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "461",
-            "pdfPage": "468",
+            "printedPage": 461,
+            "pdfPage": 468,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9648,8 +9648,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "462",
-            "pdfPage": "469",
+            "printedPage": 462,
+            "pdfPage": 469,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9671,8 +9671,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "464",
-            "pdfPage": "471",
+            "printedPage": 464,
+            "pdfPage": 471,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9694,8 +9694,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "465",
-            "pdfPage": "472",
+            "printedPage": 465,
+            "pdfPage": 472,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9717,8 +9717,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "465",
-            "pdfPage": "472",
+            "printedPage": 465,
+            "pdfPage": 472,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9740,8 +9740,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "464",
-            "pdfPage": "471",
+            "printedPage": 464,
+            "pdfPage": 471,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9763,8 +9763,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "468",
-            "pdfPage": "475",
+            "printedPage": 468,
+            "pdfPage": 475,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9786,8 +9786,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "470",
-            "pdfPage": "477",
+            "printedPage": 470,
+            "pdfPage": 477,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9809,8 +9809,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "471",
-            "pdfPage": "478",
+            "printedPage": 471,
+            "pdfPage": 478,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9832,8 +9832,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "472",
-            "pdfPage": "479",
+            "printedPage": 472,
+            "pdfPage": 479,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9855,8 +9855,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "474",
-            "pdfPage": "481",
+            "printedPage": 474,
+            "pdfPage": 481,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9878,8 +9878,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "474",
-            "pdfPage": "481",
+            "printedPage": 474,
+            "pdfPage": 481,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9901,8 +9901,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "478",
-            "pdfPage": "485",
+            "printedPage": 478,
+            "pdfPage": 485,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9924,8 +9924,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "479",
-            "pdfPage": "486",
+            "printedPage": 479,
+            "pdfPage": 486,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9947,8 +9947,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "480",
-            "pdfPage": "487",
+            "printedPage": 480,
+            "pdfPage": 487,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9970,8 +9970,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "481",
-            "pdfPage": "488",
+            "printedPage": 481,
+            "pdfPage": 488,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -9993,8 +9993,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "482",
-            "pdfPage": "489",
+            "printedPage": 482,
+            "pdfPage": 489,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10016,8 +10016,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "484",
-            "pdfPage": "491",
+            "printedPage": 484,
+            "pdfPage": 491,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10039,8 +10039,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "486",
-            "pdfPage": "493",
+            "printedPage": 486,
+            "pdfPage": 493,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10062,8 +10062,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "487",
-            "pdfPage": "494",
+            "printedPage": 487,
+            "pdfPage": 494,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10085,8 +10085,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "488",
-            "pdfPage": "495",
+            "printedPage": 488,
+            "pdfPage": 495,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10108,8 +10108,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "490",
-            "pdfPage": "497",
+            "printedPage": 490,
+            "pdfPage": 497,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10131,8 +10131,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "492",
-            "pdfPage": "499",
+            "printedPage": 492,
+            "pdfPage": 499,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10154,8 +10154,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "494",
-            "pdfPage": "501",
+            "printedPage": 494,
+            "pdfPage": 501,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10177,8 +10177,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "495",
-            "pdfPage": "502",
+            "printedPage": 495,
+            "pdfPage": 502,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10200,8 +10200,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "500",
-            "pdfPage": "507",
+            "printedPage": 500,
+            "pdfPage": 507,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10223,8 +10223,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "500",
-            "pdfPage": "507",
+            "printedPage": 500,
+            "pdfPage": 507,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10246,8 +10246,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "501",
-            "pdfPage": "508",
+            "printedPage": 501,
+            "pdfPage": 508,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10269,8 +10269,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "501",
-            "pdfPage": "508",
+            "printedPage": 501,
+            "pdfPage": 508,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10292,8 +10292,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "461",
-            "pdfPage": "468",
+            "printedPage": 461,
+            "pdfPage": 468,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10315,8 +10315,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第一节 战略风险与应对",
-            "printedPage": "462",
-            "pdfPage": "469",
+            "printedPage": 462,
+            "pdfPage": 469,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10338,8 +10338,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "464",
-            "pdfPage": "471",
+            "printedPage": 464,
+            "pdfPage": 471,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10361,8 +10361,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第二节 市场风险与应对",
-            "printedPage": "465",
-            "pdfPage": "472",
+            "printedPage": 465,
+            "pdfPage": 472,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10384,8 +10384,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "470",
-            "pdfPage": "477",
+            "printedPage": 470,
+            "pdfPage": 477,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10407,8 +10407,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "473",
-            "pdfPage": "480",
+            "printedPage": 473,
+            "pdfPage": 480,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10430,8 +10430,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第三节 财务风险与应对",
-            "printedPage": "475",
-            "pdfPage": "482",
+            "printedPage": 475,
+            "pdfPage": 482,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10453,8 +10453,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "486",
-            "pdfPage": "493",
+            "printedPage": 486,
+            "pdfPage": 493,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10476,8 +10476,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "485",
-            "pdfPage": "492",
+            "printedPage": 485,
+            "pdfPage": 492,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10499,8 +10499,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "489",
-            "pdfPage": "496",
+            "printedPage": 489,
+            "pdfPage": 496,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10522,8 +10522,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "491",
-            "pdfPage": "498",
+            "printedPage": 491,
+            "pdfPage": 498,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10545,8 +10545,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "494",
-            "pdfPage": "501",
+            "printedPage": 494,
+            "pdfPage": 501,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10568,8 +10568,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第四节 运营风险与应对",
-            "printedPage": "496",
-            "pdfPage": "503",
+            "printedPage": 496,
+            "pdfPage": 503,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10591,8 +10591,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "500",
-            "pdfPage": "507",
+            "printedPage": 500,
+            "pdfPage": 507,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10614,8 +10614,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "501",
-            "pdfPage": "508",
+            "printedPage": 501,
+            "pdfPage": 508,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10637,8 +10637,8 @@ export const strategySubject = {
             "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
             "chapter": "第8章 企业面对的主要风险与应对",
             "section": "第五节 法律风险和合规风险与应对",
-            "printedPage": "502",
-            "pdfPage": "509",
+            "printedPage": 502,
+            "pdfPage": 509,
             "locationGranularity": "topic-page",
             "note": "知识点所在教材页；请结合上下文阅读。"
           }
@@ -10688,10 +10688,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "1—6",
-        "pdfPage": "8—13",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 6,
+        "pdfPage": 13,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "总体战略",
@@ -10716,10 +10716,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "1—6",
-        "pdfPage": "8—13",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "2—4",
+        "pdfPage": "9—11",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "公司存在的理由",
@@ -10748,10 +10748,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "1—6",
-        "pdfPage": "8—13",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 2,
+        "pdfPage": 9,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "体现战略的应变性：原有计划可以依据环境和竞争变化调整。",
       "explain": "教材区分计划性的传统认识与强调应变、竞争和风险的现代认识；实际战略往往兼有预谋与适应。"
@@ -10770,10 +10770,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "7—37",
-        "pdfPage": "14—44",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "8—9",
+        "pdfPage": "15—16",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "战略分析",
@@ -10798,10 +10798,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "7—37",
-        "pdfPage": "14—44",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "8—11",
+        "pdfPage": "15—18",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "分析内外部环境",
@@ -10831,10 +10831,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "7—37",
-        "pdfPage": "14—44",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 8,
+        "pdfPage": 15,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "不妥。应监测环境变化和实施效果，必要时重新分析并调整战略及资源安排。",
       "explain": "战略管理并非一次性的文件批准，而是随内外部条件变化持续评价、反馈和调整。"
@@ -10856,8 +10856,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "2",
-        "pdfPage": "9",
+        "printedPage": 2,
+        "pdfPage": 9,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -10879,8 +10879,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "4",
-        "pdfPage": "11",
+        "printedPage": 4,
+        "pdfPage": 11,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -10902,8 +10902,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "6",
-        "pdfPage": "13",
+        "printedPage": 6,
+        "pdfPage": 13,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -10925,8 +10925,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "6",
-        "pdfPage": "13",
+        "printedPage": 6,
+        "pdfPage": 13,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -10948,8 +10948,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "8",
-        "pdfPage": "15",
+        "printedPage": 8,
+        "pdfPage": 15,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -10971,8 +10971,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "8",
-        "pdfPage": "15",
+        "printedPage": 8,
+        "pdfPage": 15,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -10994,8 +10994,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "13",
-        "pdfPage": "20",
+        "printedPage": 13,
+        "pdfPage": 20,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11017,8 +11017,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "16",
-        "pdfPage": "23",
+        "printedPage": 16,
+        "pdfPage": 23,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11040,8 +11040,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "25",
-        "pdfPage": "32",
+        "printedPage": 25,
+        "pdfPage": 32,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11063,8 +11063,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "30",
-        "pdfPage": "37",
+        "printedPage": 30,
+        "pdfPage": 37,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11086,8 +11086,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "1",
-        "pdfPage": "8",
+        "printedPage": 1,
+        "pdfPage": 8,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11109,8 +11109,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "1",
-        "pdfPage": "8",
+        "printedPage": 1,
+        "pdfPage": 8,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11132,8 +11132,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "3",
-        "pdfPage": "10",
+        "printedPage": 3,
+        "pdfPage": 10,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11155,8 +11155,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "3",
-        "pdfPage": "10",
+        "printedPage": 3,
+        "pdfPage": 10,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11178,8 +11178,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第一节 公司战略的基本概念",
-        "printedPage": "4",
-        "pdfPage": "11",
+        "printedPage": 4,
+        "pdfPage": 11,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11201,8 +11201,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "11",
-        "pdfPage": "18",
+        "printedPage": 11,
+        "pdfPage": 18,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11224,8 +11224,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "13",
-        "pdfPage": "20",
+        "printedPage": 13,
+        "pdfPage": 20,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11247,8 +11247,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "15",
-        "pdfPage": "22",
+        "printedPage": 15,
+        "pdfPage": 22,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11270,8 +11270,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "16",
-        "pdfPage": "23",
+        "printedPage": 16,
+        "pdfPage": 23,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11293,8 +11293,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "25",
-        "pdfPage": "32",
+        "printedPage": 25,
+        "pdfPage": 32,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11316,8 +11316,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "30",
-        "pdfPage": "37",
+        "printedPage": 30,
+        "pdfPage": 37,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11339,8 +11339,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "32",
-        "pdfPage": "39",
+        "printedPage": 32,
+        "pdfPage": 39,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11362,8 +11362,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第1章 战略与战略管理概述",
         "section": "第二节 公司战略管理",
-        "printedPage": "34",
-        "pdfPage": "41",
+        "printedPage": 34,
+        "pdfPage": 41,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11382,10 +11382,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "38—71",
-        "pdfPage": "45—78",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 38,
+        "pdfPage": 45,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "政治与法律因素",
@@ -11410,10 +11410,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "38—71",
-        "pdfPage": "45—78",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "38—68",
+        "pdfPage": "45—75",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "宏观环境",
@@ -11443,10 +11443,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "38—71",
-        "pdfPage": "45—78",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 46,
+        "pdfPage": 53,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "潜在进入者的威胁可能增强，现有企业的市场份额和盈利能力可能受到挤压；还要结合进入壁垒等条件判断。",
       "explain": "识别环境变化属于哪一种竞争力量，再分析对行业竞争和企业的影响。"
@@ -11465,10 +11465,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "72—101",
-        "pdfPage": "79—108",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "89—90",
+        "pdfPage": "96—97",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "价值链活动",
@@ -11493,10 +11493,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "72—101",
-        "pdfPage": "79—108",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "73—81",
+        "pdfPage": "80—88",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "企业资源",
@@ -11526,10 +11526,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "72—101",
-        "pdfPage": "79—108",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 82,
+        "pdfPage": 89,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "它能为顾客创造价值并形成竞争优势，而且竞争者难以模仿；还应检验企业能否持续运用。",
       "explain": "“有技术”本身不够，重点是价值、独特性和可持续的竞争作用。"
@@ -11548,10 +11548,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "102—104",
-        "pdfPage": "109—111",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 102,
+        "pdfPage": 109,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "优势S",
@@ -11576,10 +11576,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "102—104",
-        "pdfPage": "109—111",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 102,
+        "pdfPage": 109,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "内部成本偏高—劣势",
@@ -11611,8 +11611,8 @@ export const strategySubject = {
         "section": "第三节 企业内外部环境综合分析",
         "printedPage": "102—104",
         "pdfPage": "109—111",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "强大研发团队是内部优势S；原产品需求下降是外部威胁T。可考虑利用研发能力开发适应新需求的产品，并评估可行性。",
       "explain": "先分内部外部，再把优势和威胁组合用于提出方向；不应只罗列字母。"
@@ -11634,8 +11634,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "39",
-        "pdfPage": "46",
+        "printedPage": 39,
+        "pdfPage": 46,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11657,8 +11657,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "39",
-        "pdfPage": "46",
+        "printedPage": 39,
+        "pdfPage": 46,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11680,8 +11680,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "40",
-        "pdfPage": "47",
+        "printedPage": 40,
+        "pdfPage": 47,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11703,8 +11703,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "41",
-        "pdfPage": "48",
+        "printedPage": 41,
+        "pdfPage": 48,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11726,8 +11726,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "43",
-        "pdfPage": "50",
+        "printedPage": 43,
+        "pdfPage": 50,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11749,8 +11749,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "45",
-        "pdfPage": "52",
+        "printedPage": 45,
+        "pdfPage": 52,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11772,8 +11772,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "45",
-        "pdfPage": "52",
+        "printedPage": 45,
+        "pdfPage": 52,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11795,8 +11795,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "53",
-        "pdfPage": "60",
+        "printedPage": 53,
+        "pdfPage": 60,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11818,8 +11818,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "59",
-        "pdfPage": "66",
+        "printedPage": 59,
+        "pdfPage": 66,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11841,8 +11841,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "68",
-        "pdfPage": "75",
+        "printedPage": 68,
+        "pdfPage": 75,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11864,8 +11864,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "77",
-        "pdfPage": "84",
+        "printedPage": 77,
+        "pdfPage": 84,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11887,8 +11887,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "77",
-        "pdfPage": "84",
+        "printedPage": 77,
+        "pdfPage": 84,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11910,8 +11910,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "81",
-        "pdfPage": "88",
+        "printedPage": 81,
+        "pdfPage": 88,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11933,8 +11933,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "84",
-        "pdfPage": "91",
+        "printedPage": 84,
+        "pdfPage": 91,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11956,8 +11956,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "89",
-        "pdfPage": "96",
+        "printedPage": 89,
+        "pdfPage": 96,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -11979,8 +11979,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "92",
-        "pdfPage": "99",
+        "printedPage": 92,
+        "pdfPage": 99,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12002,8 +12002,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "97",
-        "pdfPage": "104",
+        "printedPage": 97,
+        "pdfPage": 104,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12025,8 +12025,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "100",
-        "pdfPage": "107",
+        "printedPage": 100,
+        "pdfPage": 107,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12048,8 +12048,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "102",
-        "pdfPage": "109",
+        "printedPage": 102,
+        "pdfPage": 109,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12071,8 +12071,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "103",
-        "pdfPage": "110",
+        "printedPage": 103,
+        "pdfPage": 110,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12094,8 +12094,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "104",
-        "pdfPage": "111",
+        "printedPage": 104,
+        "pdfPage": 111,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12117,8 +12117,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "39",
-        "pdfPage": "46",
+        "printedPage": 39,
+        "pdfPage": 46,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12140,8 +12140,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "40",
-        "pdfPage": "47",
+        "printedPage": 40,
+        "pdfPage": 47,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12163,8 +12163,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "40",
-        "pdfPage": "47",
+        "printedPage": 40,
+        "pdfPage": 47,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12186,8 +12186,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "41",
-        "pdfPage": "48",
+        "printedPage": 41,
+        "pdfPage": 48,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12209,8 +12209,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "46",
-        "pdfPage": "53",
+        "printedPage": 46,
+        "pdfPage": 53,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12232,8 +12232,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "49",
-        "pdfPage": "56",
+        "printedPage": 49,
+        "pdfPage": 56,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12255,8 +12255,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "51",
-        "pdfPage": "58",
+        "printedPage": 51,
+        "pdfPage": 58,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12278,8 +12278,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "63",
-        "pdfPage": "70",
+        "printedPage": 63,
+        "pdfPage": 70,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12301,8 +12301,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "68",
-        "pdfPage": "75",
+        "printedPage": 68,
+        "pdfPage": 75,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12324,8 +12324,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "72",
-        "pdfPage": "79",
+        "printedPage": 72,
+        "pdfPage": 79,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12347,8 +12347,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "76",
-        "pdfPage": "83",
+        "printedPage": 76,
+        "pdfPage": 83,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12370,8 +12370,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "79",
-        "pdfPage": "86",
+        "printedPage": 79,
+        "pdfPage": 86,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12393,8 +12393,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "81",
-        "pdfPage": "88",
+        "printedPage": 81,
+        "pdfPage": 88,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12416,8 +12416,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "84",
-        "pdfPage": "91",
+        "printedPage": 84,
+        "pdfPage": 91,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12439,8 +12439,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "89",
-        "pdfPage": "96",
+        "printedPage": 89,
+        "pdfPage": 96,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12462,8 +12462,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "92",
-        "pdfPage": "99",
+        "printedPage": 92,
+        "pdfPage": 99,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12485,8 +12485,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "98",
-        "pdfPage": "105",
+        "printedPage": 98,
+        "pdfPage": 105,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12508,8 +12508,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "99",
-        "pdfPage": "106",
+        "printedPage": 99,
+        "pdfPage": 106,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12531,8 +12531,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第二节 企业内部环境分析",
-        "printedPage": "100",
-        "pdfPage": "107",
+        "printedPage": 100,
+        "pdfPage": 107,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12554,8 +12554,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "103",
-        "pdfPage": "110",
+        "printedPage": 103,
+        "pdfPage": 110,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12577,8 +12577,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第三节 企业内外部环境综合分析",
-        "printedPage": "104",
-        "pdfPage": "111",
+        "printedPage": 104,
+        "pdfPage": 111,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12600,8 +12600,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "59",
-        "pdfPage": "66",
+        "printedPage": 59,
+        "pdfPage": 66,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12623,8 +12623,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第2章 战略分析",
         "section": "第一节 企业外部环境分析",
-        "printedPage": "61",
-        "pdfPage": "68",
+        "printedPage": 61,
+        "pdfPage": 68,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -12643,10 +12643,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "105—146",
-        "pdfPage": "112—153",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 107,
+        "pdfPage": 114,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "后向一体化",
@@ -12671,10 +12671,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "105—146",
-        "pdfPage": "112—153",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 106,
+        "pdfPage": 113,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "发展战略",
@@ -12704,10 +12704,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "105—146",
-        "pdfPage": "112—153",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 111,
+        "pdfPage": 118,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "属于市场开发：用现有产品开拓新的地区或顾客市场。",
       "explain": "区分现有与新产品、现有与新市场；本例改变的是市场。"
@@ -12726,10 +12726,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "147—195",
-        "pdfPage": "154—202",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 156,
+        "pdfPage": 163,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "集中化战略中的差异化",
@@ -12754,10 +12754,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "147—195",
-        "pdfPage": "154—202",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "147—153",
+        "pdfPage": "154—160",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "成本领先重视持续的低成本地位",
@@ -12786,10 +12786,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "147—195",
-        "pdfPage": "154—202",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "147—151",
+        "pdfPage": "154—158",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "第一家主要是成本领先；第二家主要是差异化。需进一步看其优势能否持续。",
       "explain": "判断依据是形成竞争优势的方式，不只看产品标价。"
@@ -12808,10 +12808,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "196—249",
-        "pdfPage": "203—256",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "196—197",
+        "pdfPage": "203—204",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "市场营销职能战略",
@@ -12836,10 +12836,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "196—249",
-        "pdfPage": "203—256",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 196,
+        "pdfPage": 203,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "人力资源战略",
@@ -12869,10 +12869,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "196—249",
-        "pdfPage": "203—256",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 196,
+        "pdfPage": 203,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "围绕同一业务战略协调研发设计、质量与生产能力、营销定位及渠道，并建立跨部门沟通与反馈。",
       "explain": "职能战略必须相互配合，也要与上层战略保持一致。"
@@ -12891,10 +12891,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "250—277",
-        "pdfPage": "257—284",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "250—251",
+        "pdfPage": "257—258",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "资源",
@@ -12919,10 +12919,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "250—277",
-        "pdfPage": "257—284",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "250—252",
+        "pdfPage": "257—259",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "当地市场需求",
@@ -12952,10 +12952,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "250—277",
-        "pdfPage": "257—284",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "252—254",
+        "pdfPage": "259—261",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "出口可用较少前期投入试探需求；但对当地销售渠道和客户体验的控制可能较弱，仍需评估贸易壁垒等。",
       "explain": "根据投入、控制和风险权衡进入方式，不能只看销售额。"
@@ -12977,8 +12977,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "106",
-        "pdfPage": "113",
+        "printedPage": 106,
+        "pdfPage": 113,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13000,8 +13000,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "108",
-        "pdfPage": "115",
+        "printedPage": 108,
+        "pdfPage": 115,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13023,8 +13023,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "110",
-        "pdfPage": "117",
+        "printedPage": 110,
+        "pdfPage": 117,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13046,8 +13046,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "111",
-        "pdfPage": "118",
+        "printedPage": 111,
+        "pdfPage": 118,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13069,8 +13069,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "113",
-        "pdfPage": "120",
+        "printedPage": 113,
+        "pdfPage": 120,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13092,8 +13092,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "115",
-        "pdfPage": "122",
+        "printedPage": 115,
+        "pdfPage": 122,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13115,8 +13115,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "118",
-        "pdfPage": "125",
+        "printedPage": 118,
+        "pdfPage": 125,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13138,8 +13138,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "119",
-        "pdfPage": "126",
+        "printedPage": 119,
+        "pdfPage": 126,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13161,8 +13161,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "125",
-        "pdfPage": "132",
+        "printedPage": 125,
+        "pdfPage": 132,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13184,8 +13184,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "134",
-        "pdfPage": "141",
+        "printedPage": 134,
+        "pdfPage": 141,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13207,8 +13207,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "148",
-        "pdfPage": "155",
+        "printedPage": 148,
+        "pdfPage": 155,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13230,8 +13230,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "152",
-        "pdfPage": "159",
+        "printedPage": 152,
+        "pdfPage": 159,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13253,8 +13253,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "156",
-        "pdfPage": "163",
+        "printedPage": 156,
+        "pdfPage": 163,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13276,8 +13276,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "158",
-        "pdfPage": "165",
+        "printedPage": 158,
+        "pdfPage": 165,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13299,8 +13299,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "161",
-        "pdfPage": "168",
+        "printedPage": 161,
+        "pdfPage": 168,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13322,8 +13322,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "169",
-        "pdfPage": "176",
+        "printedPage": 169,
+        "pdfPage": 176,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13345,8 +13345,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "175",
-        "pdfPage": "182",
+        "printedPage": 175,
+        "pdfPage": 182,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13368,8 +13368,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "190",
-        "pdfPage": "197",
+        "printedPage": 190,
+        "pdfPage": 197,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13391,8 +13391,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "193",
-        "pdfPage": "200",
+        "printedPage": 193,
+        "pdfPage": 200,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13414,8 +13414,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "197",
-        "pdfPage": "204",
+        "printedPage": 197,
+        "pdfPage": 204,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13437,8 +13437,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "199",
-        "pdfPage": "206",
+        "printedPage": 199,
+        "pdfPage": 206,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13460,8 +13460,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "201",
-        "pdfPage": "208",
+        "printedPage": 201,
+        "pdfPage": 208,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13483,8 +13483,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "202",
-        "pdfPage": "209",
+        "printedPage": 202,
+        "pdfPage": 209,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13506,8 +13506,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "214",
-        "pdfPage": "221",
+        "printedPage": 214,
+        "pdfPage": 221,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13529,8 +13529,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "216",
-        "pdfPage": "223",
+        "printedPage": 216,
+        "pdfPage": 223,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13552,8 +13552,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "222",
-        "pdfPage": "229",
+        "printedPage": 222,
+        "pdfPage": 229,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13575,8 +13575,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "223",
-        "pdfPage": "230",
+        "printedPage": 223,
+        "pdfPage": 230,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13598,8 +13598,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "226",
-        "pdfPage": "233",
+        "printedPage": 226,
+        "pdfPage": 233,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13621,8 +13621,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "228",
-        "pdfPage": "235",
+        "printedPage": 228,
+        "pdfPage": 235,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13644,8 +13644,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "231",
-        "pdfPage": "238",
+        "printedPage": 231,
+        "pdfPage": 238,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13667,8 +13667,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "236",
-        "pdfPage": "243",
+        "printedPage": 236,
+        "pdfPage": 243,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13690,8 +13690,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "241",
-        "pdfPage": "248",
+        "printedPage": 241,
+        "pdfPage": 248,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13713,8 +13713,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "250",
-        "pdfPage": "257",
+        "printedPage": 250,
+        "pdfPage": 257,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13736,8 +13736,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "251",
-        "pdfPage": "258",
+        "printedPage": 251,
+        "pdfPage": 258,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13759,8 +13759,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "252",
-        "pdfPage": "259",
+        "printedPage": 252,
+        "pdfPage": 259,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13782,8 +13782,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "254",
-        "pdfPage": "261",
+        "printedPage": 254,
+        "pdfPage": 261,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13805,8 +13805,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "263",
-        "pdfPage": "270",
+        "printedPage": 263,
+        "pdfPage": 270,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13828,8 +13828,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "265",
-        "pdfPage": "272",
+        "printedPage": 265,
+        "pdfPage": 272,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13851,8 +13851,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "266",
-        "pdfPage": "273",
+        "printedPage": 266,
+        "pdfPage": 273,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13874,8 +13874,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "266",
-        "pdfPage": "273",
+        "printedPage": 266,
+        "pdfPage": 273,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13897,8 +13897,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "269",
-        "pdfPage": "276",
+        "printedPage": 269,
+        "pdfPage": 276,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13920,8 +13920,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "109",
-        "pdfPage": "116",
+        "printedPage": 109,
+        "pdfPage": 116,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13943,8 +13943,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "110",
-        "pdfPage": "117",
+        "printedPage": 110,
+        "pdfPage": 117,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13966,8 +13966,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "112",
-        "pdfPage": "119",
+        "printedPage": 112,
+        "pdfPage": 119,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -13989,8 +13989,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "115",
-        "pdfPage": "122",
+        "printedPage": 115,
+        "pdfPage": 122,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14012,8 +14012,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "120",
-        "pdfPage": "127",
+        "printedPage": 120,
+        "pdfPage": 127,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14035,8 +14035,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "122",
-        "pdfPage": "129",
+        "printedPage": 122,
+        "pdfPage": 129,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14058,8 +14058,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "126",
-        "pdfPage": "133",
+        "printedPage": 126,
+        "pdfPage": 133,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14081,8 +14081,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "130",
-        "pdfPage": "137",
+        "printedPage": 130,
+        "pdfPage": 137,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14104,8 +14104,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第一节 总体战略",
-        "printedPage": "136",
-        "pdfPage": "143",
+        "printedPage": 136,
+        "pdfPage": 143,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14127,8 +14127,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "150",
-        "pdfPage": "157",
+        "printedPage": 150,
+        "pdfPage": 157,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14150,8 +14150,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "153",
-        "pdfPage": "160",
+        "printedPage": 153,
+        "pdfPage": 160,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14173,8 +14173,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "156",
-        "pdfPage": "163",
+        "printedPage": 156,
+        "pdfPage": 163,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14196,8 +14196,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "162",
-        "pdfPage": "169",
+        "printedPage": 162,
+        "pdfPage": 169,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14219,8 +14219,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "169",
-        "pdfPage": "176",
+        "printedPage": 169,
+        "pdfPage": 176,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14242,8 +14242,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "175",
-        "pdfPage": "182",
+        "printedPage": 175,
+        "pdfPage": 182,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14265,8 +14265,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "178",
-        "pdfPage": "185",
+        "printedPage": 178,
+        "pdfPage": 185,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14288,8 +14288,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "191",
-        "pdfPage": "198",
+        "printedPage": 191,
+        "pdfPage": 198,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14311,8 +14311,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "194",
-        "pdfPage": "201",
+        "printedPage": 194,
+        "pdfPage": 201,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14334,8 +14334,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "204",
-        "pdfPage": "211",
+        "printedPage": 204,
+        "pdfPage": 211,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14357,8 +14357,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "207",
-        "pdfPage": "214",
+        "printedPage": 207,
+        "pdfPage": 214,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14380,8 +14380,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "213",
-        "pdfPage": "220",
+        "printedPage": 213,
+        "pdfPage": 220,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14403,8 +14403,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "216",
-        "pdfPage": "223",
+        "printedPage": 216,
+        "pdfPage": 223,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14426,8 +14426,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "220",
-        "pdfPage": "227",
+        "printedPage": 220,
+        "pdfPage": 227,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14449,8 +14449,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "222",
-        "pdfPage": "229",
+        "printedPage": 222,
+        "pdfPage": 229,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14472,8 +14472,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "225",
-        "pdfPage": "232",
+        "printedPage": 225,
+        "pdfPage": 232,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14495,8 +14495,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "230",
-        "pdfPage": "237",
+        "printedPage": 230,
+        "pdfPage": 237,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14518,8 +14518,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "233",
-        "pdfPage": "240",
+        "printedPage": 233,
+        "pdfPage": 240,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14541,8 +14541,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "236",
-        "pdfPage": "243",
+        "printedPage": 236,
+        "pdfPage": 243,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14564,8 +14564,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "247",
-        "pdfPage": "254",
+        "printedPage": 247,
+        "pdfPage": 254,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14587,8 +14587,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "253",
-        "pdfPage": "260",
+        "printedPage": 253,
+        "pdfPage": 260,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14610,8 +14610,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "256",
-        "pdfPage": "263",
+        "printedPage": 256,
+        "pdfPage": 263,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14633,8 +14633,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "260",
-        "pdfPage": "267",
+        "printedPage": 260,
+        "pdfPage": 267,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14656,8 +14656,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "265",
-        "pdfPage": "272",
+        "printedPage": 265,
+        "pdfPage": 272,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14679,8 +14679,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "266",
-        "pdfPage": "273",
+        "printedPage": 266,
+        "pdfPage": 273,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14702,8 +14702,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第四节 国际化经营战略",
-        "printedPage": "269",
-        "pdfPage": "276",
+        "printedPage": 269,
+        "pdfPage": 276,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14725,8 +14725,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "177",
-        "pdfPage": "184",
+        "printedPage": 177,
+        "pdfPage": 184,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14748,8 +14748,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第二节 业务单位战略",
-        "printedPage": "176",
-        "pdfPage": "183",
+        "printedPage": 176,
+        "pdfPage": 183,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14771,8 +14771,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "214",
-        "pdfPage": "221",
+        "printedPage": 214,
+        "pdfPage": 221,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14794,8 +14794,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "215",
-        "pdfPage": "222",
+        "printedPage": 215,
+        "pdfPage": 222,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14817,8 +14817,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "217",
-        "pdfPage": "224",
+        "printedPage": 217,
+        "pdfPage": 224,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14840,8 +14840,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "220",
-        "pdfPage": "227",
+        "printedPage": 220,
+        "pdfPage": 227,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14863,8 +14863,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第3章 战略选择",
         "section": "第三节 职能战略",
-        "printedPage": "231",
-        "pdfPage": "238",
+        "printedPage": 231,
+        "pdfPage": 238,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -14883,10 +14883,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "278—302",
-        "pdfPage": "285—309",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "278—279",
+        "pdfPage": "285—286",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "横向分工",
@@ -14911,10 +14911,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "278—302",
-        "pdfPage": "285—309",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "278—279",
+        "pdfPage": "285—286",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "职责分工",
@@ -14944,10 +14944,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "278—302",
-        "pdfPage": "285—309",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 296,
+        "pdfPage": 303,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "经营业务改变后，原分工和决策机制可能不适合；可评估按业务划分职责、授权及协调机制，使结构支持战略。",
       "explain": "结构要服务战略，不能只因组织图多年未变就沿用原安排。"
@@ -14966,10 +14966,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303—308",
-        "pdfPage": "310—315",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 303,
+        "pdfPage": 310,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "企业文化",
@@ -14994,10 +14994,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303—308",
-        "pdfPage": "310—315",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "305—308",
+        "pdfPage": "312—315",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "说明新战略与现有价值观的关系",
@@ -15026,10 +15026,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303—308",
-        "pdfPage": "310—315",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "306—308",
+        "pdfPage": "313—315",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "创新战略与强调层层审批的实际行为规范不匹配；可调整授权和试验机制，并在可控范围内允许试错。",
       "explain": "判断文化要看真实的行为方式和激励机制，而非只看标语。"
@@ -15048,10 +15048,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "309—318",
-        "pdfPage": "316—325",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 309,
+        "pdfPage": 316,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "战略控制",
@@ -15076,10 +15076,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "309—318",
-        "pdfPage": "316—325",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 309,
+        "pdfPage": 316,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "信息反馈不畅",
@@ -15109,10 +15109,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "309—318",
-        "pdfPage": "316—325",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "316—317",
+        "pdfPage": "323—324",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "考核指标未能充分反映客户留存目标；应补充留存率、复购率等相关指标，并根据结果调整行动。",
       "explain": "控制指标要与战略目标相连，不能以易统计的指标替代真正目标。"
@@ -15131,10 +15131,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "319—336",
-        "pdfPage": "326—343",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "323—325",
+        "pdfPage": "330—332",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "利用数据改进经营决策",
@@ -15159,10 +15159,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "319—336",
-        "pdfPage": "326—343",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "333—334",
+        "pdfPage": "340—341",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "数据治理",
@@ -15192,10 +15192,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "319—336",
-        "pdfPage": "326—343",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "330—334",
+        "pdfPage": "337—341",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "统一数据口径与治理责任；改造流程并培训员工，促进跨部门协同使用系统。",
       "explain": "购买软件不等于完成数智化转型，数据质量和实际使用同样关键。"
@@ -15214,10 +15214,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "337—346",
-        "pdfPage": "344—353",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "337—338",
+        "pdfPage": "344—345",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "环境责任",
@@ -15242,10 +15242,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "337—346",
-        "pdfPage": "344—353",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "337—338",
+        "pdfPage": "344—345",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "经济绩效",
@@ -15275,10 +15275,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "337—346",
-        "pdfPage": "344—353",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "337—338",
+        "pdfPage": "344—345",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "评估项目经济可行性、能耗与环境影响、合规要求及利益相关者影响，并比较节能方案。",
       "explain": "可持续目标需要进入投资和经营决策，不能仅写在年度报告中。"
@@ -15300,8 +15300,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "278",
-        "pdfPage": "285",
+        "printedPage": 278,
+        "pdfPage": 285,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15323,8 +15323,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "279",
-        "pdfPage": "286",
+        "printedPage": 279,
+        "pdfPage": 286,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15346,8 +15346,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "280",
-        "pdfPage": "287",
+        "printedPage": 280,
+        "pdfPage": 287,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15369,8 +15369,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "284",
-        "pdfPage": "291",
+        "printedPage": 284,
+        "pdfPage": 291,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15392,8 +15392,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "290",
-        "pdfPage": "297",
+        "printedPage": 290,
+        "pdfPage": 297,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15415,8 +15415,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "295",
-        "pdfPage": "302",
+        "printedPage": 295,
+        "pdfPage": 302,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15438,8 +15438,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303",
-        "pdfPage": "310",
+        "printedPage": 303,
+        "pdfPage": 310,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15461,8 +15461,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303",
-        "pdfPage": "310",
+        "printedPage": 303,
+        "pdfPage": 310,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15484,8 +15484,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "304",
-        "pdfPage": "311",
+        "printedPage": 304,
+        "pdfPage": 311,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15507,8 +15507,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "304",
-        "pdfPage": "311",
+        "printedPage": 304,
+        "pdfPage": 311,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15530,8 +15530,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "304",
-        "pdfPage": "311",
+        "printedPage": 304,
+        "pdfPage": 311,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15553,8 +15553,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "307",
-        "pdfPage": "314",
+        "printedPage": 307,
+        "pdfPage": 314,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15576,8 +15576,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "309",
-        "pdfPage": "316",
+        "printedPage": 309,
+        "pdfPage": 316,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15599,8 +15599,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "309",
-        "pdfPage": "316",
+        "printedPage": 309,
+        "pdfPage": 316,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15622,8 +15622,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "310",
-        "pdfPage": "317",
+        "printedPage": 310,
+        "pdfPage": 317,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15645,8 +15645,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "312",
-        "pdfPage": "319",
+        "printedPage": 312,
+        "pdfPage": 319,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15668,8 +15668,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "316",
-        "pdfPage": "323",
+        "printedPage": 316,
+        "pdfPage": 323,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15691,8 +15691,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "320",
-        "pdfPage": "327",
+        "printedPage": 320,
+        "pdfPage": 327,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15714,8 +15714,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "324",
-        "pdfPage": "331",
+        "printedPage": 324,
+        "pdfPage": 331,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15737,8 +15737,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "330",
-        "pdfPage": "337",
+        "printedPage": 330,
+        "pdfPage": 337,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15760,8 +15760,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "335",
-        "pdfPage": "342",
+        "printedPage": 335,
+        "pdfPage": 342,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15783,8 +15783,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "335",
-        "pdfPage": "342",
+        "printedPage": 335,
+        "pdfPage": 342,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15806,8 +15806,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "336",
-        "pdfPage": "343",
+        "printedPage": 336,
+        "pdfPage": 343,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15829,8 +15829,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "337",
-        "pdfPage": "344",
+        "printedPage": 337,
+        "pdfPage": 344,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15852,8 +15852,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "339",
-        "pdfPage": "346",
+        "printedPage": 339,
+        "pdfPage": 346,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15875,8 +15875,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "339",
-        "pdfPage": "346",
+        "printedPage": 339,
+        "pdfPage": 346,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15898,8 +15898,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "341",
-        "pdfPage": "348",
+        "printedPage": 341,
+        "pdfPage": 348,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15921,8 +15921,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "344",
-        "pdfPage": "351",
+        "printedPage": 344,
+        "pdfPage": 351,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15944,8 +15944,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "279",
-        "pdfPage": "286",
+        "printedPage": 279,
+        "pdfPage": 286,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15967,8 +15967,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "280",
-        "pdfPage": "287",
+        "printedPage": 280,
+        "pdfPage": 287,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -15990,8 +15990,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "284",
-        "pdfPage": "291",
+        "printedPage": 284,
+        "pdfPage": 291,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16013,8 +16013,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "288",
-        "pdfPage": "295",
+        "printedPage": 288,
+        "pdfPage": 295,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16036,8 +16036,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第一节 公司战略与组织结构",
-        "printedPage": "295",
-        "pdfPage": "302",
+        "printedPage": 295,
+        "pdfPage": 302,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16059,8 +16059,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303",
-        "pdfPage": "310",
+        "printedPage": 303,
+        "pdfPage": 310,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16082,8 +16082,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "303",
-        "pdfPage": "310",
+        "printedPage": 303,
+        "pdfPage": 310,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16105,8 +16105,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "307",
-        "pdfPage": "314",
+        "printedPage": 307,
+        "pdfPage": 314,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16128,8 +16128,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "309",
-        "pdfPage": "316",
+        "printedPage": 309,
+        "pdfPage": 316,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16151,8 +16151,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "310",
-        "pdfPage": "317",
+        "printedPage": 310,
+        "pdfPage": 317,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16174,8 +16174,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "316",
-        "pdfPage": "323",
+        "printedPage": 316,
+        "pdfPage": 323,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16197,8 +16197,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "320",
-        "pdfPage": "327",
+        "printedPage": 320,
+        "pdfPage": 327,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16220,8 +16220,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "333",
-        "pdfPage": "340",
+        "printedPage": 333,
+        "pdfPage": 340,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16243,8 +16243,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第四节 公司战略与数智化转型",
-        "printedPage": "334",
-        "pdfPage": "341",
+        "printedPage": 334,
+        "pdfPage": 341,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16266,8 +16266,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "337",
-        "pdfPage": "344",
+        "printedPage": 337,
+        "pdfPage": 344,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16289,8 +16289,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "339",
-        "pdfPage": "346",
+        "printedPage": 339,
+        "pdfPage": 346,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16312,8 +16312,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第五节 公司战略与可持续发展管理",
-        "printedPage": "343",
-        "pdfPage": "350",
+        "printedPage": 343,
+        "pdfPage": 350,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16335,8 +16335,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "306",
-        "pdfPage": "313",
+        "printedPage": 306,
+        "pdfPage": 313,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16358,8 +16358,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第二节 公司战略与企业文化",
-        "printedPage": "308",
-        "pdfPage": "315",
+        "printedPage": 308,
+        "pdfPage": 315,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16381,8 +16381,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第4章 战略实施",
         "section": "第三节 战略控制",
-        "printedPage": "318",
-        "pdfPage": "325",
+        "printedPage": 318,
+        "pdfPage": 325,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16401,10 +16401,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "347—355",
-        "pdfPage": "354—362",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "351—352",
+        "pdfPage": "358—359",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "协调利益并监督与激励经营者",
@@ -16429,10 +16429,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "347—355",
-        "pdfPage": "354—362",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "355—356",
+        "pdfPage": "362—363",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "股东",
@@ -16462,10 +16462,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "347—355",
-        "pdfPage": "354—362",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "351—352",
+        "pdfPage": "358—359",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "经营决策权缺少有效监督与制衡，可能产生代理问题和不当投资；应明确授权边界、审议与监督机制。",
       "explain": "治理不是由谁日常经营这么简单，还包括权力、责任和监督的配置。"
@@ -16484,10 +16484,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "356—366",
-        "pdfPage": "363—373",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "361—362",
+        "pdfPage": "368—369",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "公司及中小股东",
@@ -16512,10 +16512,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "356—366",
-        "pdfPage": "363—373",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 356,
+        "pdfPage": 363,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "股东与经理层",
@@ -16544,10 +16544,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "356—366",
-        "pdfPage": "363—373",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "357—360",
+        "pdfPage": "364—367",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "经理追求短期个人报酬与股东长期价值发生冲突；可完善长期激励与董事会监督。",
       "explain": "识别委托代理关系后，要说明行为怎样偏离公司的长期目标。"
@@ -16566,10 +16566,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "367—378",
-        "pdfPage": "374—385",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 372,
+        "pdfPage": 379,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "公司内部治理",
@@ -16594,10 +16594,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "367—378",
-        "pdfPage": "374—385",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "364—379",
+        "pdfPage": "371—386",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "董事会及经理层权责安排",
@@ -16627,10 +16627,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "367—378",
-        "pdfPage": "374—385",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "372—379",
+        "pdfPage": "379—386",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "内部可强化董事会及审计相关监督、完善信息披露控制；外部可发挥审计等中介机构和监管监督作用。",
       "explain": "先区分公司内部权力制衡与市场、监管及中介等外部机制。"
@@ -16648,11 +16648,11 @@ export const strategySubject = {
       "source": {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
-        "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "379—384",
-        "pdfPage": "386—391",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "section": "第三节 公司内部治理结构和外部治理机制",
+        "printedPage": "378—379",
+        "pdfPage": "385—386",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "利益相关者的信息不对称",
@@ -16679,8 +16679,8 @@ export const strategySubject = {
         "section": "第四节 管理实践发展与公司治理",
         "printedPage": "379—384",
         "pdfPage": "386—391",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "提高信息透明度",
@@ -16708,11 +16708,11 @@ export const strategySubject = {
       "source": {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
-        "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "379—384",
-        "pdfPage": "386—391",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "section": "第三节 公司内部治理结构和外部治理机制",
+        "printedPage": "378—379",
+        "pdfPage": "385—386",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "投资者等利益相关者无法获得充分信息并有效监督、决策；应建立真实完整的信息披露与核查机制。",
       "explain": "披露质量与权责监督相连，不能只把年报当成宣传材料。"
@@ -16734,8 +16734,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "347",
-        "pdfPage": "354",
+        "printedPage": 347,
+        "pdfPage": 354,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16757,8 +16757,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "352",
-        "pdfPage": "359",
+        "printedPage": 352,
+        "pdfPage": 359,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16780,8 +16780,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "353",
-        "pdfPage": "360",
+        "printedPage": 353,
+        "pdfPage": 360,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16803,8 +16803,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "354",
-        "pdfPage": "361",
+        "printedPage": 354,
+        "pdfPage": 361,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16826,8 +16826,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "355",
-        "pdfPage": "362",
+        "printedPage": 355,
+        "pdfPage": 362,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16849,8 +16849,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "356",
-        "pdfPage": "363",
+        "printedPage": 356,
+        "pdfPage": 363,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16872,8 +16872,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "357",
-        "pdfPage": "364",
+        "printedPage": 357,
+        "pdfPage": 364,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16895,8 +16895,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "359",
-        "pdfPage": "366",
+        "printedPage": 359,
+        "pdfPage": 366,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16918,8 +16918,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "361",
-        "pdfPage": "368",
+        "printedPage": 361,
+        "pdfPage": 368,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16941,8 +16941,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "363",
-        "pdfPage": "370",
+        "printedPage": 363,
+        "pdfPage": 370,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16964,8 +16964,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "366",
-        "pdfPage": "373",
+        "printedPage": 366,
+        "pdfPage": 373,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -16987,8 +16987,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "367",
-        "pdfPage": "374",
+        "printedPage": 367,
+        "pdfPage": 374,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17010,8 +17010,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "367",
-        "pdfPage": "374",
+        "printedPage": 367,
+        "pdfPage": 374,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17033,8 +17033,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "371",
-        "pdfPage": "378",
+        "printedPage": 371,
+        "pdfPage": 378,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17056,8 +17056,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "376",
-        "pdfPage": "383",
+        "printedPage": 376,
+        "pdfPage": 383,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17079,8 +17079,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "378",
-        "pdfPage": "385",
+        "printedPage": 378,
+        "pdfPage": 385,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17102,8 +17102,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "380",
-        "pdfPage": "387",
+        "printedPage": 380,
+        "pdfPage": 387,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17125,8 +17125,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "382",
-        "pdfPage": "389",
+        "printedPage": 382,
+        "pdfPage": 389,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17148,8 +17148,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "383",
-        "pdfPage": "390",
+        "printedPage": 383,
+        "pdfPage": 390,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17171,8 +17171,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "383",
-        "pdfPage": "390",
+        "printedPage": 383,
+        "pdfPage": 390,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17194,8 +17194,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "351",
-        "pdfPage": "358",
+        "printedPage": 351,
+        "pdfPage": 358,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17217,8 +17217,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "355",
-        "pdfPage": "362",
+        "printedPage": 355,
+        "pdfPage": 362,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17240,8 +17240,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "352",
-        "pdfPage": "359",
+        "printedPage": 352,
+        "pdfPage": 359,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17263,8 +17263,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "357",
-        "pdfPage": "364",
+        "printedPage": 357,
+        "pdfPage": 364,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17286,8 +17286,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "362",
-        "pdfPage": "369",
+        "printedPage": 362,
+        "pdfPage": 369,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17309,8 +17309,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第二节 公司治理的主要问题",
-        "printedPage": "366",
-        "pdfPage": "373",
+        "printedPage": 366,
+        "pdfPage": 373,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17332,8 +17332,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "373",
-        "pdfPage": "380",
+        "printedPage": 373,
+        "pdfPage": 380,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17355,8 +17355,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "376",
-        "pdfPage": "383",
+        "printedPage": 376,
+        "pdfPage": 383,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17378,8 +17378,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "378",
-        "pdfPage": "385",
+        "printedPage": 378,
+        "pdfPage": 385,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17401,8 +17401,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "381",
-        "pdfPage": "388",
+        "printedPage": 381,
+        "pdfPage": 388,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17424,8 +17424,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第四节 管理实践发展与公司治理",
-        "printedPage": "383",
-        "pdfPage": "390",
+        "printedPage": 383,
+        "pdfPage": 390,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17447,8 +17447,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第一节 公司治理概述",
-        "printedPage": "348",
-        "pdfPage": "355",
+        "printedPage": 348,
+        "pdfPage": 355,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17470,8 +17470,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第5章 公司治理",
         "section": "第三节 公司内部治理结构和外部治理机制",
-        "printedPage": "368",
-        "pdfPage": "375",
+        "printedPage": 368,
+        "pdfPage": 375,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17490,10 +17490,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "385—387",
-        "pdfPage": "392—394",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "387—388",
+        "pdfPage": "394—395",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "发生火灾",
@@ -17518,10 +17518,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "385—387",
-        "pdfPage": "392—394",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 387,
+        "pdfPage": 394,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "直接财产损失",
@@ -17551,10 +17551,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "385—387",
-        "pdfPage": "392—394",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "387—388",
+        "pdfPage": "394—395",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "缺乏维护是风险因素；起火是风险事件；设备损坏及停工损失是后果。",
       "explain": "用因果链区分潜在条件、实际发生的事件和对目标的影响。"
@@ -17573,10 +17573,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "388—391",
-        "pdfPage": "395—398",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "390—391",
+        "pdfPage": "397—398",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "在可接受风险水平下支持目标实现",
@@ -17601,10 +17601,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "388—391",
-        "pdfPage": "395—398",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "391—392",
+        "pdfPage": "398—399",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "规划",
@@ -17632,12 +17632,12 @@ export const strategySubject = {
       "level": "零基础",
       "source": {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
-        "chapter": "第6章 风险与风险管理概述",
-        "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "388—391",
-        "pdfPage": "395—398",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "chapter": "第7章 风险管理的流程、体系与方法",
+        "section": "第二节 风险管理体系",
+        "printedPage": "417—420",
+        "pdfPage": "424—427",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "不同目标的风险偏好和承受度不同；可以在限额内试验研发，同时对安全风险采取更严格预防和控制。",
       "explain": "风险管理要联系企业目标、风险特征和可承受程度。"
@@ -17656,10 +17656,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "392—403",
-        "pdfPage": "399—410",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "394—397",
+        "pdfPage": "401—404",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "把风险管理融入各项业务和战略",
@@ -17684,10 +17684,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "392—403",
-        "pdfPage": "399—410",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "392—402",
+        "pdfPage": "399—409",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "从单一损失处理扩展到全面管理",
@@ -17717,10 +17717,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "392—403",
-        "pdfPage": "399—410",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "392—397",
+        "pdfPage": "399—404",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "被动追责不能及时发现和控制风险；应增加事前识别、评估、预警及持续改进。",
       "explain": "风险管理实践从事后处理逐步发展为覆盖事前、事中和事后的管理。"
@@ -17742,8 +17742,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "385",
-        "pdfPage": "392",
+        "printedPage": 385,
+        "pdfPage": 392,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17765,8 +17765,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "387",
-        "pdfPage": "394",
+        "printedPage": 387,
+        "pdfPage": 394,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17788,8 +17788,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "387",
-        "pdfPage": "394",
+        "printedPage": 387,
+        "pdfPage": 394,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17811,8 +17811,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "388",
-        "pdfPage": "395",
+        "printedPage": 388,
+        "pdfPage": 395,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17834,8 +17834,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "389",
-        "pdfPage": "396",
+        "printedPage": 389,
+        "pdfPage": 396,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17857,8 +17857,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "390",
-        "pdfPage": "397",
+        "printedPage": 390,
+        "pdfPage": 397,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17880,8 +17880,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "390",
-        "pdfPage": "397",
+        "printedPage": 390,
+        "pdfPage": 397,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17903,8 +17903,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "391",
-        "pdfPage": "398",
+        "printedPage": 391,
+        "pdfPage": 398,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17926,8 +17926,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "392",
-        "pdfPage": "399",
+        "printedPage": 392,
+        "pdfPage": 399,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17949,8 +17949,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "394",
-        "pdfPage": "401",
+        "printedPage": 394,
+        "pdfPage": 401,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17972,8 +17972,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "397",
-        "pdfPage": "404",
+        "printedPage": 397,
+        "pdfPage": 404,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -17995,8 +17995,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "387",
-        "pdfPage": "394",
+        "printedPage": 387,
+        "pdfPage": 394,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18018,8 +18018,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第一节 风险的概念及风险的要素",
-        "printedPage": "387",
-        "pdfPage": "394",
+        "printedPage": 387,
+        "pdfPage": 394,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18041,8 +18041,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "390",
-        "pdfPage": "397",
+        "printedPage": 390,
+        "pdfPage": 397,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18064,8 +18064,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "391",
-        "pdfPage": "398",
+        "printedPage": 391,
+        "pdfPage": 398,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18087,8 +18087,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "394",
-        "pdfPage": "401",
+        "printedPage": 394,
+        "pdfPage": 401,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18110,8 +18110,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第三节 风险管理理论的演进和风险管理实践的发展",
-        "printedPage": "397",
-        "pdfPage": "404",
+        "printedPage": 397,
+        "pdfPage": 404,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18133,8 +18133,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "391",
-        "pdfPage": "398",
+        "printedPage": 391,
+        "pdfPage": 398,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18156,8 +18156,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第6章 风险与风险管理概述",
         "section": "第二节 风险管理的概念、特征、目标和职能",
-        "printedPage": "391",
-        "pdfPage": "398",
+        "printedPage": 391,
+        "pdfPage": 398,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18176,10 +18176,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "404—411",
-        "pdfPage": "411—418",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "405—406",
+        "pdfPage": "412—413",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "风险评估",
@@ -18204,10 +18204,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "404—411",
-        "pdfPage": "411—418",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 404,
+        "pdfPage": 411,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "收集初始信息",
@@ -18237,10 +18237,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "404—411",
-        "pdfPage": "411—418",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "405—406",
+        "pdfPage": "412—413",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "先识别并分析应收款风险的可能性、影响和原因，再选择信用政策、催收或其他合适措施。",
       "explain": "先评估再选择应对方案，不能对所有风险机械套用同一种工具。"
@@ -18259,10 +18259,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "412—441",
-        "pdfPage": "419—448",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "413—416",
+        "pdfPage": "420—423",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "组织职能体系",
@@ -18287,10 +18287,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "412—441",
-        "pdfPage": "419—448",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 412,
+        "pdfPage": 419,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "组织职能体系",
@@ -18319,11 +18319,11 @@ export const strategySubject = {
       "source": {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
-        "section": "第二节 风险管理体系",
-        "printedPage": "412—441",
-        "pdfPage": "419—448",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "section": "第一节 风险管理的流程",
+        "printedPage": "407—408",
+        "pdfPage": "414—415",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "明确职责、授权和限额，把要求写入采购审批及检查流程，并通过信息系统监控执行。",
       "explain": "策略需要内部控制和组织职责转化为日常行动。"
@@ -18342,10 +18342,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "442—458",
-        "pdfPage": "449—465",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 444,
+        "pdfPage": 451,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "德尔菲法",
@@ -18370,10 +18370,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "442—458",
-        "pdfPage": "449—465",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "442—443",
+        "pdfPage": "449—450",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "头脑风暴法",
@@ -18403,10 +18403,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "442—458",
-        "pdfPage": "449—465",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "453—454",
+        "pdfPage": "460—461",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "在其他条件相对不变时改变原料价格假设，计算利润变化，识别结果对该变量的敏感程度。",
       "explain": "敏感性分析检验关键变量变化对结果的影响，不等于预测唯一确定结果。"
@@ -18428,8 +18428,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "404",
-        "pdfPage": "411",
+        "printedPage": 404,
+        "pdfPage": 411,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18451,8 +18451,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "405",
-        "pdfPage": "412",
+        "printedPage": 405,
+        "pdfPage": 412,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18474,8 +18474,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "406",
-        "pdfPage": "413",
+        "printedPage": 406,
+        "pdfPage": 413,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18497,8 +18497,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "407",
-        "pdfPage": "414",
+        "printedPage": 407,
+        "pdfPage": 414,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18520,8 +18520,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "408",
-        "pdfPage": "415",
+        "printedPage": 408,
+        "pdfPage": 415,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18543,8 +18543,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "409",
-        "pdfPage": "416",
+        "printedPage": 409,
+        "pdfPage": 416,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18566,8 +18566,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "413",
-        "pdfPage": "420",
+        "printedPage": 413,
+        "pdfPage": 420,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18589,8 +18589,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "417",
-        "pdfPage": "424",
+        "printedPage": 417,
+        "pdfPage": 424,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18612,8 +18612,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "420",
-        "pdfPage": "427",
+        "printedPage": 420,
+        "pdfPage": 427,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18635,8 +18635,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "422",
-        "pdfPage": "429",
+        "printedPage": 422,
+        "pdfPage": 429,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18658,8 +18658,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "422",
-        "pdfPage": "429",
+        "printedPage": 422,
+        "pdfPage": 429,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18681,8 +18681,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "423",
-        "pdfPage": "430",
+        "printedPage": 423,
+        "pdfPage": 430,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18704,8 +18704,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "423",
-        "pdfPage": "430",
+        "printedPage": 423,
+        "pdfPage": 430,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18727,8 +18727,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "425",
-        "pdfPage": "432",
+        "printedPage": 425,
+        "pdfPage": 432,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18750,8 +18750,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "433",
-        "pdfPage": "440",
+        "printedPage": 433,
+        "pdfPage": 440,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18773,8 +18773,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "440",
-        "pdfPage": "447",
+        "printedPage": 440,
+        "pdfPage": 447,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18796,8 +18796,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "442",
-        "pdfPage": "449",
+        "printedPage": 442,
+        "pdfPage": 449,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18819,8 +18819,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "444",
-        "pdfPage": "451",
+        "printedPage": 444,
+        "pdfPage": 451,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18842,8 +18842,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "445",
-        "pdfPage": "452",
+        "printedPage": 445,
+        "pdfPage": 452,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18865,8 +18865,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "448",
-        "pdfPage": "455",
+        "printedPage": 448,
+        "pdfPage": 455,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18888,8 +18888,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "449",
-        "pdfPage": "456",
+        "printedPage": 449,
+        "pdfPage": 456,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18911,8 +18911,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "451",
-        "pdfPage": "458",
+        "printedPage": 451,
+        "pdfPage": 458,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18934,8 +18934,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "452",
-        "pdfPage": "459",
+        "printedPage": 452,
+        "pdfPage": 459,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18957,8 +18957,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "453",
-        "pdfPage": "460",
+        "printedPage": 453,
+        "pdfPage": 460,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -18980,8 +18980,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "454",
-        "pdfPage": "461",
+        "printedPage": 454,
+        "pdfPage": 461,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19003,8 +19003,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "456",
-        "pdfPage": "463",
+        "printedPage": 456,
+        "pdfPage": 463,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19026,8 +19026,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "458",
-        "pdfPage": "465",
+        "printedPage": 458,
+        "pdfPage": 465,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19049,8 +19049,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "405",
-        "pdfPage": "412",
+        "printedPage": 405,
+        "pdfPage": 412,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19072,8 +19072,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "405",
-        "pdfPage": "412",
+        "printedPage": 405,
+        "pdfPage": 412,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19095,8 +19095,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "407",
-        "pdfPage": "414",
+        "printedPage": 407,
+        "pdfPage": 414,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19118,8 +19118,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "409",
-        "pdfPage": "416",
+        "printedPage": 409,
+        "pdfPage": 416,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19141,8 +19141,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "413",
-        "pdfPage": "420",
+        "printedPage": 413,
+        "pdfPage": 420,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19164,8 +19164,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "415",
-        "pdfPage": "422",
+        "printedPage": 415,
+        "pdfPage": 422,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19187,8 +19187,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "425",
-        "pdfPage": "432",
+        "printedPage": 425,
+        "pdfPage": 432,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19210,8 +19210,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "427",
-        "pdfPage": "434",
+        "printedPage": 427,
+        "pdfPage": 434,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19233,8 +19233,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "433",
-        "pdfPage": "440",
+        "printedPage": 433,
+        "pdfPage": 440,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19256,8 +19256,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "440",
-        "pdfPage": "447",
+        "printedPage": 440,
+        "pdfPage": 447,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19279,8 +19279,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "442",
-        "pdfPage": "449",
+        "printedPage": 442,
+        "pdfPage": 449,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19302,8 +19302,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "443",
-        "pdfPage": "450",
+        "printedPage": 443,
+        "pdfPage": 450,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19325,8 +19325,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "444",
-        "pdfPage": "451",
+        "printedPage": 444,
+        "pdfPage": 451,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19348,8 +19348,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "448",
-        "pdfPage": "455",
+        "printedPage": 448,
+        "pdfPage": 455,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19371,8 +19371,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "453",
-        "pdfPage": "460",
+        "printedPage": 453,
+        "pdfPage": 460,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19394,8 +19394,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "456",
-        "pdfPage": "463",
+        "printedPage": 456,
+        "pdfPage": 463,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19417,8 +19417,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第一节 风险管理的流程",
-        "printedPage": "405",
-        "pdfPage": "412",
+        "printedPage": 405,
+        "pdfPage": 412,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19440,8 +19440,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "416",
-        "pdfPage": "423",
+        "printedPage": 416,
+        "pdfPage": 423,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19463,8 +19463,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第二节 风险管理体系",
-        "printedPage": "424",
-        "pdfPage": "431",
+        "printedPage": 424,
+        "pdfPage": 431,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19486,8 +19486,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "447",
-        "pdfPage": "454",
+        "printedPage": 447,
+        "pdfPage": 454,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19509,8 +19509,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "450",
-        "pdfPage": "457",
+        "printedPage": 450,
+        "pdfPage": 457,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19532,8 +19532,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "455",
-        "pdfPage": "462",
+        "printedPage": 455,
+        "pdfPage": 462,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19555,8 +19555,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第7章 风险管理的流程、体系与方法",
         "section": "第三节 风险管理的技术与方法",
-        "printedPage": "458",
-        "pdfPage": "465",
+        "printedPage": 458,
+        "pdfPage": 465,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -19575,10 +19575,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "459—463",
-        "pdfPage": "466—470",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "459—460",
+        "pdfPage": "466—467",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "战略风险",
@@ -19603,10 +19603,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "459—463",
-        "pdfPage": "466—470",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "459—460",
+        "pdfPage": "466—467",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "宏观与产业环境变化",
@@ -19636,10 +19636,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "459—463",
-        "pdfPage": "466—470",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "460—461",
+        "pdfPage": "467—468",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "分析行业、竞争和政策环境；评估自身资源与能力及与新业务的匹配，并设置分阶段决策与监测机制。",
       "explain": "战略风险应对要处理内外部匹配，而不只是提高盈利预测数字。"
@@ -19658,10 +19658,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "464—467",
-        "pdfPage": "471—474",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 464,
+        "pdfPage": 471,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "市场风险",
@@ -19686,10 +19686,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "464—467",
-        "pdfPage": "471—474",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 464,
+        "pdfPage": 471,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "客户需求变化",
@@ -19719,10 +19719,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "464—467",
-        "pdfPage": "471—474",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "464—465",
+        "pdfPage": "471—472",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "加强客户需求和渠道数据研究；调整线上线下销售渠道与产品组合，并持续监测效果。",
       "explain": "先识别市场趋势变化，再采取与需求相适应的行动。"
@@ -19741,10 +19741,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "468—476",
-        "pdfPage": "475—483",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "470—472",
+        "pdfPage": "477—479",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "财务风险",
@@ -19769,10 +19769,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "468—476",
-        "pdfPage": "475—483",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 468,
+        "pdfPage": 475,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "全面预算",
@@ -19802,10 +19802,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "468—476",
-        "pdfPage": "475—483",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "469—470",
+        "pdfPage": "476—477",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "建立预算执行监控与差异分析；对超预算支出设置授权审批和责任考核，并按规定调整预算。",
       "explain": "预算不仅要编制，还需要执行、监控与纠偏。"
@@ -19824,10 +19824,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "477—499",
-        "pdfPage": "484—506",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 477,
+        "pdfPage": 484,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "运营风险",
@@ -19852,10 +19852,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "477—499",
-        "pdfPage": "484—506",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "477—478",
+        "pdfPage": "484—485",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "产品研发与质量",
@@ -19885,10 +19885,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "477—499",
-        "pdfPage": "484—506",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 497,
+        "pdfPage": 504,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "sample": "存在信息安全与运营风险，也可能引发合规问题；应限定访问权限、培训员工、采用受控系统并建立监测和应急机制。",
       "explain": "案例可能有多种风险标签，但要抓住业务控制失效及相应措施。"
@@ -19907,10 +19907,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "500—503",
-        "pdfPage": "507—510",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": 500,
+        "pdfPage": 507,
+        "locationGranularity": "topic-page",
+        "note": ""
       },
       "options": [
         "法律风险",
@@ -19935,10 +19935,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "500—503",
-        "pdfPage": "507—510",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "500—502",
+        "pdfPage": "507—509",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "options": [
         "合同条款设计不当",
@@ -19968,10 +19968,10 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "500—503",
-        "pdfPage": "507—510",
-        "locationGranularity": "section",
-        "note": "所属知识节的阅读范围；非逐题精确页码。"
+        "printedPage": "500—502",
+        "pdfPage": "507—509",
+        "locationGranularity": "topic-range",
+        "note": ""
       },
       "sample": "开展当地法律和监管尽职调查；由专业人员审核合同条款、付款保障和争议解决安排，并跟踪履约。",
       "explain": "法律风险侧重不利法律后果，合规风险还关注违反监管要求及规范的影响。"
@@ -19993,8 +19993,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "459",
-        "pdfPage": "466",
+        "printedPage": 459,
+        "pdfPage": 466,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20016,8 +20016,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "460",
-        "pdfPage": "467",
+        "printedPage": 460,
+        "pdfPage": 467,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20039,8 +20039,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "460",
-        "pdfPage": "467",
+        "printedPage": 460,
+        "pdfPage": 467,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20062,8 +20062,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "461",
-        "pdfPage": "468",
+        "printedPage": 461,
+        "pdfPage": 468,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20085,8 +20085,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "462",
-        "pdfPage": "469",
+        "printedPage": 462,
+        "pdfPage": 469,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20108,8 +20108,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "464",
-        "pdfPage": "471",
+        "printedPage": 464,
+        "pdfPage": 471,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20131,8 +20131,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "465",
-        "pdfPage": "472",
+        "printedPage": 465,
+        "pdfPage": 472,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20154,8 +20154,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "465",
-        "pdfPage": "472",
+        "printedPage": 465,
+        "pdfPage": 472,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20177,8 +20177,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "464",
-        "pdfPage": "471",
+        "printedPage": 464,
+        "pdfPage": 471,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20200,8 +20200,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "468",
-        "pdfPage": "475",
+        "printedPage": 468,
+        "pdfPage": 475,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20223,8 +20223,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "470",
-        "pdfPage": "477",
+        "printedPage": 470,
+        "pdfPage": 477,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20246,8 +20246,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "471",
-        "pdfPage": "478",
+        "printedPage": 471,
+        "pdfPage": 478,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20269,8 +20269,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "472",
-        "pdfPage": "479",
+        "printedPage": 472,
+        "pdfPage": 479,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20292,8 +20292,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "474",
-        "pdfPage": "481",
+        "printedPage": 474,
+        "pdfPage": 481,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20315,8 +20315,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "474",
-        "pdfPage": "481",
+        "printedPage": 474,
+        "pdfPage": 481,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20338,8 +20338,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "478",
-        "pdfPage": "485",
+        "printedPage": 478,
+        "pdfPage": 485,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20361,8 +20361,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "479",
-        "pdfPage": "486",
+        "printedPage": 479,
+        "pdfPage": 486,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20384,8 +20384,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "480",
-        "pdfPage": "487",
+        "printedPage": 480,
+        "pdfPage": 487,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20407,8 +20407,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "481",
-        "pdfPage": "488",
+        "printedPage": 481,
+        "pdfPage": 488,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20430,8 +20430,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "482",
-        "pdfPage": "489",
+        "printedPage": 482,
+        "pdfPage": 489,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20453,8 +20453,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "484",
-        "pdfPage": "491",
+        "printedPage": 484,
+        "pdfPage": 491,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20476,8 +20476,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "486",
-        "pdfPage": "493",
+        "printedPage": 486,
+        "pdfPage": 493,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20499,8 +20499,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "487",
-        "pdfPage": "494",
+        "printedPage": 487,
+        "pdfPage": 494,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20522,8 +20522,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "488",
-        "pdfPage": "495",
+        "printedPage": 488,
+        "pdfPage": 495,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20545,8 +20545,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "490",
-        "pdfPage": "497",
+        "printedPage": 490,
+        "pdfPage": 497,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20568,8 +20568,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "492",
-        "pdfPage": "499",
+        "printedPage": 492,
+        "pdfPage": 499,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20591,8 +20591,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "494",
-        "pdfPage": "501",
+        "printedPage": 494,
+        "pdfPage": 501,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20614,8 +20614,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "495",
-        "pdfPage": "502",
+        "printedPage": 495,
+        "pdfPage": 502,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20637,8 +20637,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "500",
-        "pdfPage": "507",
+        "printedPage": 500,
+        "pdfPage": 507,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20660,8 +20660,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "500",
-        "pdfPage": "507",
+        "printedPage": 500,
+        "pdfPage": 507,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20683,8 +20683,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "501",
-        "pdfPage": "508",
+        "printedPage": 501,
+        "pdfPage": 508,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20706,8 +20706,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "501",
-        "pdfPage": "508",
+        "printedPage": 501,
+        "pdfPage": 508,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20729,8 +20729,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "461",
-        "pdfPage": "468",
+        "printedPage": 461,
+        "pdfPage": 468,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20752,8 +20752,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第一节 战略风险与应对",
-        "printedPage": "462",
-        "pdfPage": "469",
+        "printedPage": 462,
+        "pdfPage": 469,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20775,8 +20775,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "464",
-        "pdfPage": "471",
+        "printedPage": 464,
+        "pdfPage": 471,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20798,8 +20798,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第二节 市场风险与应对",
-        "printedPage": "465",
-        "pdfPage": "472",
+        "printedPage": 465,
+        "pdfPage": 472,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20821,8 +20821,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "470",
-        "pdfPage": "477",
+        "printedPage": 470,
+        "pdfPage": 477,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20844,8 +20844,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "473",
-        "pdfPage": "480",
+        "printedPage": 473,
+        "pdfPage": 480,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20867,8 +20867,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第三节 财务风险与应对",
-        "printedPage": "475",
-        "pdfPage": "482",
+        "printedPage": 475,
+        "pdfPage": 482,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20890,8 +20890,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "486",
-        "pdfPage": "493",
+        "printedPage": 486,
+        "pdfPage": 493,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20913,8 +20913,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "485",
-        "pdfPage": "492",
+        "printedPage": 485,
+        "pdfPage": 492,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20936,8 +20936,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "489",
-        "pdfPage": "496",
+        "printedPage": 489,
+        "pdfPage": 496,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20959,8 +20959,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "491",
-        "pdfPage": "498",
+        "printedPage": 491,
+        "pdfPage": 498,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -20982,8 +20982,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "494",
-        "pdfPage": "501",
+        "printedPage": 494,
+        "pdfPage": 501,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -21005,8 +21005,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第四节 运营风险与应对",
-        "printedPage": "496",
-        "pdfPage": "503",
+        "printedPage": 496,
+        "pdfPage": 503,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -21028,8 +21028,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "500",
-        "pdfPage": "507",
+        "printedPage": 500,
+        "pdfPage": 507,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -21051,8 +21051,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "501",
-        "pdfPage": "508",
+        "printedPage": 501,
+        "pdfPage": 508,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
@@ -21074,8 +21074,8 @@ export const strategySubject = {
         "book": "2026年注册会计师全国统一考试辅导教材《公司战略与风险管理》",
         "chapter": "第8章 企业面对的主要风险与应对",
         "section": "第五节 法律风险和合规风险与应对",
-        "printedPage": "502",
-        "pdfPage": "509",
+        "printedPage": 502,
+        "pdfPage": 509,
         "locationGranularity": "topic-page",
         "note": "知识点所在教材页；请结合上下文阅读。"
       }
