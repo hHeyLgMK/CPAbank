@@ -1,5 +1,13 @@
 # CPA 刷题库（2026 教材版）
 
+## 网页发布与独立题库
+
+访问 **[CPAbank 在线刷题](https://hheylgmk.github.io/CPAbank/)**。网页优化在 `codex/github-pages-question-bank` 分支独立维护，采用本地 3.5.0 的六科 5,802 道题目。
+
+网页程序在 `site/`，题目、答案、解析与题图在 `question-bank/`。只改题库数据即可重新发布，无须修改网页程序。题库整组校验并缓存；退出后可恢复答题位置、选择及主观题草稿。答题记录保存在各自浏览器，可在练习历史中导出/导入。
+
+更新步骤、加载机制和限制见 [网页与独立题库说明](docs/github-pages.md)。下面的原生安装包与历史版本说明继续保留；网页发布不会自动更新已安装的 APK / EXE。
+
 按科目、学习模块、章节和知识节组织的注册会计师练习工具，提供网页版和 Windows 离线版。当前六个专业阶段科目全部开放，综合阶段两套试卷仍待补充。题目是原创学习练习，非中注协官方题库。
 
 本次源码和题库取自用户提供的 `CPA刷题库_六科离线版_Android-3.apk` 内置 `assets/index.html`，合并仓库已有的退出续答功能。导入来源、原始文件哈希和题目数据哈希见 [content/android-import.json](content/android-import.json)。最新 Android 和 Windows 原生设备同步源码见 `native/`。

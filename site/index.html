@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#156bc1">
+  <meta name="description" content="CPA刷题库：按2026年教材编排的六科分层练习与历年真题题库。章节学习、机考模拟与错题复习。">
+  <title>CPA刷题库</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%23156bc1'/%3E%3Cpath d='M16 19h32v28H16z' fill='none' stroke='white' stroke-width='3'/%3E%3Cpath d='M23 29h18M23 37h11' stroke='white' stroke-width='3'/%3E%3Cpath d='m36 40 4 4 8-9' fill='none' stroke='%23baf3dd' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./app.css">
+</head>
+<body>
+  <section id="bankLoading" class="bank-loading" role="status"><h1>正在加载题库</h1><p id="bankLoadStatus">正在检查题库版本，请稍候…</p><button id="bankRetry" type="button" hidden>重新加载</button></section>
+  <div id="siteRoot" hidden>
+  <section class="subject-picker" id="subjectPicker" aria-labelledby="subjectTitle">
+    <div class="subject-picker__inner">
+      <button type="button" id="subjectMenuTrigger" class="subject-picker__brand app-menu-trigger" aria-label="打开 CPA刷题库 菜单" aria-controls="appMenu" aria-expanded="false"><span class="subject-picker__mark" aria-hidden="true">题</span> CPA刷题库<span class="menu-trigger-lines" aria-hidden="true"><i></i><i></i><i></i></span></button>
+      <h1 id="subjectTitle">选择练习科目</h1>
+      <p class="subject-picker__subtitle">先选科目，再进入章节学习、机考短练或错题复习。</p>
+      <div class="subject-card">
+        <h2>请选择需要练习的科目</h2>
+        <div class="subject-grid" aria-label="练习科目">
+          <button type="button" id="chooseAccounting" data-subject="accounting" class="subject-choice available"><strong>会计</strong><span id="accountingSummary">已开放 · 30 章</span></button>
+          <button type="button" class="subject-choice available" data-subject="tax"><strong>税法</strong><span>载入题库</span></button>
+          <button type="button" class="subject-choice available" data-subject="law"><strong>经济法</strong><span>载入题库</span></button>
+          <button type="button" class="subject-choice available" data-subject="audit"><strong>审计</strong><span>载入题库</span></button>
+          <button type="button" class="subject-choice available" data-subject="finance"><strong>财务成本管理</strong><span>载入题库</span></button>
+          <button type="button" class="subject-choice available" data-subject="strategy"><strong>公司战略与风险管理</strong><span>载入题库</span></button>
+          <button type="button" class="subject-choice" disabled><strong>职业能力综合测试（试卷一）</strong><span>题库待补充</span></button>
+          <button type="button" class="subject-choice" disabled><strong>职业能力综合测试（试卷二）</strong><span>题库待补充</span></button>
+        </div>
+        <p class="subject-picker__note">六科均已开放。经济法、财管、税法、审计覆盖 340 节；公司战略与风险管理覆盖 29 节，并已扩充细分主题练习。各科题量与实际知识点可在选科后查看。</p>
+      </div>
+      <p class="subject-picker__disclaimer">CPA学习工具 · 原创练习与历年真题 · 非中注协官方练习网站</p>
+    </div>
+  </section>
+  <div class="app" id="practiceApp" hidden>
+    <header class="topbar">
+      <button type="button" id="practiceMenuTrigger" class="brand app-menu-trigger" aria-label="打开 CPA刷题库 菜单" aria-controls="appMenu" aria-expanded="false"><span class="brand-mark" aria-hidden="true">题</span><span><strong>CPA刷题库</strong><small>2026 教材 · 会计入门题库</small></span><span class="menu-trigger-lines" aria-hidden="true"><i></i><i></i><i></i></span></button>
+      <nav class="mode-tabs" aria-label="练习模式">
+        <button type="button" id="modeLearn" class="tab active">章节学习</button>
+        <button type="button" id="modeMock" class="tab">机考模拟</button>
+        <button type="button" id="modeWrong" class="tab">错题复习 <span id="wrongCount" class="tiny-count">0</span></button>
+      </nav>
+      <div class="top-actions"><span id="timer" class="timer" aria-live="off">学习模式</span><button type="button" id="helpBtn" class="icon-btn" aria-label="使用说明" title="使用说明">?</button></div>
+    </header>
+    <div class="shell">
+      <aside class="sidebar" id="sidebar" aria-label="试题列表">
+        <div class="sidebar-top"><div class="candidate"><div class="avatar" aria-hidden="true">学</div><div><strong>备考练习</strong><span>会计 · 30 章</span></div></div><div class="candidate-stat"><span id="doneCount">0 / 388 题已练</span><span id="streakCount">0 道待复习</span></div></div>
+        <div class="sidebar-body">
+          <label class="section-label" for="chapterSelect">学习模块与章节</label>
+          <select id="chapterSelect" aria-label="选择章节"></select>
+          <div id="practiceStagePicker" class="section-picker"><label class="section-label" for="practiceStageSelect">练习层级</label><select id="practiceStageSelect" aria-label="选择练习层级"><option value="foundation">零基础</option><option value="application">应用推进</option><option value="chapter">章内小综合</option><option value="cross">跨章综合</option><option value="exam">真题</option><option value="all">全部层级</option></select></div>
+          <div id="sectionPicker" class="section-picker" hidden><label class="section-label" for="sectionSelect">知识节</label><select id="sectionSelect" aria-label="选择知识节"></select></div>
+          <button type="button" id="plannedPracticeBtn" class="planned-practice-button">备考计划练习</button>
+          <div id="chapterNote" class="chapter-note"></div>
+          <div class="list-heading"><strong>试题列表</strong><button type="button" id="toggleSidebar" title="收起或展开试题列表">收起</button></div>
+          <div id="questionNav" class="question-nav"></div>
+          <div class="legend"><span><i class="dot current"></i>当前</span><span><i class="dot answered"></i>已答</span><span><i class="dot marked"></i>标记</span></div>
+        </div>
+        <div class="sidebar-bottom"><label class="switch-line"><input type="checkbox" id="shuffleOptions"><span>随机选项位置</span></label><a class="download-link" href="./questions.csv" download>下载题库 CSV</a><a class="download-link" href="./real-exam-questions.csv" download>下载历年真题 CSV</a><a class="download-link" href="./real-exam-solutions.md" download>下载真题参考答案与解析</a><a class="download-link" href="./progression-guide.md" download>下载进阶题与完整解析</a><a class="download-link" href="./progression-plan.csv" download>下载逐周进阶题号</a><a class="download-link" href="./knowledge-index.csv" download>下载六科知识点索引</a><a class="download-link guide-link" href="./study-guide.md" download>下载四科模块与知识点清单</a><a class="download-link coverage-link" href="./knowledge-points.csv" download>下载知识点与题号对应表</a><p>记录保存在本设备。到“练习历史”导出或导入备份，可在手机与电脑之间手动同步。</p></div>
+      </aside>
+      <main class="workbench">
+        <div class="workhead">
+          <div class="workhead-left"><button type="button" id="mobileNav" class="mobile-nav">☰ 试题列表</button><div><span id="questionType" class="eyebrow"></span><h1 id="sessionTitle">第一章 · 总论</h1></div></div>
+          <div class="workhead-actions"><button type="button" id="fontDown" aria-label="缩小题目文字" title="缩小文字">A−</button><button type="button" id="fontUp" aria-label="放大题目文字" title="放大文字">A＋</button><button type="button" id="markBtn" class="mark-btn">☆ 标记</button></div>
+        </div>
+        <div class="paper" id="paper">
+          <div id="intro" class="intro"></div>
+          <div id="questionContent" class="question-content"></div>
+          <div id="feedback" class="feedback" hidden></div>
+          <div id="result" class="result" hidden></div>
+        </div>
+        <div class="toolbar">
+          <div class="toolbar-left"><button type="button" id="calculatorBtn" class="tool-lite">▦ 计算器</button><span class="tool-tip" id="toolTip">选好答案后点击“提交答案”</span></div>
+          <div class="toolbar-right"><button type="button" id="prevBtn" class="tool-lite">上一题</button><button type="button" id="submitBtn" class="primary">提交答案</button><button type="button" id="nextBtn" class="primary ghost">下一题</button><button type="button" id="finishBtn" class="finish">交卷</button></div>
+        </div>
+        <div id="progressStatus" style="font-size:12px;color:#64748b;padding:4px 16px 10px">正在保存答题进度…</div>
+      </main>
+    </div>
+    <div id="sideScrim" class="side-scrim" hidden></div>
+  </div>
+  <div id="appMenu" class="app-menu-layer" aria-hidden="true" inert>
+    <div id="appMenuScrim" class="app-menu-backdrop" aria-hidden="true"></div>
+    <aside class="app-menu-panel" role="dialog" aria-modal="true" aria-labelledby="appMenuTitle">
+      <div class="app-menu-heading"><div><span class="app-menu-kicker">学习导航</span><h2 id="appMenuTitle">CPA刷题库</h2></div><button type="button" id="appMenuClose" class="app-menu-close" aria-label="关闭菜单">×</button></div>
+      <nav class="app-menu-nav" aria-label="主要功能">
+        <button type="button" id="changeSubject" class="app-menu-item"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg><span><strong>选科</strong><small>选择或切换练习科目</small></span><span class="app-menu-chevron" aria-hidden="true">›</span></button>
+        <button type="button" id="historyBtn" class="app-menu-item"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span><strong>练习历史</strong><small>查看作答记录与备份</small></span><span class="app-menu-chevron" aria-hidden="true">›</span></button>
+        <button type="button" id="deviceSyncBtn" class="app-menu-item"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="2" y="4" width="13" height="10" rx="1.5"/><path d="M8.5 14v4M5 18h7"/><rect x="16" y="9" width="6" height="12" rx="1.5"/><path d="M18.5 18h1"/></svg><span><strong>设备同步</strong><small>连接电脑，接着刷题</small></span><span class="app-menu-chevron" aria-hidden="true">›</span></button>
+      </nav>
+      <div class="app-menu-footer"><span id="appMenuContext">选择科目，开始练习</span><small>答题进度自动保存</small></div>
+    </aside>
+  </div>
+  <div id="modal" class="modal-backdrop" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-top"><h2 id="modalTitle"></h2><button type="button" id="modalClose" aria-label="关闭">×</button></div><div id="modalBody"></div></section></div>
+  </div>
+  <footer class="bank-footer"><span id="bankInfo">题库加载中</span><button id="bankRefresh" type="button" hidden>检查更新</button></footer>
+  <script type="module" src="./bootstrap.js"></script>
+</body>
+</html>

@@ -1,5 +1,7 @@
 /work/
 /lan-data/
+/_site/
+/.branch-context.json
 **/__pycache__/
 
 # Signing credentials must never enter the public repository.
